@@ -1,0 +1,80 @@
+::-webkit-scrollbar {
+  width: 5px;
+  background-color: none;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #C3A177;
+}
+
+@media (max-width:550px) {
+  .sidebar-div {
+    display: block;
+  }
+}
+
+.MuiPaper-root {
+  /* display: none; */
+}
+
+
+.sidebar-div {
+  margin-top: 80px;
+}
+
+
+@media (max-width:768px) {
+  element.style {
+    background: black;
+    transform: none;
+    transition: transform 225ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+  }
+}
+
+.Sidebar-heading {
+  /* margin: 0px; */
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  letter-spacing: 0.00938em;
+  display: block;
+}
+
+
+
+/* .container{
+  display: flex;
+} */
+
+
+
+/* Style the scrollbar track */
+::-webkit-scrollbar {
+  width: 0.5px;
+  /* Adjust the width */
+
+}
+
+/* Style the scrollbar thumb (the draggable part) */
+::-webkit-scrollbar-thumb {
+  background: transparent;
+  /* Background color of the thumb */
+  border-radius: 5px;
+  /* Rounded corners */
+}
+
+
+
+.css-h4y409-MuiList-root {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.css-4t3x6l-MuiPaper-root-MuiDrawer-paper {
+  background-color: #000 !important;
+}

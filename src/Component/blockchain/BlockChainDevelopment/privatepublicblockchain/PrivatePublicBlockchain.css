@@ -1,0 +1,1787 @@
+/* .solutions h2 {
+text-align: center;
+}
+
+section {
+padding: 0px;
+}
+footer {
+background: unset;
+border: none;
+}
+
+.solution-box h3, .solution-box p {
+color: #fff;
+}
+.hire-para
+{
+color: #fff;
+}
+.why_txt_cnt h2
+{
+font-weight: 700;
+color: #fff;
+text-transform: capitalize;
+font-size: 25px;
+letter-spacing: 0;
+font-family: Raleway, sans-serif;
+line-height: 1.5;
+text-align: left;
+}
+.impact_text h2
+{
+text-align: center;
+}
+  .mid_section p {
+  text-align: justify;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hire_title
+{
+    font-weight: 700;
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 25px;
+  letter-spacing: 0;
+  font-family: Raleway, sans-serif;
+  line-height: 1.5;
+}*/
+
+.private_public_blockchain_development .blockchain_development_bnr_section {
+    position: relative;
+    color: #fff;
+    /* background: url(/public/images/private_banner.webp); */
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)), url(../../../../../public/images/private-blockchain-development.webp) !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: top right;
+    align-items: center !important;
+    height: 100vh;
+    display: flex;
+}
+
+.private_public_blockchain_development .blockchain_development_bnr_section .title-1 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 35px;
+    text-transform: capitalize;
+    line-height: 45px;
+    text-align: left;
+}
+
+.private_public_blockchain_development .blockchain_development_bnr_section .grad_text {
+    background: linear-gradient(94.13deg, #CD45FF 6.65%, #3F5BFF 93.79%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.private_public_blockchain_development .blockchain_development_bnr_section .cus_title-1 {
+    color: #fff;
+    font-weight: 800;
+    font-size: 55px;
+    text-transform: uppercase;
+}
+
+.private_public_blockchain_development .blockchain_development_bnr_section .contents {
+    font-size: 16px !important;
+    color: #FFFFFF;
+    line-height: 1.8;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+
+.private_public_blockchain_development .blockchain_development_bnr_section .blk_dev_bnr_btn {
+    background: linear-gradient(96.74deg, #BD3AFF -4.87%, #8B52FF 52.71%, #5A69FF 114.94%);
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: 600;
+    border: none;
+    text-transform: capitalize;
+    font-size: 16px !important;
+    color: #fff !important;
+    font-family: "Urbanist", sans-serif;
+}
+
+.private_public_blockchain_development .blk_dev_bnr_btn_sec {
+    margin-top: 35px;
+}
+
+.private_public_blockchain_development .blockchain_software {
+    background: #000;
+    padding: 50px 0px;
+}
+
+.private_public_blockchain_development .blockchain_software .blockchain_dev_aboutus_title {
+    font-size: 30px;
+    color: #fff;
+    line-height: 1.4;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    font-family: "Urbanist", sans-serif;
+}
+
+.private_public_blockchain_development .blockchain_software .section_heading {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.private_public_blockchain_development .blockchain_software .bs_d_c_bg {
+    padding: 50px 0 50px 50px;
+}
+
+.private_public_blockchain_development .blockchain_software .video-container {
+    width: 100%;
+    border-radius: 4px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+.private_public_blockchain_development .blockchain_software .Privet-right-side-container-1-img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 35px;
+    border: 3px solid transparent;
+    /* -webkit-mask-composite: xor;
+mask-composite: exclude;*/
+}
+
+.private_public_blockchain_development .blockchain_software .Privet-right-side-container-1-img iframe {
+    width: 100%;
+    border-radius: 35px;
+    min-height: 638px;
+}
+
+.private_public_blockchain_development .blockchain_software video {
+    width: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 42.93%, #000000 100%);
+    opacity: 0.65;
+}
+
+.private_public_blockchain_development .blockchain_software .blk_dev_bnr_btn {
+    background: linear-gradient(96.74deg, #BD3AFF -4.87%, #8B52FF 52.71%, #5A69FF 114.94%);
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: 600;
+    border: none;
+    text-transform: capitalize;
+    font-size: 16px !important;
+    color: #fff !important;
+    font-family: "Urbanist", sans-serif;
+}
+
+.private_public_blockchain_development .mid_section {
+    padding: 50px 0;
+    background: #000;
+}
+
+.private_public_blockchain_development .mid_section .normal_text {
+    font-size: 16px;
+    padding-top: 5px;
+    color: #fff;
+    font-weight: 300;
+    margin-bottom: 0px;
+    margin-top: 13px;
+}
+
+.private_public_blockchain_development .mid_section .spr_img {
+    object-fit: none;
+    width: 50px;
+    height: 50px;
+}
+
+.private_public_blockchain_development .mid_section .media-heading {
+    font-size: 20px;
+    font-weight: 700;
+    background: linear-gradient(105.71deg, #BD3AFF -4.33%, #5A69FF 117.33%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+    text-align: left;
+    padding-top: 10px;
+}
+
+.private_public_blockchain_development .mid_section .media-heading .normal_text {
+    font-size: 16px;
+    padding-top: 5px;
+    color: #fff;
+    font-weight: 300;
+    margin-bottom: 0px;
+    text-align: left;
+    min-height: 280px;
+}
+
+.private_public_blockchain_development .mid_section .work_with_box {
+    border: 2px solid #4E4E4E;
+    border-radius: 25px;
+    padding: 20px;
+    min-height: 387px;
+    margin-top: 10px;
+}
+
+.private_public_blockchain_development .alg_mac {
+    padding: 50px 0;
+    background: #000;
+}
+
+.private_public_blockchain_development .alg_mac .title-1 {
+    font-size: 30px;
+    color: #fff;
+    line-height: 1.4;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+    text-align: center;
+}
+
+.private_public_blockchain_development .alg_mac .para_title {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.private_public_blockchain_development .alg_mac .why_round {
+    /* min-width: 800px;*/
+    height: 2px;
+    flex-shrink: 0;
+    background: #4B4B4B;
+    margin: 0 auto;
+}
+
+.private_public_blockchain_development .alg_mac .ul_list {
+    list-style: none;
+    background: linear-gradient(90deg, #2F2F78 8.46%, #000000 61.73%);
+    border-radius: 45px;
+    padding: 50px 0 50px 50px;
+}
+
+.private_public_blockchain_development .alg_mac .ul_list.right {
+    background: linear-gradient(270deg, #2F2F78 8.46%, #000000 61.73%);
+    border-radius: 45px;
+    padding: 50px 50px 50px 0px;
+}
+
+.private_public_blockchain_development .alg_mac .ul_list.right li {
+    margin-left: 70px;
+}
+
+.private_public_blockchain_development .alg_mac .ul_list li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.private_public_blockchain_development .alg_mac .ul_list li::before {
+    content: "";
+    background-image: url(/public/images/green_tick.webp);
+    background-size: contain;
+    display: inline-block;
+    width: 43px;
+    height: 43px;
+    position: relative;
+    top: 0.1rem;
+    margin-right: 0.2rem;
+    background-repeat: no-repeat;
+}
+
+.private_public_blockchain_development .alg_mac .ul_list .p_cnts {
+    color: #C0C0C0;
+    font-weight: 300;
+    padding-top: 14px;
+}
+
+.private_public_blockchain_development .metaverse_dev_why {
+    color: #fff;
+    /* background: url(./asset/inner-pages-new/blockchain_new/last_bg.webp);*/
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: top right;
+    align-items: center !important;
+    display: flex;
+    height: 75vh;
+}
+
+.private_public_blockchain_development .metaverse_dev_why .blk_dev_bnr_btn {
+    background: linear-gradient(96.74deg, #BD3AFF -4.87%, #8B52FF 52.71%, #5A69FF 114.94%);
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: 600;
+    border: none;
+    text-transform: capitalize;
+    font-size: 16px !important;
+    color: #fff !important;
+    font-family: "Urbanist", sans-serif;
+}
+
+.private_public_blockchain_development .metaverse_dev_why .title-1 {
+    font-size: 30px;
+    color: #fff;
+    /* font-weight: 700;*/
+    line-height: 1.4;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+    text-align: left;
+}
+
+.private_public_blockchain_development .metaverse_dev_why .contents {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+@media (max-width: 767px) {
+    .private_public_blockchain_development .blockchain_development_bnr_section {
+        background: #000;
+        padding: 100px 0px 0px 0px;
+        /*height: 550px;*/
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+    .private_public_blockchain_development .blockchain_development_bnr_section .title-1,
+    .private_public_blockchain_development .blockchain_software .blockchain_dev_aboutus_title,
+    .private_public_blockchain_development .blockchain_software .section_heading,
+    .private_public_blockchain_development .blk_dev_bnr_btn_sec,
+    .private_public_blockchain_development .metaverse_dev_why .title-1,
+    .private_public_blockchain_development .metaverse_dev_why .contents,
+    .private_public_blockchain_development .metaverse_dev_why .title-1,
+    .private_public_blockchain_development .metaverse_dev_why .contents {
+        text-align: center;
+    }
+
+    .private_public_blockchain_development .blockchain_development_bnr_section .cus_title {
+        font-size: 34px;
+    }
+
+    .private_public_blockchain_development .alg_mac .ul_list.right li {
+        margin-left: 0px;
+    }
+
+    .private_public_blockchain_development .blockchain_software .bs_d_c_bg,
+    .private_public_blockchain_development .alg_mac .ul_list,
+    .private_public_blockchain_development .alg_mac .ul_list.right {
+        padding: 0px;
+    }
+
+    .private_public_blockchain_development .alg_mac .ul_list li::before {
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+    }
+
+    .private_public_blockchain_development .metaverse_dev_why .title-1,
+    .private_public_blockchain_development .metaverse_dev_why .title-1,
+    .private_public_blockchain_development .alg_mac .title-1 {
+        font-size: 25px !important;
+        line-height: 1.4 !important;
+        text-align: center;
+    }
+}
+
+
+
+.custom-drp.show .dropdown-menu {
+    display: flex;
+}
+
+.navMnuMn li:hover>.sub-menu {
+    visibility: visible;
+    opacity: 1;
+    transform: translate(0, 0);
+    border-radius: 5px;
+    box-shadow: 0 12px 28px 1px rgb(0 0 0 / 47%), 0 2px 4px 0 rgb(8 8 8 / 37%);
+}
+
+.navMnuMn .nav-item {
+    position: relative;
+}
+
+.navMnuMn .sub-menu {
+    visibility: hidden;
+    opacity: 0;
+    margin: 0;
+    padding: 10px 10px;
+    position: absolute;
+    /*left: -100px;*/
+    background: #090909;
+    backdrop-filter: blur(23px);
+    z-index: 99;
+    transform: translate(0, 20px);
+    transition: all 0.2s ease-out;
+    width: max-content;
+    top: 60px;
+    border: 1px solid #ffffff12;
+    padding: 20px 30px;
+}
+
+.navMnuMn .sub-menu ul li {
+    margin-top: 10px;
+}
+
+.navMnuMn .sub-menu li a {
+    text-decoration: none !important;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.navMnuMn .sub-menu li a:before {
+    display: none;
+}
+
+.navMnuMn .sub-menu li a:after {
+    display: none;
+}
+
+.tbsMenu .nav-tabs {
+    display: none;
+}
+
+.cmpy_Overflow {
+    background: #090909;
+}
+
+.card-body {
+    background: #090909;
+}
+
+/*Social Icons Animation Style Start*/
+
+.HddrLnks li.hasNewMenu a::before,
+.HddrLnks li.hasNewMenu a::after {
+    display: none !important;
+}
+
+.HddrLnks .hasNewMenu {
+    width: 33px;
+    height: 33px;
+    display: flex;
+    align-items: center;
+    background: #090909;
+    place-items: center;
+    border-radius: 50%;
+    transition: .2s ease-in-out;
+    position: relative;
+    border: 1px solid #fff3;
+    z-index: 0;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.HddrLnks .hasNewMenu:hover {
+    background: linear-gradient(93.79deg, #E442FF -13.43%, #3C5BFF 100.49%);
+    border-color: transparent;
+    border: none;
+}
+
+.HddrLnks .hasNewMenu::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(93.79deg, #E442FF -13.43%, #3C5BFF 100.49%);
+    border-radius: 50%;
+    will-change: box-shadow;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 0;
+    z-index: -1;
+    animation: 1s ease-out infinite ripple
+}
+
+.HddrLnks .hasNewMenu .nav-link .contactIconTop {
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    left: 6px;
+    top: 0px;
+}
+
+.mr-40 {
+    margin-right: 40px
+}
+
+@keyframes ripple {
+
+    100%,
+    25% {
+        box-shadow: 0 0 0 0 rgb(165 115 201 / 30%), 0 0 0 .2em rgb(165 115 201 / 10%)
+    }
+
+    50% {
+        box-shadow: 0 0 0 0.5em rgb(165 115 201 / 30%), 0 0 0 1em rgb(165 115 201 / 30%)
+    }
+
+    75% {
+        box-shadow: 0 0 0 2em rgb(165 115 201 / 30%), 0 0 0 2.5em rgb(165 115 201 / 10%)
+    }
+
+    from {
+        opacity: 1;
+        transform: scale(1)
+    }
+
+    to {
+        opacity: 0;
+        transform: scale(2)
+    }
+}
+
+.HddrLnks .hasNewMenu .social_icon_sub_menu {
+    position: absolute;
+    border: 1px solid #ffffff17 !important;
+    border-radius: 6px;
+    top: 55px !important;
+    min-width: 280px !important;
+    width: 280px !important;
+    transition: .1s ease-in-out !important;
+    background: #1c1f21 !important;
+    right: 0px !important;
+    left: auto !important;
+    padding: 0px !important;
+}
+
+.HddrLnks .hasNewMenu .social_icon_sub_menu::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-bottom: 10px solid #8650ff;
+    border-left: 10px solid transparent;
+    top: -10px;
+    right: 12px;
+}
+
+.HddrLnks .hasNewMenu .social_icon_sub_menu .topNewContact {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    align-items: flex-start;
+    border-radius: 6px 6px 0 0;
+    background: #8650ff;
+    padding: 5px 10px;
+    border-bottom: 1px solid #efefef21;
+}
+
+.HddrLnks .hasNewMenu .social_icon_sub_menu .middlePartMenu>p {
+    padding: 14px 20px;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-bottom: 1px solid #ffffff38;
+    margin-bottom: 0px;
+}
+
+.HddrLnks .hasNewMenu .social_icon_sub_menu .middlePartMenu ul {
+    padding: 15px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+}
+
+.HddrLnks .hasNewMenu .social_icon_sub_menu .middlePartMenu ul li {
+    margin-top: 0px !important;
+}
+
+.HddrLnks .hasNewMenu .social_icon_sub_menu .middlePartMenu ul li a {
+    padding-left: 5px;
+    margin-right: 0px !important;
+}
+
+.HddrLnks .hasNewMenu .social_icon_sub_menu .topNewContact ul li a {
+    font-size: 14px;
+    margin-bottom: 0px;
+    padding-left: 10px;
+    margin-right: 0px;
+}
+
+.HddrLnks .hasNewMenu .social_icon_sub_menu .topNewContact ul li a:hover {
+    background: unset;
+    color: #fff;
+    -webkit-text-fill-color: unset;
+}
+
+.HddrLnks .hasNewMenu .social_icon_sub_menu .topNewContact ul li {
+    display: flex;
+    margin-top: 0px;
+}
+
+.HddrLnks .hasNewMenu .social_icon_sub_menu .middlePartMenu ul li.lastWhatsapp {
+    display: flex;
+}
+
+.HddrLnks .hasNewMenu .social_icon_sub_menu .middlePartMenu ul li.lastWhatsapp a {
+    line-height: 15px !important;
+}
+
+.HddrLnks .hasNewMenu .social_icon_sub_menu .middlePartMenu ul li .middlePartMenu_img {
+    width: 18px;
+}
+
+.HddrLnks .HddrBtns .menu_btn {
+    padding: 10px 20px;
+    /*width: 160px;*/
+    font-size: 15px;
+    min-height: 40px;
+}
+
+.HddrLnks .HddrBtns .menu_btn:focus {
+    box-shadow: unset;
+}
+
+.HddrLnks .HddrBtns .menu_btn.button_christ .raindeer_img {
+    width: 25px;
+    padding-left: 3px;
+}
+
+.HddrLnks .HddrBtns .menu_btn.button_christ {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background: #8650ff;
+    padding: 10PX 15PX;
+    line-height: 26px;
+    text-decoration: none;
+    color: #FFF;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.75);
+    border-radius: 15px;
+    border: 1px solid #8650ff;
+    box-shadow: inset 1px 1px 0px rgba(255, 255, 255, 0.25), inset 0 0 6px #be48ff, inset 0 80px 80px -40px #a54cff, 1px 1px 3px rgba(0, 0, 0, 0.75);
+}
+
+.HddrLnks .HddrBtns .menu_btn.button_christ::before {
+    content: '';
+    display: block;
+    position: absolute;
+    z-index: 1;
+    top: -7px;
+    left: -3px;
+    right: 0;
+    height: 23px;
+    background: url(https://www.metablocktechnologies.com/asset/inner-pages-new/christmas/snow1.webp) no-repeat 0 0, url(https://www.metablocktechnologies.com/asset/inner-pages-new/christmas/snow2.webp) no-repeat 50% 0, url(https://www.metablocktechnologies.com/asset/inner-pages-new/christmas/snow3.webp) no-repeat 100% 0;
+}
+
+.HddrLnks li a.cus_title {
+    color: #00fff5;
+    animation: zoom-in-zoom-out1 3s ease-out infinite;
+}
+
+.HddrLnks li a.cus_title:before,
+.HddrLnks li a.cus_title:after {
+    background: unset;
+}
+
+.HddrLnks li a.cus_title:hover {
+    background: unset;
+    -webkit-background-clip: unset;
+    -webkit-text-fill-color: unset;
+    background-clip: unset;
+    text-fill-color: unset;
+    color: #00fff5;
+}
+
+@keyframes zoom-in-zoom-out1 {
+    0% {
+        transform: scale(1, 1);
+    }
+
+    50% {
+        transform: scale(1.2, 1.2);
+    }
+
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+/*Social Icons Animation Style Start*/
+
+@media (min-width: 991px) {
+    .tbsMenu .nav-tabs {
+        display: flex;
+        flex-flow: column nowrap;
+    }
+
+    .tbsMenu .nav-tabs {
+        border-bottom: none;
+        border-right: 1px solid #ddd;
+        display: flex;
+    }
+
+    .tbsMenu .nav-tabs {
+        margin: 0 15px;
+    }
+
+    .tbsMenu .nav-tabs .nav-item+.nav-item {
+        margin-top: 0.25rem;
+    }
+
+    .tbsMenu .nav-tabs .nav-link {
+        transition: border-color 0.125s ease-in;
+        white-space: nowrap;
+    }
+
+    .tbsMenu .nav-tabs .nav-link:hover {
+        background-color: #f7f7f7;
+        border-color: transparent;
+    }
+
+    .tbsMenu .nav-tabs .nav-link.active {
+        background: linear-gradient(93.79deg, #E442FF -13.43%, #3C5BFF 100.49%);
+        border-radius: 5px;
+        border: none;
+        color: #fff !important;
+    }
+
+    .tbsMenu .nav-tabs .nav-link.active:hover {
+        background: linear-gradient(93.79deg, #E442FF -13.43%, #3C5BFF 100.49%);
+        color: #fff !important;
+        -webkit-text-fill-color: unset;
+    }
+
+    .tbsMenu .card {
+        border: none;
+    }
+
+    .tbsMenu .card .card-header {
+        display: none;
+    }
+
+    .tbsMenu .card .collapse {
+        display: block;
+    }
+}
+
+@media (max-width: 991px) {
+    .tbsMenu .tab-pane {
+        display: block !important;
+        opacity: 1;
+    }
+
+    .HddrLnks .HddrBtns .menu_btn {
+        margin: 12px 0px;
+    }
+}
+
+.cmpy_Overflow {
+    height: 350px;
+    overflow-x: hidden;
+}
+
+.tbsMenu ::-webkit-scrollbar {
+    width: 3px;
+}
+
+/* Track */
+
+.tbsMenu ::-webkit-scrollbar-track {
+    background: #ddd;
+    border-radius: 50px;
+}
+
+/* Handle */
+
+.tbsMenu ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 50px;
+}
+
+/* Handle on hover */
+
+.tbsMenu ::-webkit-scrollbar-thumb:hover {
+    background: #ccc;
+    border-radius: 50px;
+}
+
+.serSubMnu {
+    left: -300px !important;
+}
+
+.serSubMnu .tab-content {
+    width: 700px !important;
+}
+
+.serTabsOver {
+    height: 450px;
+    overflow-x: hidden;
+}
+
+.sub-menu ul li {
+    position: relative;
+}
+
+.sub-menu ul li:after {
+    content: "\25B6";
+    position: absolute;
+    top: 7px;
+    left: -16px;
+    color: #000000;
+    font-size: 1px;
+}
+
+.cmpyAfter:after {
+    display: none;
+}
+
+@media(min-width: 992px) {
+    .menu_res {
+        display: none;
+    }
+}
+
+@media(max-width: 991px) {
+    .menu_desk {
+        display: none;
+    }
+
+    .menu_res .dropdown-menu {
+        padding: 15px;
+        background-color: #090909;
+        border: 1px solid rgb(122 122 122 / 15%);
+        color: #fff;
+        height: 260px;
+        overflow-y: scroll;
+    }
+
+    .menu_res .dropdown-toggle:after {
+        right: -16px;
+        top: 22px;
+        background: #090909;
+        width: 0px !important;
+    }
+
+    .menu_res .dropdown-toggle:before {
+        display: none;
+    }
+
+    .compyMenuResHight {
+        height: 400px;
+        overflow-x: hidden;
+    }
+
+    .serSubMnu {
+        position: initial !important;
+        height: 350px;
+        overflow-x: hidden;
+        visibility: initial !important;
+        opacity: 1 !important;
+        width: initial !important;
+    }
+
+    .cmpy_Overflow {
+        height: 200px !important;
+    }
+
+    .card {
+        margin-top: 20px;
+    }
+
+    .navMnuMn .sub-menu {
+        margin-bottom: 30px;
+    }
+}
+
+#navbarNavAltMarkup .dropdown_sub_menu {
+    margin-top: 10px;
+}
+
+#navbarNavAltMarkup .dropdown_sub_menu .drop_right_menu {
+    width: max-content;
+    margin-left: 2.1rem;
+    padding: 20px 30px;
+    background: #090909;
+    backdrop-filter: blur(23px);
+    border: 1px solid #ffffff12;
+    border-radius: 5px;
+    box-shadow: 0 12px 28px 1px rgb(0 0 0 / 47%), 0 2px 4px 0 rgb(8 8 8 / 37%);
+}
+
+#navbarNavAltMarkup .dropdown_sub_menu .dropdown_nav_link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #fff;
+    margin-right: 5px;
+    position: relative;
+    display: inline-block;
+}
+
+#navbarNavAltMarkup .dropdown_sub_menu .dropdown_nav_link::before {
+    transition: unset;
+}
+
+#navbarNavAltMarkup .dropdown_sub_menu .dropdown_nav_link:hover::before,
+#navbarNavAltMarkup .dropdown_sub_menu .dropdown_nav_link:hover::after {
+    background: unset;
+    transition: unset;
+}
+
+#navbarNavAltMarkup .dropdown_sub_menu .dropdown_nav_link::after {
+    right: auto;
+    background: unset;
+    margin-left: 10px;
+}
+
+@media (max-width: 991px) {
+    .HddrBg .navbar #navbarNavAltMarkup .HdrSroll {
+        height: 703px;
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+}
+
+/*Side Conatct Form Style Start*/
+
+.HddrBg .web_menu_btn_sec {
+    position: relative;
+    z-index: 999;
+    cursor: pointer;
+}
+
+.HddrBg .web_menu_btn_sec .contact_form_mainsec {
+    position: absolute;
+    border: 1px solid #ffffff17 !important;
+    border-radius: 6px;
+    top: 55px !important;
+    min-width: 300px !important;
+    width: 300px !important;
+    transition: .1s ease-in-out !important;
+    background: #1c1f21 !important;
+    right: 0% !important;
+    left: auto !important;
+    display: none;
+    padding: 0px !important;
+}
+
+.HddrBg .web_menu_btn_sec .contact_form_mainsec::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-bottom: 10px solid #8650ff;
+    border-left: 10px solid transparent;
+    top: -10px;
+    right: 20px;
+}
+
+.HddrBg .web_menu_btn_sec .contact_form_mainsec .topNewContact {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    align-items: flex-start;
+    border-radius: 6px 6px 0 0;
+    background: #8650ff;
+    padding: 10px 10px;
+    border-bottom: 1px solid #efefef21;
+}
+
+.HddrBg .web_menu_btn_sec .contact_form_mainsec .topNewContact .sub_title {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 0px;
+    text-transform: capitalize;
+}
+
+.HddrBg .contact_form_mainsec .contact_form_sec {
+    padding: 20px;
+}
+
+.HddrBg .contact_form_mainsec .contact_form_sec #side_contact_form .side_contact_submit_btn {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-radius: 8px;
+    background: #8650ff !important;
+    margin-top: 0px;
+    border: none;
+    padding: 8px 20px;
+    padding-left: 20px !important;
+    width: fit-content;
+    color: #fff;
+    text-align: center;
+}
+
+.HddrBg .contact_form_mainsec .contact_form_sec #side_contact_form input {
+    background: rgb(255 255 255 / 6%) !important;
+    backdrop-filter: blur(2px);
+    border: 1px solid #ffffff36;
+    border-radius: 5px;
+    color: #fff !important;
+    height: 40px;
+    padding-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 13px;
+    font-weight: 200;
+    width: 100%;
+}
+
+.HddrBg .contact_form_mainsec .contact_form_sec #side_contact_form .popup_country select {
+    background: rgb(255 255 255 / 6%) !important;
+    backdrop-filter: blur(2px);
+    border: 1px solid #ffffff36;
+    border-radius: 5px;
+    color: #fff !important;
+    height: 40px;
+    padding-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 13px;
+    font-weight: 200;
+}
+
+.HddrBg .contact_form_mainsec .contact_form_sec #side_contact_form .popup_country select option {
+    color: #000 !important;
+}
+
+.HddrBg .contact_form_mainsec .contact_form_sec #side_contact_form .selecpicker_input_group_div {
+    display: flex;
+}
+
+.HddrBg .contact_form_mainsec .contact_form_sec #side_contact_form .selecpicker_input_group_div .select_icon_list {
+    background: rgb(255 255 255 / 6%) !important;
+    border: 1px solid #ffffff36;
+    border-radius: 5px;
+    color: #fff !important;
+    height: 40px;
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 13px;
+    font-weight: 200;
+    margin-right: 10px;
+    width: 30%;
+    align-items: center;
+    display: grid;
+}
+
+.HddrBg .contact_form_mainsec .contact_form_sec #side_contact_form .selecpicker_input_group_div .select_icon_list .btn {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    outline: none !important;
+    color: #fff;
+    padding: 5px;
+    margin-top: 0px;
+}
+
+.HddrBg .contact_form_mainsec .contact_form_sec #side_contact_form .selecpicker_input_group_div .select_icon_list .btn i {
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.HddrBg .contact_form_mainsec .contact_form_sec #side_contact_form #header_proposal_msg {
+    background: rgb(255 255 255 / 6%) !important;
+    backdrop-filter: blur(2px);
+    border: 1px solid #ffffff36;
+    border-radius: 5px;
+    color: #fff !important;
+    padding-left: 10px;
+    margin-top: 0px;
+    height: 90px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    font-weight: 200;
+    padding-top: 15px;
+}
+
+.HddrBg .contact_form_mainsec .contact_form_sec #side_contact_form input::placeholder,
+.HddrBg .contact_form_mainsec .contact_form_sec #side_contact_form select::placeholder,
+.HddrBg .contact_form_mainsec .contact_form_sec #side_contact_form #header_proposal_msg::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #fff;
+    opacity: 1;
+    /* Firefox */
+}
+
+.HddrBg .contact_form_mainsec .contact_form_sec #side_contact_form input:-ms-input-placeholder,
+.HddrBg .contact_form_mainsec .contact_form_sec #side_contact_form select::placeholder,
+.HddrBg .contact_form_mainsec .contact_form_sec #side_contact_form #header_proposal_msg::placeholder {
+    /* Internet Explorer 10-11 */
+    color: #fff;
+}
+
+.HddrBg .contact_form_mainsec .contact_form_sec #side_contact_form input::-ms-input-placeholder,
+.HddrBg .contact_form_mainsec .contact_form_sec #side_contact_form select::placeholder,
+.HddrBg .contact_form_mainsec .contact_form_sec #side_contact_form #header_proposal_msg::placeholder {
+    /* Microsoft Edge */
+    color: #fff;
+}
+
+#popup_form_modal .fitoutform .form-group {
+    margin-bottom: 1em !important;
+}
+
+.HddrBg .contact_form_mainsec .contact_form_sec #side_contact_form input:-webkit-autofill,
+.HddrBg .contact_form_mainsec .contact_form_sec #side_contact_form select:-webkit-autofill,
+.HddrBg .contact_form_mainsec .contact_form_sec #side_contact_form textarea:-webkit-autofill,
+.HddrBg .contact_form_mainsec .contact_form_sec #side_contact_form input:-webkit-autofill:focus,
+.HddrBg .contact_form_mainsec .contact_form_sec #side_contact_form input:-webkit-autofill:hover {
+    -webkit-box-shadow: 0 0 0 30px #292c2e inset !important;
+    background-image: none;
+    -webkit-text-fill-color: #fff !important;
+}
+
+.HddrBg .contact_form_mainsec .contact_form_sec #side_contact_form .select2-selection__rendered {
+    color: #929292;
+    margin: 0px;
+    padding: 6px;
+    background: #fff;
+    padding-left: 15px
+}
+
+.HddrBg .contact_form_mainsec .contact_form_sec #side_contact_form .popup_select {
+    padding-left: 15px;
+    font-size: 17px;
+    color: #929292 !important;
+}
+
+.HddrBg .contact_form_mainsec .contact_form_sec #side_contact_form .bootstrap-select.btn-group .dropdown-toggle .filter-option {
+    display: unset;
+}
+
+.HddrBg .contact_form_mainsec .contact_form_sec #side_contact_form label.error {
+    border-radius: 5px;
+    background: red;
+    color: #fff !important;
+    padding: 2px;
+    position: absolute;
+    top: -12px;
+    right: 0;
+    width: auto;
+    font-size: 10px;
+    font-weight: 400;
+    z-index: 1;
+}
+
+.HddrBg .contact_form_mainsec .contact_form_sec #side_contact_form label.error:after {
+    content: " ";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: 0px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: red transparent transparent transparent;
+}
+
+.HddrBg .contact_form_mainsec .contact_form_sec #side_contact_form .selecpicker_input_group_div .select_icon_list .dropdown-menu ul li.selected a {
+    background: #8650ff;
+    color: #fff;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    height: 40px;
+    text-decoration: none;
+}
+
+.HddrBg .contact_form_mainsec .contact_form_sec #side_contact_form .selecpicker_input_group_div .select_icon_list .dropdown-menu ul li a {
+    height: 40px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    height: 40px;
+    color: #000;
+}
+
+.HddrBg .contact_form_mainsec .contact_form_sec #side_contact_form li a::before,
+.HddrBg .contact_form_mainsec .contact_form_sec #side_contact_form li a::after {
+    background: unset !important;
+    -webkit-text-fill-color: unset !important;
+}
+
+.HddrBg .contact_form_mainsec .contact_form_sec #side_contact_form li a:hover {
+    -webkit-text-fill-color: unset !important;
+}
+
+.HddrBg .contact_form_mainsec .contact_form_sec #side_contact_form .selecpicker_input_group_div .select_icon_list .dropdown-menu ul li.selected a:hover {
+    background: #8650ff !important;
+    color: #fff;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    height: 40px;
+    text-decoration: none;
+}
+
+.HddrBg .contact_form_mainsec .contact_form_sec #side_contact_form #side_contact_form_error_msg {
+    font-size: 14px !important;
+}
+
+/*Side Conatct Form Style End*/
+
+/*Metaverse Blink Button Style*/
+
+.single_trending_btn>p>a:hover {
+    -webkit-text-fill-color: unset !important;
+    -webkit-background-clip: unset;
+    background: #bd48ff;
+}
+
+.single_trending_btn>p>a:hover:before,
+.single_trending_btn>p>a::before,
+.single_trending_btn>p>a::after {
+    background: unset;
+}
+
+.single_trending_btn {
+    position: absolute;
+    right: 5px;
+    bottom: -34px;
+}
+
+.single_trending_btn>p {
+    margin-bottom: 0;
+}
+
+.single_trending_btn>p>a {
+    color: #fff;
+    background: #bd48ff;
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 6px 25px;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-decoration: none;
+    margin-right: 0px;
+    line-height: unset;
+}
+
+.single_trending_btn>p>a img {
+    filter: invert(1);
+    width: 20px;
+}
+
+.single_trending_btn .text_blink_animate {
+    display: block;
+    animation: zoom-in-zoom-out1 3s ease-out infinite;
+}
+
+@keyframes zoom-in-zoom-out1 {
+    0% {
+        transform: scale(1, 1);
+    }
+
+    50% {
+        transform: scale(1.2, 1.2);
+    }
+
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+/*Metaverse Blink Button Style*/
+
+@media(max-width: 991px) {
+    .HddrBg .web_menu_btn_sec .side_menu_btn.button_christ {
+        position: relative;
+        display: flex;
+        align-items: center;
+        background: #8650ff;
+        padding: 10PX 15PX;
+        line-height: 23px;
+        text-decoration: none;
+        color: #FFF;
+        text-shadow: 0 1px 2px rgba(0, 0, 0, 0.75);
+        border-radius: 12px;
+        border: 1px solid #8650ff;
+        box-shadow: inset 1px 1px 0px rgba(255, 255, 255, 0.25), inset 0 0 6px #be48ff, inset 0 80px 80px -40px #a54cff, 1px 1px 3px rgba(0, 0, 0, 0.75);
+    }
+
+    .HddrBg .web_menu_btn_sec .side_menu_btn.button_christ::before {
+        content: '';
+        display: block;
+        position: absolute;
+        z-index: 1;
+        top: -7px;
+        left: -3px;
+        right: 0;
+        height: 23px;
+        background: url(https://www.metablocktechnologies.com/asset/inner-pages-new/christmas/snow1.webp) no-repeat 0 0, url(https://www.metablocktechnologies.com/asset/inner-pages-new/christmas/snow3.webp) no-repeat 100% 0;
+    }
+}
+
+@media(max-width: 767px) {
+    .HddrBg .navbar .logo_header .mbl_res_logo {
+        width: 210px;
+    }
+
+    .HddrBg .web_menu_btn_sec .side_menu_btn {
+        padding: 8px 10px !important;
+        font-size: 13px !important;
+    }
+
+    .HddrBg .web_menu_btn_sec .contact_form_mainsec::after {
+        right: 50px !important;
+    }
+
+    .HddrBg .web_menu_btn_sec .contact_form_mainsec {
+        right: -30% !important;
+    }
+
+    .HddrBg .contact_form_mainsec .contact_form_sec #side_contact_form .side_contact_submit_btn {
+        font-size: 14px !important;
+    }
+}
+
+@media(max-width: 467px) {
+    .HddrBg .web_menu_btn_sec .side_menu_btn {
+        font-size: 12px !important;
+        padding: 6px 8px !important;
+        font-weight: 400 !important;
+    }
+
+    .HddrBg .logo_header {
+        width: 55% !important;
+    }
+
+    .HddrBg .navbar {
+        padding: 0.25rem 0.50rem;
+    }
+}
+
+/*On Hover Hide Metaverse button*/
+
+.HddrLnks .hasNewMenu:hover~.single_trending_sec {
+    opacity: 0 !important;
+}
+
+.HddrBg .web_menu_btn_sec .side_menu_btn {
+    padding: 8px 20px;
+    font-size: 16px;
+    background: linear-gradient(93.79deg, #E442FF -13.43%, #3C5BFF 100.49%);
+    color: #fff;
+    font-weight: 500;
+    border: none;
+}
+
+.HddrBg .web_menu_btn_sec .side_menu_btn:focus {
+    box-shadow: unset;
+}
+
+/*Social Media Icons Style*/
+
+.menu_social_icon_main {
+    padding: 20px 0px;
+}
+
+.menu_social_icon_main .contents {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    font-style: italic;
+}
+
+.menu_social_icon_main .menu_social_listsec {
+    width: fit-content;
+}
+
+.menu_social_icon_main .menu_social_listsec .menu_social_list {
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    margin: 0 3px;
+    transition: 0.3s all ease-in-out;
+}
+
+.menu_social_icon_main .menu_social_listsec .menu_social_list img {
+    width: 35px;
+}
+
+.menu_social_icon_main .menu_social_listsec:hover>li {
+    opacity: 0.4;
+    transition: 0.3s all ease-in-out;
+}
+
+.menu_social_icon_main .menu_social_listsec>li:hover {
+    opacity: 1;
+    transition: 0.3s all ease-in-out;
+    transform: scale(1.3);
+}
+
+/*Social Media Icons Style*/
+
+
+
+.skiptranslate.goog-te-gadget,
+#google_translate_element {
+    visibility: hidden;
+}
+
+.skiptranslate.goog-te-gadget div:nth-child(1) {
+    visibility: visible;
+}
+
+.skiptranslate iframe {
+    display: none !important;
+}
+
+.fixed_social_icons {
+    bottom: 29%;
+    right: 1.2%;
+    position: fixed;
+    z-index: 10;
+}
+
+/*.fixed_social_icons ul {
+        padding-left: 0px;
+        padding: 10px 3px;
+        text-align: center;
+        background: linear-gradient(93.79deg, #E442FF -13.43%, #3C5BFF 100.49%);
+        border-radius: 5px;
+    }*/
+
+.fixed_social_icons li {
+    float: none;
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.fixed_social_icons li a img {
+    max-width: 25px;
+}
+
+a.whatsapp {
+    position: relative;
+}
+
+.fixed_social_icons a.mobile {
+    align-items: center;
+    border-radius: 50%;
+    color: #ffd;
+    display: flex !important;
+    font-size: 23px !important;
+    height: 35px !important;
+    justify-content: center;
+    width: 35px !important;
+    float: initial;
+}
+
+.fixed_social_icons a.desktop {
+    align-items: center;
+    border-radius: 50%;
+    color: #fff;
+    display: flex !important;
+    font-size: 23px !important;
+    height: 35px !important;
+    justify-content: center;
+    width: 35px !important;
+}
+
+.fixed_social_icons a.skype_new {
+    align-items: center;
+    border-radius: 50%;
+    color: #ffd;
+    display: flex !important;
+    font-size: 23px !important;
+    height: 35px !important;
+    justify-content: center;
+    width: 35px !important;
+    position: relative;
+}
+
+.fixed_social_icons a.telegram_new {
+    align-items: center;
+    border-radius: 50%;
+    color: #ffd;
+    display: flex !important;
+    font-size: 23px !important;
+    height: 35px !important;
+    justify-content: center;
+    width: 35px !important;
+    position: relative;
+}
+
+.fixed_social_icons a.whatsapp:after {
+    border: 5px solid #17c258;
+}
+
+@media screen and (max-width: 991px) {
+    .fixed_social_icons .desktop {
+        display: initial !important;
+    }
+
+    .fixed_social_icons {
+        right: 2% !important;
+        bottom: 20%;
+    }
+
+    #back_to_top_button {
+        bottom: 14% !important;
+    }
+}
+
+@media (max-width: 767px) {
+    #back_to_top_button {
+        width: 40px !important;
+        right: 15px !important;
+        bottom: 14% !important;
+    }
+
+    .fixed_social_icons li a img {
+        max-width: 22px !important;
+    }
+
+    .fixed_social_icons li {
+        margin-bottom: 10px;
+    }
+
+    #back_to_top_button i {
+        font-size: 20px;
+    }
+
+    .fixed_social_icons {
+        bottom: 20%;
+        right: 1.5%;
+    }
+}
+
+@media (max-width: 567px) {
+    #back_to_top_button {
+        right: 8px !important;
+    }
+}
+
+/*Start Back to Top Section*/
+
+#back_to_top_button {
+    display: inline-block;
+    background: linear-gradient(93.79deg, #E442FF -13.43%, #3C5BFF 100.49%);
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 5px;
+    position: fixed;
+    bottom: 21%;
+    right: 17px;
+    transition: background-color .3s, opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+    cursor: pointer;
+}
+
+#back_to_top_button i {
+    font-size: 22px;
+    color: #fff;
+    position: absolute;
+    top: 20%;
+    left: 33%;
+}
+
+#back_to_top_button.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+/*End Back to Top Section*/
+
+/*Fixed Button Start */
+
+.designer_pops .demo-icon {
+    font-size: 16px;
+    position: fixed;
+    white-space: nowrap;
+    left: 100%;
+    top: 50%;
+    z-index: 10;
+    color: #fff;
+    padding: 4px 15px;
+    text-transform: capitalize;
+    font-weight: 500;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+    -webkit-box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+    background: linear-gradient(93.79deg, #E442FF -13.43%, #3C5BFF 100.49%);
+    cursor: pointer;
+    transform: translate(-59%, -50%) rotate(-90deg);
+    text-align: center;
+    border-radius: 0px;
+    border: none;
+    -webkit-animation: change_bg 5s infinite;
+    animation: change_bg 5s linear infinite alternate;
+}
+
+@-webkit-keyframes change_bg {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+
+    50% {
+        filter: hue-rotate(180deg);
+    }
+}
+
+@keyframes change_bg {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+
+    50% {
+        filter: hue-rotate(180deg);
+    }
+}
+
+/*Fixed Button End*/
+
+
+
+.home_blog_box img {
+    display: block;
+    max-width: 100% !important;
+    height: auto;
+}
+
+.inr_cont h3 {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 23px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.inr_cont .normal_text {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 400px;
+    color: #fff;
+    line-height: 25px;
+}
+
+.blog-sec .page_why h3 {
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 72px;
+    font-family: "Urbanist", sans-serif;
+    text-transform: uppercase;
+}
+
+.blog_box.home_blog_box .inr_cont {
+    padding: 10px !important;
+}
+
+.readmore {
+    color: #E442FF;
+}
+
+.OurSrvcHdd .rel_title {
+    text-transform: uppercase;
+    background: linear-gradient(92.12deg, #E442FF 2.22%, #3C5BFF 51.79%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.blog_box.home_blog_box {
+    padding: 20px;
+    border: 1px solid #C446FF;
+    border-radius: 10px;
+}
+
+.home_blog_box img {
+    border-radius: 10px;
+}
+
+.inr_cont .sub_title {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    /* number of lines to show */
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 23px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.inr_cont .normal_text {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    min-height: 100px;
+}
+
+.home_blog_box .readmore {
+    border-radius: 8px;
+    background: linear-gradient(136deg, #C746FF 0%, #405AFF 100%);
+    color: #fff;
+    padding: 6px 10px;
+}
+
+.BnrCnt .main_title {
+    font-size: 35px !important;
+    line-height: 52px;
+    font-weight: 600;
+    font-family: "Urbanist", sans-serif;
+    text-transform: uppercase;
+}
+
+@media(max-width: 1300px) {
+    .BnrCnt .main_title {
+        font-size: 35px !important;
+        line-height: 52px;
+    }
+}
+
+@media(max-width: 767px) {
+    .BnrCnt .main_title {
+        font-size: 25px !important;
+        line-height: 52px;
+    }
+}
+
+.OurBlgBg {
+    background: #000;
+}
+
+@media (max-width:600px) {
+    .ourservice-titles-news {
+        font-size: 40px;
+    }
+
+    .blockchain-dao-facts {
+        margin-top: 4vh;
+    }
+}
+
+.ourservice-titles-news {
+    font-size: 45px;
+}

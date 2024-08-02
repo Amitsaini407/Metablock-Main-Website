@@ -1,0 +1,11 @@
+.Product-container{
+    /* margin-left: 50px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Details-container{
+    margin: 50px;
+}
+

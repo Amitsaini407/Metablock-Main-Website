@@ -1,0 +1,1602 @@
+#smart_contract_dev_main {
+    background: #090909;
+}
+
+#smart_contract_dev_main .smart_contract_dev_banner {
+    background: url('/public/images/banner\ \(4\).webp');
+    /* D:\projects\blockchain\blockchain\public\images\banner (4).jpg */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top left;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 991px) {
+    #smart_contract_dev_main .smart_contract_dev_banner {
+        position: relative;
+        z-index: 1;
+        text-align: center;
+        background-position: 20% !important;
+        height: 650px;
+    }
+
+    #smart_contract_dev_main .smart_contract_dev_banner:after {
+        content: "";
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        background: #090909ad;
+    }
+}
+
+#smart_contract_dev_main .smart_contract_dev_banner .title {
+    font-weight: 300;
+    font-size: 40px !important;
+    text-transform: capitalize;
+    line-height: 1.3;
+    color: #fff;
+}
+
+#smart_contract_dev_main .smart_contract_dev_banner .cus_title {
+    background: linear-gradient(94.84deg, #C139FF 1.15%, #546CFF 101.13%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    font-size: 60px !important;
+    font-weight: 600;
+}
+
+#smart_contract_dev_main .smart_contract_dev_banner .contents {
+    font-size: 16px !important;
+    color: #FFFFFF;
+    line-height: 1.8;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+
+#smart_contract_dev_main .smart_contract_dev_banner .banner_btn_sec {
+    margin-top: 30px;
+}
+
+#smart_contract_dev_main .smart_contract_dev_banner .banner_btn {
+    padding: 8px 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 16px !important;
+    color: #fff !important;
+    border: none;
+}
+
+#smart_contract_dev_main .smart_contract_dev_sec {
+    padding: 50px 0px;
+}
+
+#smart_contract_dev_main .smart_contract_dev_sec .title {
+    font-size: 35px;
+    color: #fff;
+    font-weight: 600;
+    line-height: 1.4;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    font-family: "Urbanist", sans-serif;
+}
+
+#smart_contract_dev_main .smart_contract_dev_sec .contents {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+#smart_contract_dev_main .smart_contract_dev_sec .smart_contract_dev_about_btn_sec {
+    margin-top: 30px;
+}
+
+#smart_contract_dev_main .smart_contract_dev_sec .smart_contract_dev_about_btn {
+    text-transform: uppercase;
+    padding: 10px 30px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #000 !important;
+    border-radius: 57px;
+    background: #00FF47;
+    margin-right: 10px;
+}
+
+#smart_contract_dev_main .smart_contract_dev_sec .smart_contract_dev_about_btn1 {
+    text-transform: uppercase;
+    padding: 10px 30px;
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 57px;
+    background: #00F0FF;
+    color: #000 !important;
+}
+
+#smart_contract_dev_main .smart_contract_dev_services {
+    padding: 50px 0px;
+}
+
+#smart_contract_dev_main .smart_contract_dev_services .title {
+    font-size: 35px;
+    color: #fff;
+    font-weight: 600;
+    line-height: 1.4;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+    text-align: center;
+}
+
+#smart_contract_dev_main .smart_contract_dev_services .contents {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#smart_contract_dev_main .smart_contract_dev_services .scont-serv-parent .scont-serv-child {
+    border-top: solid #dddddd57 1px;
+    border-right: solid #dddddd57 0;
+}
+
+#smart_contract_dev_main .smart_contract_dev_services .scont-serv-parent .last-col {
+    border-right: solid #dddddd57 1px;
+    border-top: solid #dddddd57 0;
+}
+
+#smart_contract_dev_main .smart_contract_dev_services .scont-serv-parent .last-col1 {
+    border-top: solid #dddddd57 0;
+}
+
+#smart_contract_dev_main .smart_contract_dev_services .scont-serv-child-down {
+    min-height: 345px;
+    padding: 40px 40px;
+}
+
+#smart_contract_dev_main .smart_contract_dev_services .scont-serv-parent .scont-serv-child:nth-child(3n) {
+    border-top: solid #dddddd57 1px;
+    border-right: solid #dddddd57 1px;
+}
+
+#smart_contract_dev_main .smart_contract_dev_services .scont-serv-parent .scont-serv-child-down {
+    border-bottom: solid #dddddd57 1px;
+    border-left: solid #dddddd57 1px;
+}
+
+#smart_contract_dev_main .smart_contract_dev_services .scont-serv-parent .scont-serv-child-down:nth-child(3n) {
+    border-left: solid #dddddd57 1px;
+    border-right: solid #dddddd57 1px;
+}
+
+#smart_contract_dev_main .smart_contract_dev_services .scont-serv-child {
+    min-height: 350px;
+    padding: 35px 35px;
+    border-left: solid #dddddd57 1px;
+    border-bottom: solid #dddddd57 1px;
+}
+
+#smart_contract_dev_main .smart_contract_dev_services .head_sec {
+    display: flex;
+    align-items: center;
+}
+
+#smart_contract_dev_main .smart_contract_dev_services .sub_title {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+    padding-left: 10px;
+}
+
+#smart_contract_dev_main .smart_contract_dev_services .sub_contents {
+    font-size: 16px;
+    color: #ffffff85;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    line-height: 1.7;
+}
+
+#smart_contract_dev_main .smart_contract_dev_services .sprite_icons {
+    width: 50px;
+    height: 50px;
+    object-fit: none;
+}
+
+#smart_contract_dev_main .smart_contract_dev_services .bor_rad_fst {
+    border-radius: 20px 0px 0px 20px;
+}
+
+#smart_contract_dev_main .smart_contract_dev_services .bor_rad_last {
+    border-radius: 0px 20px 20px 0px;
+}
+
+#smart_contract_dev_main .smart_contract_dev_benefits {
+    padding: 50px 0px;
+}
+
+#smart_contract_dev_main .smart_contract_dev_benefits .scont-titl-wra {
+    background: url('/public/images/banefits-bg.webp') no-repeat;
+    min-height: 240px;
+    background-size: cover;
+}
+
+#smart_contract_dev_main .smart_contract_dev_benefits .title {
+    padding: 55px 23px 0 23px;
+    font-size: 45px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 1.4;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+}
+
+#smart_contract_dev_main .smart_contract_dev_benefits .scont-bt-wra {
+    min-height: 240px;
+    padding: 37px 23px 0 23px;
+}
+
+#smart_contract_dev_main .smart_contract_dev_benefits .new_common_tile_color1 {
+    background: #410c55;
+}
+
+#smart_contract_dev_main .smart_contract_dev_benefits .scont_bt_sprite {
+    object-fit: none;
+    width: 80px !important;
+    height: 80px;
+    text-align: center !important;
+    display: block;
+    margin: 0 auto;
+}
+
+#smart_contract_dev_main .smart_contract_dev_benefits .sub_title {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#smart_contract_dev_main .smart_contract_dev_benefits .sub_title_blk {
+    color: #000 !important;
+}
+
+#smart_contract_dev_main .smart_contract_dev_benefits .new_common_tile_color2 {
+    background: #e8e5e9;
+}
+
+#smart_contract_dev_main .smart_contract_dev_benefits .new_common_tile_color3 {
+    background: #111111;
+}
+
+#smart_contract_dev_main .smart_contract_dev_benefits .new_common_tile_color4 {
+    background: #c446ff;
+}
+
+#smart_contract_dev_main .smart_contract_dev_process {
+    padding: 50px 0px;
+}
+
+#smart_contract_dev_main .smart_contract_dev_process .title {
+    font-size: 35px;
+    color: #fff;
+    font-weight: 600;
+    line-height: 1.4;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+    text-align: center;
+}
+
+#smart_contract_dev_main .smart_contract_dev_process .contents {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#smart_contract_dev_main .smart_contract_dev_process .process_box {
+    margin-top: 30px;
+}
+
+#smart_contract_dev_main .smart_contract_dev_process .num_sec {
+    font-size: 50px;
+    font-weight: 600;
+    text-align: right;
+}
+
+#smart_contract_dev_main .smart_contract_dev_process .sub_title {
+    color: #C632FF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+    text-align: right;
+}
+
+#smart_contract_dev_main .smart_contract_dev_process .sub_contents {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    line-height: 1.7;
+}
+
+#smart_contract_dev_main .smart_contract_dev_process .sprite_icons {
+    width: 82px;
+    height: 82px;
+    object-fit: none;
+}
+
+#smart_contract_dev_main .smart_contract_dev_process .even_sub_cont {
+    text-align: right;
+}
+
+#smart_contract_dev_main .smart_contract_dev_process .even_sub_tit,
+#smart_contract_dev_main .smart_contract_dev_process .even_num_sec {
+    text-align: left;
+}
+
+#smart_contract_dev_main .smart_contract_dev_process .img_sec {
+    text-align: center;
+}
+
+#smart_contract_dev_main .smart_contract_dev_industry {
+    padding: 50px 0px;
+}
+
+#smart_contract_dev_main .smart_contract_dev_industry .title {
+    font-size: 35px;
+    color: #fff;
+    font-weight: 600;
+    line-height: 1.4;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+    text-align: center;
+}
+
+#smart_contract_dev_main .smart_contract_dev_industry .contents {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: center;
+}
+
+#smart_contract_dev_main .smart_contract_dev_industry .industry_box {
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px;
+    background: rgba(255, 255, 255, 0.03);
+    clip-path: polygon(5% 0%, 95% 0%, 100% 5%, 100% 95%, 95% 100%, 5% 100%, 0% 95%, 0% 5%);
+    min-height: 352px;
+}
+
+#smart_contract_dev_main .smart_contract_dev_industry .sub_title {
+    color: #C632FF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+#smart_contract_dev_main .smart_contract_dev_industry .sub_contents {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    line-height: 1.7;
+}
+
+#smart_contract_dev_main .smart_contract_dev_industry .sprite_icons {
+    width: 82px;
+    height: 82px;
+    object-fit: none;
+}
+
+@media (min-width:991px) {
+    #smart_contract_dev_main .smart_contract_dev_why {
+        background: url(/public/images/why-choose-bg.webp) no-repeat;
+        background-size: cover;
+        position: relative;
+        padding: 50px;
+        background-position: 60%;
+    }
+}
+
+#smart_contract_dev_main .smart_contract_dev_why .title {
+    font-size: 35px;
+    color: #fff;
+    font-weight: 600;
+    line-height: 1.4;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+}
+
+#smart_contract_dev_main .smart_contract_dev_why .contents {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+#smart_contract_dev_main .smart_contract_dev_why .why_choose_box {
+    background: #00000052;
+    padding: 30px;
+    backdrop-filter: blur(10px);
+}
+
+#smart_contract_dev_main .smart_contract_dev_why .smart_contract_btn_sec {
+    margin-top: 20px;
+}
+
+#smart_contract_dev_main .smart_contract_dev_why .smart_contract_btn {
+    padding: 8px 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 16px !important;
+    color: #fff !important;
+    border: none;
+}
+
+@media(max-width: 991px) {
+    #smart_contract_dev_main .smart_contract_dev_banner {
+        display: flex;
+        align-items: center;
+        padding: 50px 0px;
+        text-align: center;
+    }
+
+    #smart_contract_dev_main .smart_contract_dev_banner .banner_btn_sec {
+        justify-content: center;
+        display: flex;
+    }
+
+    #smart_contract_dev_main .smart_contract_dev_sec,
+    #smart_contract_dev_main .smart_contract_dev_benefits .title {
+        text-align: center;
+    }
+
+    #smart_contract_dev_main .smart_contract_dev_sec img {
+        margin-top: 40px;
+    }
+
+    #smart_contract_dev_main .smart_contract_dev_services .scont-serv-parent .scont-serv-child,
+    #smart_contract_dev_main .smart_contract_dev_services .scont-serv-parent .scont-serv-child:nth-child(3n) {
+        border: none;
+        padding: 15px;
+        min-height: 0px;
+    }
+
+    #smart_contract_dev_main .smart_contract_dev_services .services_box {
+        border: solid #dddddd57 1px;
+        padding: 20px;
+        border-radius: 5px;
+    }
+
+    #smart_contract_dev_main .smart_contract_dev_services .contents {
+        margin-bottom: 20px;
+    }
+
+    #smart_contract_dev_main .smart_contract_dev_why {
+        padding: 50px 10px;
+    }
+}
+
+@media(max-width: 767px) {
+    #smart_contract_dev_main .smart_contract_dev_banner {
+        display: flex;
+        align-items: center;
+        height: 550px;
+        padding: 50px 0px;
+    }
+
+    #smart_contract_dev_main .smart_contract_dev_banner .title {
+        font-size: 28px !important;
+        line-height: 1.5;
+        padding-top: 30px;
+    }
+
+    #smart_contract_dev_main .smart_contract_dev_banner .cus_title {
+        font-size: 33px !important;
+    }
+
+    #smart_contract_dev_main .smart_contract_dev_banner .banner_btn,
+    #smart_contract_dev_main .smart_contract_dev_why .smart_contract_btn {
+        font-size: 15px !important;
+        padding: 10px 20px;
+        margin: 0 auto;
+        width: 165px;
+    }
+
+    #smart_contract_dev_main .smart_contract_dev_sec .title,
+    #smart_contract_dev_main .smart_contract_dev_services .title,
+    #smart_contract_dev_main .smart_contract_dev_benefits .title,
+    #smart_contract_dev_main .smart_contract_dev_process .title,
+    #smart_contract_dev_main .smart_contract_dev_industry .title,
+    #smart_contract_dev_main .smart_contract_dev_why .title {
+        font-size: 25px !important;
+        line-height: 1.6 !important;
+        text-align: center;
+    }
+
+    #smart_contract_dev_main .smart_contract_dev_sec .smart_contract_dev_about_btn,
+    #smart_contract_dev_main .smart_contract_dev_sec .smart_contract_dev_about_btn1 {
+        font-size: 14px !important;
+        padding: 8px 18px;
+    }
+
+    #smart_contract_dev_main .smart_contract_dev_benefits .scont-titl-wra {
+        min-height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #smart_contract_dev_main .smart_contract_dev_benefits .scont-bt-wra {
+        min-height: 200px;
+    }
+
+    #smart_contract_dev_main .smart_contract_dev_process .num_sec {
+        display: none;
+    }
+
+    #smart_contract_dev_main .smart_contract_dev_process .sub_title,
+    #smart_contract_dev_main .smart_contract_dev_process .even_sub_cont,
+    #smart_contract_dev_main .smart_contract_dev_process .sub_contents,
+    #smart_contract_dev_main .smart_contract_dev_why {
+        text-align: center;
+    }
+
+    #smart_contract_dev_main .smart_contract_dev_industry .industry_box {
+        min-height: 0px;
+    }
+
+    #smart_contract_dev_main .smart_contract_dev_why {
+        padding-top: 0px;
+    }
+}
+
+
+
+.custom-drp.show .dropdown-menu {
+    display: flex;
+}
+
+.navMnuMn li:hover>.sub-menu {
+    visibility: visible;
+    opacity: 1;
+    transform: translate(0, 0);
+    border-radius: 5px;
+    box-shadow: 0 12px 28px 1px rgb(0 0 0 / 47%), 0 2px 4px 0 rgb(8 8 8 / 37%);
+}
+
+.navMnuMn .nav-item {
+    position: relative;
+}
+
+.navMnuMn .sub-menu {
+    visibility: hidden;
+    opacity: 0;
+    margin: 0;
+    padding: 10px 10px;
+    position: absolute;
+    /*left: -100px;*/
+    background: #090909;
+    backdrop-filter: blur(23px);
+    z-index: 99;
+    transform: translate(0, 20px);
+    transition: all 0.2s ease-out;
+    width: max-content;
+    top: 60px;
+    border: 1px solid #ffffff12;
+    padding: 20px 30px;
+}
+
+.navMnuMn .sub-menu ul li {
+    margin-top: 10px;
+}
+
+.navMnuMn .sub-menu li a {
+    text-decoration: none !important;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.navMnuMn .sub-menu li a:before {
+    display: none;
+}
+
+.navMnuMn .sub-menu li a:after {
+    display: none;
+}
+
+.tbsMenu .nav-tabs {
+    display: none;
+}
+
+.cmpy_Overflow {
+    background: #090909;
+}
+
+.card-body {
+    background: #090909;
+}
+
+/*Social Icons Animation Style Start*/
+
+.HddrLnks li.hasNewMenu a::before,
+.HddrLnks li.hasNewMenu a::after {
+    display: none !important;
+}
+
+.HddrLnks .hasNewMenu {
+    width: 33px;
+    height: 33px;
+    display: flex;
+    align-items: center;
+    background: #090909;
+    place-items: center;
+    border-radius: 50%;
+    transition: .2s ease-in-out;
+    position: relative;
+    border: 1px solid #fff3;
+    z-index: 0;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.HddrLnks .hasNewMenu:hover {
+    background: linear-gradient(93.79deg, #E442FF -13.43%, #3C5BFF 100.49%);
+    border-color: transparent;
+    border: none;
+}
+
+.HddrLnks .hasNewMenu::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(93.79deg, #E442FF -13.43%, #3C5BFF 100.49%);
+    border-radius: 50%;
+    will-change: box-shadow;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 0;
+    z-index: -1;
+    animation: 1s ease-out infinite ripple
+}
+
+.HddrLnks .hasNewMenu .nav-link .contactIconTop {
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    left: 6px;
+    top: 0px;
+}
+
+.mr-40 {
+    margin-right: 40px
+}
+
+@keyframes ripple {
+
+    100%,
+    25% {
+        box-shadow: 0 0 0 0 rgb(165 115 201 / 30%), 0 0 0 .2em rgb(165 115 201 / 10%)
+    }
+
+    50% {
+        box-shadow: 0 0 0 0.5em rgb(165 115 201 / 30%), 0 0 0 1em rgb(165 115 201 / 30%)
+    }
+
+    75% {
+        box-shadow: 0 0 0 2em rgb(165 115 201 / 30%), 0 0 0 2.5em rgb(165 115 201 / 10%)
+    }
+
+    from {
+        opacity: 1;
+        transform: scale(1)
+    }
+
+    to {
+        opacity: 0;
+        transform: scale(2)
+    }
+}
+
+.HddrLnks .hasNewMenu .social_icon_sub_menu {
+    position: absolute;
+    border: 1px solid #ffffff17 !important;
+    border-radius: 6px;
+    top: 55px !important;
+    min-width: 280px !important;
+    width: 280px !important;
+    transition: .1s ease-in-out !important;
+    background: #1c1f21 !important;
+    right: 0px !important;
+    left: auto !important;
+    padding: 0px !important;
+}
+
+.HddrLnks .hasNewMenu .social_icon_sub_menu::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-bottom: 10px solid #8650ff;
+    border-left: 10px solid transparent;
+    top: -10px;
+    right: 12px;
+}
+
+.HddrLnks .hasNewMenu .social_icon_sub_menu .topNewContact {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    align-items: flex-start;
+    border-radius: 6px 6px 0 0;
+    background: #8650ff;
+    padding: 5px 10px;
+    border-bottom: 1px solid #efefef21;
+}
+
+.HddrLnks .hasNewMenu .social_icon_sub_menu .middlePartMenu>p {
+    padding: 14px 20px;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-bottom: 1px solid #ffffff38;
+    margin-bottom: 0px;
+}
+
+.HddrLnks .hasNewMenu .social_icon_sub_menu .middlePartMenu ul {
+    padding: 15px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+}
+
+.HddrLnks .hasNewMenu .social_icon_sub_menu .middlePartMenu ul li {
+    margin-top: 0px !important;
+}
+
+.HddrLnks .hasNewMenu .social_icon_sub_menu .middlePartMenu ul li a {
+    padding-left: 5px;
+    margin-right: 0px !important;
+}
+
+.HddrLnks .hasNewMenu .social_icon_sub_menu .topNewContact ul li a {
+    font-size: 14px;
+    margin-bottom: 0px;
+    padding-left: 10px;
+    margin-right: 0px;
+}
+
+.HddrLnks .hasNewMenu .social_icon_sub_menu .topNewContact ul li a:hover {
+    background: unset;
+    color: #fff;
+    -webkit-text-fill-color: unset;
+}
+
+.HddrLnks .hasNewMenu .social_icon_sub_menu .topNewContact ul li {
+    display: flex;
+    margin-top: 0px;
+}
+
+.HddrLnks .hasNewMenu .social_icon_sub_menu .middlePartMenu ul li.lastWhatsapp {
+    display: flex;
+}
+
+.HddrLnks .hasNewMenu .social_icon_sub_menu .middlePartMenu ul li.lastWhatsapp a {
+    line-height: 15px !important;
+}
+
+.HddrLnks .hasNewMenu .social_icon_sub_menu .middlePartMenu ul li .middlePartMenu_img {
+    width: 18px;
+}
+
+.HddrLnks .HddrBtns .menu_btn {
+    padding: 10px 20px;
+    /*width: 160px;*/
+    font-size: 15px;
+    min-height: 40px;
+}
+
+.HddrLnks .HddrBtns .menu_btn:focus {
+    box-shadow: unset;
+}
+
+.HddrLnks .HddrBtns .menu_btn.button_christ .raindeer_img {
+    width: 25px;
+    padding-left: 3px;
+}
+
+.HddrLnks .HddrBtns .menu_btn.button_christ {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background: #8650ff;
+    padding: 10PX 15PX;
+    line-height: 26px;
+    text-decoration: none;
+    color: #FFF;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.75);
+    border-radius: 15px;
+    border: 1px solid #8650ff;
+    box-shadow: inset 1px 1px 0px rgba(255, 255, 255, 0.25), inset 0 0 6px #be48ff, inset 0 80px 80px -40px #a54cff, 1px 1px 3px rgba(0, 0, 0, 0.75);
+}
+
+.HddrLnks .HddrBtns .menu_btn.button_christ::before {
+    content: '';
+    display: block;
+    position: absolute;
+    z-index: 1;
+    top: -7px;
+    left: -3px;
+    right: 0;
+    height: 23px;
+    background: url(https://www.MetaBlocktechnologies.com/asset/inner-pages-new/christmas/snow1.webp) no-repeat 0 0, url(https://www.MetaBlocktechnologies.com/asset/inner-pages-new/christmas/snow2.webp) no-repeat 50% 0, url(https://www.MetaBlocktechnologies.com/asset/inner-pages-new/christmas/snow3.webp) no-repeat 100% 0;
+}
+
+.HddrLnks li a.cus_title {
+    color: #00fff5;
+    animation: zoom-in-zoom-out1 3s ease-out infinite;
+}
+
+.HddrLnks li a.cus_title:before,
+.HddrLnks li a.cus_title:after {
+    background: unset;
+}
+
+.HddrLnks li a.cus_title:hover {
+    background: unset;
+    -webkit-background-clip: unset;
+    -webkit-text-fill-color: unset;
+    background-clip: unset;
+    text-fill-color: unset;
+    color: #00fff5;
+}
+
+@keyframes zoom-in-zoom-out1 {
+    0% {
+        transform: scale(1, 1);
+    }
+
+    50% {
+        transform: scale(1.2, 1.2);
+    }
+
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+/*Social Icons Animation Style Start*/
+
+@media (min-width: 991px) {
+    .tbsMenu .nav-tabs {
+        display: flex;
+        flex-flow: column nowrap;
+    }
+
+    .tbsMenu .nav-tabs {
+        border-bottom: none;
+        border-right: 1px solid #ddd;
+        display: flex;
+    }
+
+    .tbsMenu .nav-tabs {
+        margin: 0 15px;
+    }
+
+    .tbsMenu .nav-tabs .nav-item+.nav-item {
+        margin-top: 0.25rem;
+    }
+
+    .tbsMenu .nav-tabs .nav-link {
+        transition: border-color 0.125s ease-in;
+        white-space: nowrap;
+    }
+
+    .tbsMenu .nav-tabs .nav-link:hover {
+        background-color: #f7f7f7;
+        border-color: transparent;
+    }
+
+    .tbsMenu .nav-tabs .nav-link.active {
+        background: linear-gradient(93.79deg, #E442FF -13.43%, #3C5BFF 100.49%);
+        border-radius: 5px;
+        border: none;
+        color: #fff !important;
+    }
+
+    .tbsMenu .nav-tabs .nav-link.active:hover {
+        background: linear-gradient(93.79deg, #E442FF -13.43%, #3C5BFF 100.49%);
+        color: #fff !important;
+        -webkit-text-fill-color: unset;
+    }
+
+    .tbsMenu .card {
+        border: none;
+    }
+
+    .tbsMenu .card .card-header {
+        display: none;
+    }
+
+    .tbsMenu .card .collapse {
+        display: block;
+    }
+}
+
+@media (max-width: 991px) {
+    .tbsMenu .tab-pane {
+        display: block !important;
+        opacity: 1;
+    }
+
+    .HddrLnks .HddrBtns .menu_btn {
+        margin: 12px 0px;
+    }
+}
+
+.cmpy_Overflow {
+    height: 350px;
+    overflow-x: hidden;
+}
+
+.tbsMenu ::-webkit-scrollbar {
+    width: 3px;
+}
+
+/* Track */
+
+.tbsMenu ::-webkit-scrollbar-track {
+    background: #ddd;
+    border-radius: 50px;
+}
+
+/* Handle */
+
+.tbsMenu ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 50px;
+}
+
+/* Handle on hover */
+
+.tbsMenu ::-webkit-scrollbar-thumb:hover {
+    background: #ccc;
+    border-radius: 50px;
+}
+
+.serSubMnu {
+    left: -300px !important;
+}
+
+.serSubMnu .tab-content {
+    width: 700px !important;
+}
+
+.serTabsOver {
+    height: 450px;
+    overflow-x: hidden;
+}
+
+.sub-menu ul li {
+    position: relative;
+}
+
+.sub-menu ul li:after {
+    content: "\25B6";
+    position: absolute;
+    top: 7px;
+    left: -16px;
+    color: #000000;
+    font-size: 1px;
+}
+
+.cmpyAfter:after {
+    display: none;
+}
+
+@media(min-width: 992px) {
+    .menu_res {
+        display: none;
+    }
+}
+
+@media(max-width: 991px) {
+    .menu_desk {
+        display: none;
+    }
+
+    .menu_res .dropdown-menu {
+        padding: 15px;
+        background-color: #090909;
+        border: 1px solid rgb(122 122 122 / 15%);
+        color: #fff;
+        height: 260px;
+        overflow-y: scroll;
+    }
+
+    .menu_res .dropdown-toggle:after {
+        right: -16px;
+        top: 22px;
+        background: #090909;
+        width: 0px !important;
+    }
+
+    .menu_res .dropdown-toggle:before {
+        display: none;
+    }
+
+    .compyMenuResHight {
+        height: 400px;
+        overflow-x: hidden;
+    }
+
+    .serSubMnu {
+        position: initial !important;
+        height: 350px;
+        overflow-x: hidden;
+        visibility: initial !important;
+        opacity: 1 !important;
+        width: initial !important;
+    }
+
+    .cmpy_Overflow {
+        height: 200px !important;
+    }
+
+    .card {
+        margin-top: 20px;
+    }
+
+    .navMnuMn .sub-menu {
+        margin-bottom: 30px;
+    }
+}
+
+#navbarNavAltMarkup .dropdown_sub_menu {
+    margin-top: 10px;
+}
+
+#navbarNavAltMarkup .dropdown_sub_menu .drop_right_menu {
+    width: max-content;
+    margin-left: 2.1rem;
+    padding: 20px 30px;
+    background: #090909;
+    backdrop-filter: blur(23px);
+    border: 1px solid #ffffff12;
+    border-radius: 5px;
+    box-shadow: 0 12px 28px 1px rgb(0 0 0 / 47%), 0 2px 4px 0 rgb(8 8 8 / 37%);
+}
+
+#navbarNavAltMarkup .dropdown_sub_menu .dropdown_nav_link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #fff;
+    margin-right: 5px;
+    position: relative;
+    display: inline-block;
+}
+
+#navbarNavAltMarkup .dropdown_sub_menu .dropdown_nav_link::before {
+    transition: unset;
+}
+
+#navbarNavAltMarkup .dropdown_sub_menu .dropdown_nav_link:hover::before,
+#navbarNavAltMarkup .dropdown_sub_menu .dropdown_nav_link:hover::after {
+    background: unset;
+    transition: unset;
+}
+
+#navbarNavAltMarkup .dropdown_sub_menu .dropdown_nav_link::after {
+    right: auto;
+    background: unset;
+    margin-left: 10px;
+}
+
+@media (max-width: 991px) {
+    .HddrBg .navbar #navbarNavAltMarkup .HdrSroll {
+        height: 703px;
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+}
+
+/*Side Conatct Form Style Start*/
+
+.HddrBg .web_menu_btn_sec {
+    position: relative;
+    z-index: 999;
+    cursor: pointer;
+}
+
+.HddrBg .web_menu_btn_sec .contact_form_mainsec {
+    position: absolute;
+    border: 1px solid #ffffff17 !important;
+    border-radius: 6px;
+    top: 55px !important;
+    min-width: 300px !important;
+    width: 300px !important;
+    transition: .1s ease-in-out !important;
+    background: #1c1f21 !important;
+    right: 0% !important;
+    left: auto !important;
+    display: none;
+    padding: 0px !important;
+}
+
+.HddrBg .web_menu_btn_sec .contact_form_mainsec::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-bottom: 10px solid #8650ff;
+    border-left: 10px solid transparent;
+    top: -10px;
+    right: 20px;
+}
+
+.HddrBg .web_menu_btn_sec .contact_form_mainsec .topNewContact {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    align-items: flex-start;
+    border-radius: 6px 6px 0 0;
+    background: #8650ff;
+    padding: 10px 10px;
+    border-bottom: 1px solid #efefef21;
+}
+
+.HddrBg .web_menu_btn_sec .contact_form_mainsec .topNewContact .sub_title {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 0px;
+    text-transform: capitalize;
+}
+
+.HddrBg .contact_form_mainsec .contact_form_sec {
+    padding: 20px;
+}
+
+.HddrBg .contact_form_mainsec .contact_form_sec #side_contact_form .side_contact_submit_btn {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-radius: 8px;
+    background: #8650ff !important;
+    margin-top: 0px;
+    border: none;
+    padding: 8px 20px;
+    padding-left: 20px !important;
+    width: fit-content;
+    color: #fff;
+    text-align: center;
+}
+
+.HddrBg .contact_form_mainsec .contact_form_sec #side_contact_form input {
+    background: rgb(255 255 255 / 6%) !important;
+    backdrop-filter: blur(2px);
+    border: 1px solid #ffffff36;
+    border-radius: 5px;
+    color: #fff !important;
+    height: 40px;
+    padding-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 13px;
+    font-weight: 200;
+    width: 100%;
+}
+
+.HddrBg .contact_form_mainsec .contact_form_sec #side_contact_form .popup_country select {
+    background: rgb(255 255 255 / 6%) !important;
+    backdrop-filter: blur(2px);
+    border: 1px solid #ffffff36;
+    border-radius: 5px;
+    color: #fff !important;
+    height: 40px;
+    padding-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 13px;
+    font-weight: 200;
+}
+
+.HddrBg .contact_form_mainsec .contact_form_sec #side_contact_form .popup_country select option {
+    color: #000 !important;
+}
+
+.HddrBg .contact_form_mainsec .contact_form_sec #side_contact_form .selecpicker_input_group_div {
+    display: flex;
+}
+
+.HddrBg .contact_form_mainsec .contact_form_sec #side_contact_form .selecpicker_input_group_div .select_icon_list {
+    background: rgb(255 255 255 / 6%) !important;
+    border: 1px solid #ffffff36;
+    border-radius: 5px;
+    color: #fff !important;
+    height: 40px;
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 13px;
+    font-weight: 200;
+    margin-right: 10px;
+    width: 30%;
+    align-items: center;
+    display: grid;
+}
+
+.HddrBg .contact_form_mainsec .contact_form_sec #side_contact_form .selecpicker_input_group_div .select_icon_list .btn {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    outline: none !important;
+    color: #fff;
+    padding: 5px;
+    margin-top: 0px;
+}
+
+.HddrBg .contact_form_mainsec .contact_form_sec #side_contact_form .selecpicker_input_group_div .select_icon_list .btn i {
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.HddrBg .contact_form_mainsec .contact_form_sec #side_contact_form #header_proposal_msg {
+    background: rgb(255 255 255 / 6%) !important;
+    backdrop-filter: blur(2px);
+    border: 1px solid #ffffff36;
+    border-radius: 5px;
+    color: #fff !important;
+    padding-left: 10px;
+    margin-top: 0px;
+    height: 90px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    font-weight: 200;
+    padding-top: 15px;
+}
+
+.HddrBg .contact_form_mainsec .contact_form_sec #side_contact_form input::placeholder,
+.HddrBg .contact_form_mainsec .contact_form_sec #side_contact_form select::placeholder,
+.HddrBg .contact_form_mainsec .contact_form_sec #side_contact_form #header_proposal_msg::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #fff;
+    opacity: 1;
+    /* Firefox */
+}
+
+.HddrBg .contact_form_mainsec .contact_form_sec #side_contact_form input:-ms-input-placeholder,
+.HddrBg .contact_form_mainsec .contact_form_sec #side_contact_form select::placeholder,
+.HddrBg .contact_form_mainsec .contact_form_sec #side_contact_form #header_proposal_msg::placeholder {
+    /* Internet Explorer 10-11 */
+    color: #fff;
+}
+
+.HddrBg .contact_form_mainsec .contact_form_sec #side_contact_form input::-ms-input-placeholder,
+.HddrBg .contact_form_mainsec .contact_form_sec #side_contact_form select::placeholder,
+.HddrBg .contact_form_mainsec .contact_form_sec #side_contact_form #header_proposal_msg::placeholder {
+    /* Microsoft Edge */
+    color: #fff;
+}
+
+#popup_form_modal .fitoutform .form-group {
+    margin-bottom: 1em !important;
+}
+
+.HddrBg .contact_form_mainsec .contact_form_sec #side_contact_form input:-webkit-autofill,
+.HddrBg .contact_form_mainsec .contact_form_sec #side_contact_form select:-webkit-autofill,
+.HddrBg .contact_form_mainsec .contact_form_sec #side_contact_form textarea:-webkit-autofill,
+.HddrBg .contact_form_mainsec .contact_form_sec #side_contact_form input:-webkit-autofill:focus,
+.HddrBg .contact_form_mainsec .contact_form_sec #side_contact_form input:-webkit-autofill:hover {
+    -webkit-box-shadow: 0 0 0 30px #292c2e inset !important;
+    background-image: none;
+    -webkit-text-fill-color: #fff !important;
+}
+
+.HddrBg .contact_form_mainsec .contact_form_sec #side_contact_form .select2-selection__rendered {
+    color: #929292;
+    margin: 0px;
+    padding: 6px;
+    background: #fff;
+    padding-left: 15px
+}
+
+.HddrBg .contact_form_mainsec .contact_form_sec #side_contact_form .popup_select {
+    padding-left: 15px;
+    font-size: 17px;
+    color: #929292 !important;
+}
+
+.HddrBg .contact_form_mainsec .contact_form_sec #side_contact_form .bootstrap-select.btn-group .dropdown-toggle .filter-option {
+    display: unset;
+}
+
+.HddrBg .contact_form_mainsec .contact_form_sec #side_contact_form label.error {
+    border-radius: 5px;
+    background: red;
+    color: #fff !important;
+    padding: 2px;
+    position: absolute;
+    top: -12px;
+    right: 0;
+    width: auto;
+    font-size: 10px;
+    font-weight: 400;
+    z-index: 1;
+}
+
+.HddrBg .contact_form_mainsec .contact_form_sec #side_contact_form label.error:after {
+    content: " ";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: 0px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: red transparent transparent transparent;
+}
+
+.HddrBg .contact_form_mainsec .contact_form_sec #side_contact_form .selecpicker_input_group_div .select_icon_list .dropdown-menu ul li.selected a {
+    background: #8650ff;
+    color: #fff;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    height: 40px;
+    text-decoration: none;
+}
+
+.HddrBg .contact_form_mainsec .contact_form_sec #side_contact_form .selecpicker_input_group_div .select_icon_list .dropdown-menu ul li a {
+    height: 40px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    height: 40px;
+    color: #000;
+}
+
+.HddrBg .contact_form_mainsec .contact_form_sec #side_contact_form li a::before,
+.HddrBg .contact_form_mainsec .contact_form_sec #side_contact_form li a::after {
+    background: unset !important;
+    -webkit-text-fill-color: unset !important;
+}
+
+.HddrBg .contact_form_mainsec .contact_form_sec #side_contact_form li a:hover {
+    -webkit-text-fill-color: unset !important;
+}
+
+.HddrBg .contact_form_mainsec .contact_form_sec #side_contact_form .selecpicker_input_group_div .select_icon_list .dropdown-menu ul li.selected a:hover {
+    background: #8650ff !important;
+    color: #fff;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    height: 40px;
+    text-decoration: none;
+}
+
+.HddrBg .contact_form_mainsec .contact_form_sec #side_contact_form #side_contact_form_error_msg {
+    font-size: 14px !important;
+}
+
+/*Side Conatct Form Style End*/
+
+/*Metaverse Blink Button Style*/
+
+.single_trending_btn>p>a:hover {
+    -webkit-text-fill-color: unset !important;
+    -webkit-background-clip: unset;
+    background: #bd48ff;
+}
+
+.single_trending_btn>p>a:hover:before,
+.single_trending_btn>p>a::before,
+.single_trending_btn>p>a::after {
+    background: unset;
+}
+
+.single_trending_btn {
+    position: absolute;
+    right: 5px;
+    bottom: -34px;
+}
+
+.single_trending_btn>p {
+    margin-bottom: 0;
+}
+
+.single_trending_btn>p>a {
+    color: #fff;
+    background: #bd48ff;
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 6px 25px;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-decoration: none;
+    margin-right: 0px;
+    line-height: unset;
+}
+
+.single_trending_btn>p>a img {
+    filter: invert(1);
+    width: 20px;
+}
+
+.single_trending_btn .text_blink_animate {
+    display: block;
+    animation: zoom-in-zoom-out1 3s ease-out infinite;
+}
+
+@keyframes zoom-in-zoom-out1 {
+    0% {
+        transform: scale(1, 1);
+    }
+
+    50% {
+        transform: scale(1.2, 1.2);
+    }
+
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+/*Metaverse Blink Button Style*/
+
+@media(max-width: 991px) {
+    .HddrBg .web_menu_btn_sec .side_menu_btn.button_christ {
+        position: relative;
+        display: flex;
+        align-items: center;
+        background: #8650ff;
+        padding: 10PX 15PX;
+        line-height: 23px;
+        text-decoration: none;
+        color: #FFF;
+        text-shadow: 0 1px 2px rgba(0, 0, 0, 0.75);
+        border-radius: 12px;
+        border: 1px solid #8650ff;
+        box-shadow: inset 1px 1px 0px rgba(255, 255, 255, 0.25), inset 0 0 6px #be48ff, inset 0 80px 80px -40px #a54cff, 1px 1px 3px rgba(0, 0, 0, 0.75);
+    }
+
+    .HddrBg .web_menu_btn_sec .side_menu_btn.button_christ::before {
+        content: '';
+        display: block;
+        position: absolute;
+        z-index: 1;
+        top: -7px;
+        left: -3px;
+        right: 0;
+        height: 23px;
+        background: url(https://www.MetaBlocktechnologies.com/asset/inner-pages-new/christmas/snow1.webp) no-repeat 0 0, url(https://www.MetaBlocktechnologies.com/asset/inner-pages-new/christmas/snow3.webp) no-repeat 100% 0;
+    }
+}
+
+@media(max-width: 767px) {
+    .HddrBg .navbar .logo_header .mbl_res_logo {
+        width: 210px;
+    }
+
+    .HddrBg .web_menu_btn_sec .side_menu_btn {
+        padding: 8px 10px !important;
+        font-size: 13px !important;
+    }
+
+    .HddrBg .web_menu_btn_sec .contact_form_mainsec::after {
+        right: 50px !important;
+    }
+
+    .HddrBg .web_menu_btn_sec .contact_form_mainsec {
+        right: -30% !important;
+    }
+
+    .HddrBg .contact_form_mainsec .contact_form_sec #side_contact_form .side_contact_submit_btn {
+        font-size: 14px !important;
+    }
+}
+
+@media(max-width: 467px) {
+    .HddrBg .web_menu_btn_sec .side_menu_btn {
+        font-size: 12px !important;
+        padding: 6px 8px !important;
+        font-weight: 400 !important;
+    }
+
+    .HddrBg .logo_header {
+        width: 55% !important;
+    }
+
+    .HddrBg .navbar {
+        padding: 0.25rem 0.50rem;
+    }
+}
+
+/*On Hover Hide Metaverse button*/
+
+.HddrLnks .hasNewMenu:hover~.single_trending_sec {
+    opacity: 0 !important;
+}
+
+.HddrBg .web_menu_btn_sec .side_menu_btn {
+    padding: 8px 20px;
+    font-size: 16px;
+    background: linear-gradient(93.79deg, #E442FF -13.43%, #3C5BFF 100.49%);
+    color: #fff;
+    font-weight: 500;
+    border: none;
+}
+
+.HddrBg .web_menu_btn_sec .side_menu_btn:focus {
+    box-shadow: unset;
+}
+
+/*Social Media Icons Style*/
+
+.menu_social_icon_main {
+    padding: 20px 0px;
+}
+
+.menu_social_icon_main .contents {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    font-style: italic;
+}
+
+.menu_social_icon_main .menu_social_listsec {
+    width: fit-content;
+}
+
+.menu_social_icon_main .menu_social_listsec .menu_social_list {
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    margin: 0 3px;
+    transition: 0.3s all ease-in-out;
+}
+
+.menu_social_icon_main .menu_social_listsec .menu_social_list img {
+    width: 35px;
+}
+
+.menu_social_icon_main .menu_social_listsec:hover>li {
+    opacity: 0.4;
+    transition: 0.3s all ease-in-out;
+}
+
+.menu_social_icon_main .menu_social_listsec>li:hover {
+    opacity: 1;
+    transition: 0.3s all ease-in-out;
+    transform: scale(1.3);
+}
+
+/*Social Media Icons Style*/

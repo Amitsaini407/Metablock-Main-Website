@@ -1,0 +1,1382 @@
+#metaverse_game_main {
+    background: #01030B;
+}
+
+.img-fluid-1 {
+    width: 30px
+}
+
+.met_game1 img {
+    width: 600px;
+    margin: 50px 0 0 48px;
+}
+
+.game_devlist {
+    display: flex;
+    justify-content: center;
+}
+
+.hire_metblock_game {
+    display: flex;
+    justify-content: center;
+}
+
+.hire_metblock_game img {
+    width: 500px;
+    border-radius: 50px;
+}
+
+.met_advant {
+    width: 25px;
+    padding-top: 15px;
+}
+
+#metaverse_game_main .metaverse_game_banner {
+    padding: 50px 0px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width:768px) {
+    .banner_img {
+        display: none;
+    }
+}
+
+#metaverse_game_main .metaverse_game_banner .cus_ban_col {
+    padding-right: 20px;
+}
+
+#metaverse_game_main .metaverse_game_banner .banner_img {
+    padding-top: 35px;
+}
+
+@media (max-width: 1400px) {
+    #metaverse_game_main .metaverse_game_banner .banner_img {
+        width: 630px;
+    }
+}
+
+
+
+#metaverse_game_main a {
+    text-decoration: none;
+}
+
+#metaverse_game_main .metaverse_game_banner .banner_contsec {
+    margin-left: -20%;
+    padding-right: 50px;
+}
+
+#metaverse_game_main .metaverse_game_banner .title {
+    font-weight: 700;
+    font-size: 35px !important;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    line-height: 1.4;
+    letter-spacing: 3px;
+    font-family: "Urbanist", sans-serif;
+}
+
+#metaverse_game_main .metaverse_game_banner .cus_brn_title {
+    font-weight: 900;
+    color: #BD3AFF;
+    font-size: 55px;
+}
+
+#metaverse_game_main .metaverse_game_banner .contents {
+    font-size: 16px !important;
+    color: #FFFFFF;
+    line-height: 1.8;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#metaverse_game_main .metaverse_game_banner .banner_btn_sec {
+    margin-top: 30px;
+}
+
+#metaverse_game_main .metaverse_game_banner .banner_btn {
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: 600;
+    border: none;
+    text-transform: capitalize;
+    font-size: 16px !important;
+    color: #fff !important;
+    font-family: "Urbanist", sans-serif;
+    border: none;
+}
+
+#metaverse_game_main .metaverse_game_sec {
+    padding: 50px 0px;
+}
+
+#metaverse_game_main .metaverse_game_sec .title {
+    font-size: 30px;
+    color: #BD3AFF;
+    font-weight: 700;
+    line-height: 1.4;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    font-family: "Urbanist", sans-serif;
+}
+
+#metaverse_game_main .metaverse_game_sec .contents {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+#metaverse_game_main .metaverse_game_sec .metaverse_game_btn_sec {
+    text-align: center;
+    display: flex;
+    margin-top: 30px;
+}
+
+#metaverse_game_main .metaverse_game_whatsec {
+    padding: 50px 0px;
+    text-align: center;
+}
+
+#metaverse_game_main .metaverse_game_whatsec .title {
+    font-size: 40px;
+    color: #BD3AFF;
+    font-weight: 700;
+    line-height: 1.4;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    font-family: "Urbanist", sans-serif;
+}
+
+#metaverse_game_main .metaverse_game_whatsec .contents {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+#metaverse_game_main .metaverse_game_whatsec .met_game_what_about_btn_sec {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#metaverse_game_main .metaverse_game_whatsec .met_game_what_about_btn {
+    text-transform: uppercase;
+    padding: 10px 30px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #000 !important;
+    background: #33FF00;
+    box-shadow: 0px 0px 10px #33FF00;
+    margin-right: 10px;
+}
+
+#metaverse_game_main .metaverse_game_whatsec .met_game_what_about_btn1 {
+    text-transform: uppercase;
+    padding: 10px 30px;
+    font-weight: 600;
+    font-size: 15px;
+    background: #00C2FF;
+    box-shadow: 0px 0px 10px #00C2FF;
+    color: #000 !important;
+}
+
+#metaverse_game_main .metaverse_game_comp {
+    padding: 50px 0px;
+}
+
+#metaverse_game_main .metaverse_game_comp #metaverse_game_comp_card {
+    padding: 20px 120px;
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    position: relative;
+    z-index: 10;
+}
+
+#metaverse_game_main .metaverse_game_comp .metaverse_game_comp_cardsec {
+    position: relative;
+    z-index: 1;
+}
+
+@media (min-width: 991px) {
+    #metaverse_game_main .metaverse_game_comp .metaverse_game_comp_cardsec:before {
+        content: "";
+        position: absolute;
+        border: 5px solid #fff;
+        width: 200px;
+        box-shadow: 0px 0px 15px 2px #ff00d0e0;
+        height: 200px;
+        border-radius: 50%;
+        top: 13%;
+        left: -12%;
+        z-index: -1;
+    }
+
+    #metaverse_game_main .metaverse_game_comp .metaverse_game_comp_cardsec:after {
+        content: "";
+        position: absolute;
+        border: 5px solid #fff;
+        width: 200px;
+        box-shadow: 0px 0px 20px 3px #FF00D0;
+        height: 200px;
+        border-radius: 50%;
+        top: 13%;
+        right: -12%;
+        z-index: -1;
+    }
+}
+
+#metaverse_game_main .metaverse_game_comp .title-14 {
+    font-size: 35px;
+    color: #BD3AFF;
+    font-weight: 700;
+    line-height: 1.4;
+    text-transform: capitalize;
+    text-align: center;
+    font-family: "Urbanist", sans-serif;
+}
+
+#metaverse_game_main .metaverse_game_comp .contents {
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 30px;
+}
+
+#metaverse_game_main .metaverse_game_benefits {
+    padding: 50px 0px;
+}
+
+#metaverse_game_main .metaverse_game_benefits .title {
+    text-align: center;
+    font-size: 35px;
+    color: #C434E5;
+    font-weight: 700;
+    line-height: 1.4;
+    text-transform: capitalize;
+    text-align: center;
+    font-family: "Urbanist", sans-serif;
+}
+
+#metaverse_game_main .metaverse_game_benefits .contents {
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 30px;
+}
+
+#metaverse_game_main .metaverse_game_benefits .benefits_box {
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.04);
+    text-align: center;
+    margin-top: 30px;
+    min-height: 300px;
+    transition: 0.5s all ease-in-out;
+    transform: translateY(10px);
+}
+
+#metaverse_game_main .metaverse_game_benefits .benefits_box:hover {
+    transform: translateY(0px);
+}
+
+@media(min-width: 991px) {
+    #metaverse_game_main .metaverse_game_benefits .benefits_box.clippath1 {
+        clip-path: polygon(0 0, 100% 15%, 100% 100%, 0% 100%);
+        min-height: 378px;
+    }
+
+    #metaverse_game_main .metaverse_game_benefits .benefits_box.clippath2 {
+        clip-path: polygon(0 15%, 100% 0%, 100% 100%, 0% 100%);
+        min-height: 378px;
+    }
+
+    #metaverse_game_main .metaverse_game_benefits .cp_center {
+        margin-top: 130px;
+    }
+
+    #metaverse_game_main .metaverse_game_benefits .clippath1 .sprite_icons,
+    #metaverse_game_main .metaverse_game_benefits .clippath2 .sprite_icons {
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+}
+
+#metaverse_game_main .metaverse_game_benefits .sub_title {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#metaverse_game_main .metaverse_game_benefits .sub_contents {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    line-height: 30px;
+}
+
+#metaverse_game_main .metaverse_game_benefits .sprite_icons {
+    width: 40px;
+    height: 40px;
+    object-fit: none;
+    position: relative;
+    z-index: 1;
+    animation: zoom-in-zoom-out 2s ease-out infinite;
+}
+
+#metaverse_game_main .metaverse_game_benefits .img_sec {
+    position: relative;
+}
+
+#metaverse_game_main .metaverse_game_benefits .img_sec:before {
+    content: "";
+    position: absolute;
+    background: #00E0FF;
+    filter: blur(12.5px);
+    width: 30px;
+    height: 20px;
+    bottom: 15%;
+    left: 45%;
+    z-index: 0;
+}
+
+#metaverse_game_main .metaverse_game_benefits .cp_center .img_sec:before {
+    bottom: -12%;
+}
+
+#metaverse_game_main .metaverse_game_benefits .cp_center .img_sec {
+    margin-bottom: 10px;
+}
+
+#metaverse_game_main .metaverse_game_unique {
+    padding: 50px 0px;
+    position: relative;
+}
+
+@media (min-width: 991px) {
+    #metaverse_game_main .metaverse_game_unique:before {
+        content: "";
+        position: absolute;
+        background: linear-gradient(141.34deg, #C434E5 11.16%, #00E0FF 105.98%);
+        filter: blur(242.5px);
+        width: 300px;
+        height: 160px;
+        border-radius: 50px;
+        top: 43%;
+        left: 40%;
+        z-index: 0;
+    }
+}
+
+#metaverse_game_main .metaverse_game_unique .title {
+    text-align: center;
+    font-size: 35px;
+    color: #C434E5;
+    font-weight: 700;
+    line-height: 1.4;
+    text-transform: capitalize;
+    text-align: center;
+    font-family: "Urbanist", sans-serif;
+}
+
+#metaverse_game_main .metaverse_game_unique .contents {
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 30px;
+}
+
+#metaverse_game_main .metaverse_game_unique .unique_box {
+    padding: 10px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#metaverse_game_main .metaverse_game_unique .unique_box:hover .sub_title {
+    color: #C434E5;
+}
+
+#metaverse_game_main .metaverse_game_unique .sub_title {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#metaverse_game_main .metaverse_game_unique .sub_contents {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    line-height: 30px;
+}
+
+#metaverse_game_main .metaverse_game_unique .sprite_icons {
+    width: 50px;
+    height: 50px;
+    /* object-fit: none; */
+    animation: zoom-in-zoom-out 2s ease-out infinite;
+}
+
+@media(min-width: 991px) {
+    #metaverse_game_main .metaverse_game_unique .row_line {
+        position: relative;
+    }
+
+    #metaverse_game_main .metaverse_game_unique .row_line:before {
+        position: absolute;
+        content: '';
+        top: 2%;
+        left: 33%;
+        height: 100%;
+        width: 1px;
+        border: 1px solid #C434E5;
+        opacity: 0.12;
+    }
+
+    #metaverse_game_main .metaverse_game_unique .row_line:after {
+        position: absolute;
+        content: '';
+        top: 2%;
+        right: 33%;
+        height: 100%;
+        width: 1px;
+        border: 1px solid #C434E5;
+        opacity: 0.12;
+    }
+
+    #metaverse_game_main .metaverse_game_unique .col_line {
+        position: relative;
+    }
+
+    #metaverse_game_main .metaverse_game_unique .col_line:after {
+        position: absolute;
+        content: '';
+        bottom: -6%;
+        left: -1%;
+        height: 1px;
+        width: 100%;
+        border: 1px solid #C434E5;
+        opacity: 0.12;
+    }
+}
+
+#metaverse_game_main .metaverse_game_model {
+    padding: 50px 0px;
+}
+
+#metaverse_game_main .metaverse_game_model .title {
+    text-align: center;
+    font-size: 35px;
+    color: #C434E5;
+    font-weight: 700;
+    line-height: 1.4;
+    text-transform: capitalize;
+    text-align: center;
+    font-family: "Urbanist", sans-serif;
+}
+
+#metaverse_game_main .metaverse_game_model .contents {
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 30px;
+}
+
+#metaverse_game_main .metaverse_game_model .model_box {
+    padding: 20px;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: solid 1px transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(180deg, #C434E5 0%, #000000 70%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 1000px 1px #01030b inset;
+}
+
+#metaverse_game_main .metaverse_game_model .model_box:hover {
+    box-shadow: inset 0px -1px 18px rgb(195 52 228 / 43%);
+    border: none;
+    background: unset;
+}
+
+#metaverse_game_main .metaverse_game_model .sub_title {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+}
+
+#metaverse_game_main .metaverse_game_model .sub_contents {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    line-height: 30px;
+}
+
+#metaverse_game_main .metaverse_game_process {
+    padding: 50px 0px;
+    position: relative;
+}
+
+#metaverse_game_main .metaverse_game_process .title {
+    text-align: center;
+    font-size: 35px;
+    color: #C434E5;
+    font-weight: 700;
+    line-height: 1.4;
+    text-transform: capitalize;
+    text-align: center;
+    font-family: "Urbanist", sans-serif;
+}
+
+#metaverse_game_main .metaverse_game_process .contents {
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 30px;
+}
+
+#metaverse_game_main .metaverse_game_process .process_list_after {
+    position: relative;
+}
+
+#metaverse_game_main .metaverse_game_process .process_list_after:after {
+    content: '';
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background: #01030B;
+    border: 5px solid #C434E5;
+    box-shadow: 0px 0px 15px #C434E5;
+    position: absolute;
+    top: 25%;
+    left: 50.2%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+#metaverse_game_main .metaverse_game_process .process_after {
+    margin-top: 30px;
+    position: relative;
+}
+
+#metaverse_game_main .metaverse_game_process .process_after:after {
+    content: "";
+    width: 3px;
+    height: 100%;
+    background: #C434E5;
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    border-radius: 20px;
+}
+
+#metaverse_game_main .metaverse_game_process .process_box {
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.04);
+    border-radius: 10px;
+    margin: 10px 35px;
+}
+
+#metaverse_game_main .metaverse_game_process .process_box:hover {
+    border: 1px solid #c434e5;
+    background: unset;
+}
+
+#metaverse_game_main .metaverse_game_process .sub_contents {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 300;
+    margin-bottom: 0px;
+    line-height: 30px;
+}
+
+@media(min-width: 991px) {
+    #metaverse_game_main .metaverse_game_process .bg_title {
+        color: transparent;
+        opacity: 0.15;
+        transform: rotate(-89.99deg);
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #bb3bff;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-fill-color: linear-gradient(105.44deg, #BB3CFF 46%, #000000 27%);
+        font-weight: 700;
+        font-size: 140px;
+        letter-spacing: 10px;
+        position: absolute;
+        left: -22%;
+        top: 38%;
+        z-index: 1;
+        text-transform: uppercase;
+    }
+
+    #metaverse_game_main .metaverse_game_process .bg_title1 {
+        color: transparent;
+        opacity: 0.15;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #bb3bff;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-fill-color: linear-gradient(105.44deg, #BB3CFF 46%, #000000 27%);
+        font-weight: 700;
+        font-size: 140px;
+        position: absolute;
+        right: 4%;
+        line-height: 2;
+        top: 25%;
+        z-index: 1;
+        text-transform: uppercase;
+    }
+
+    #metaverse_game_main .metaverse_game_services {
+        padding: 130px 0px;
+        /* background: url('./asset/inner-pages-new/metaverse-game-development/service-bg.webp'); */
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+    }
+}
+
+#metaverse_game_main .metaverse_game_services .title {
+    text-align: center;
+    font-size: 35px;
+    color: #C434E5;
+    font-weight: 700;
+    line-height: 1.4;
+    text-transform: capitalize;
+    text-align: center;
+    font-family: "Urbanist", sans-serif;
+}
+
+#metaverse_game_main .metaverse_game_services .contents {
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 60px;
+}
+
+#metaverse_game_main .metaverse_game_services .service_box {
+    padding: 15px;
+    border-radius: 10px;
+    background: #0E1017;
+    min-height: 495px;
+    position: relative;
+    z-index: 1;
+    margin-top: 30px;
+    border: 1px solid transparent;
+}
+
+#metaverse_game_main .metaverse_game_services .service_box:hover {
+    border: 1px solid #C434E5;
+    background: transparent;
+}
+
+#metaverse_game_main .metaverse_game_services .service_box .img_sec {
+    overflow: hidden;
+}
+
+#metaverse_game_main .metaverse_game_services .service_box:hover .sprite_icons {
+    webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+#metaverse_game_main .metaverse_game_services .sprite_icons {
+    /* width: 100%; */
+    height: 170px;
+    transition: all .8s ease-in-out;
+    overflow: hidden;
+}
+
+@keyframes zoom-in-zoom-out {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(0.9);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+#metaverse_game_main .metaverse_game_services .sub_title {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+    padding-top: 20px;
+}
+
+#metaverse_game_main .metaverse_game_services .sub_contents {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 300;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    line-height: 30px;
+}
+
+#metaverse_game_main .metaverse_game_clone {
+    padding: 50px 0px;
+}
+
+#metaverse_game_main .metaverse_game_clone .title {
+    font-size: 35px;
+    color: #C434E5;
+    font-weight: 700;
+    line-height: 1.4;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+}
+
+#metaverse_game_main .metaverse_game_clone .clone_list_sec {
+    text-align: center;
+    margin: 0 auto;
+    display: table;
+}
+
+#metaverse_game_main .metaverse_game_clone .clone_list {
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+#metaverse_game_main .metaverse_game_clone .sub_title {
+    padding-left: 12px;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+#metaverse_game_main .metaverse_game_category {
+    padding: 50px 0px;
+}
+
+#metaverse_game_main .metaverse_game_category .title {
+    text-align: center;
+    font-size: 35px;
+    color: #C434E5;
+    font-weight: 700;
+    line-height: 1.4;
+    text-transform: capitalize;
+    text-align: center;
+    font-family: "Urbanist", sans-serif;
+}
+
+#metaverse_game_main .metaverse_game_category .contents {
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 60px;
+}
+
+#metaverse_game_main .metaverse_game_category .category_box {
+    border: solid 1px transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(280deg, #C434E5 0%, #000000 70%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    padding: 20px 0px;
+    box-shadow: 2px 1000px 1px #090a11 inset;
+    position: relative;
+}
+
+@media(min-width: 991px) {
+    #metaverse_game_main .metaverse_game_category .category_box:before {
+        position: absolute;
+        content: '';
+        top: -23%;
+        left: -17%;
+        width: 720px;
+        height: 500px;
+        /* background: url(./asset/inner-pages-new/metaverse-game-development/category-img.webp); */
+    }
+}
+
+#metaverse_game_main .metaverse_game_category .category_list {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#metaverse_game_main .metaverse_game_category .sub_title {
+    padding-left: 15px;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+#metaverse_game_main .metaverse_game_category .sprite_icons {
+    width: 50px;
+    height: 50px;
+    /* object-fit: none; */
+    animation: zoom-in-zoom-out 2s ease-out infinite;
+}
+
+#metaverse_game_main .metaverse_game_industry {
+    padding: 50px 0px;
+}
+
+#metaverse_game_main .metaverse_game_industry .title {
+    text-align: center;
+    font-size: 35px;
+    color: #C434E5;
+    font-weight: 700;
+    line-height: 1.4;
+    text-transform: capitalize;
+    text-align: center;
+    font-family: "Urbanist", sans-serif;
+}
+
+#metaverse_game_main .metaverse_game_industry .contents {
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 30px;
+}
+
+#metaverse_game_main .metaverse_game_industry .industry_box {
+    padding: 15px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid #C434E5;
+    border-radius: 5px;
+    margin: 40px 0px;
+    transition: 0.5s all ease-in-out;
+    transform: translateY(10px);
+}
+
+#metaverse_game_main .metaverse_game_industry .industry_box:hover {
+    transform: translateY(0px);
+}
+
+#metaverse_game_main .metaverse_game_industry .industry_box:hover .sprite_icons {
+    filter: grayscale(1);
+}
+
+#metaverse_game_main .metaverse_game_industry .sprite_icons {
+    width: 60px;
+    height: 60px;
+    object-fit: none;
+    margin-bottom: -60px;
+    animation: zoom-in-zoom-out 2s ease-out infinite;
+}
+
+#metaverse_game_main .metaverse_game_techstack {
+    padding: 50px 0px;
+}
+
+#metaverse_game_main .metaverse_game_techstack .title {
+    text-align: center;
+    font-size: 35px;
+    color: #C434E5;
+    font-weight: 700;
+    line-height: 1.4;
+    text-transform: capitalize;
+    text-align: center;
+    font-family: "Urbanist", sans-serif;
+}
+
+#metaverse_game_main .metaverse_game_techstack #techstack_box {
+    background: linear-gradient(93.58deg, #C434E5 20.68%, #8B52FF 91.07%);
+    padding: 35px 20px;
+    margin-top: 20px;
+    position: relative;
+}
+
+@media(min-width: 991px) {
+    #metaverse_game_main .metaverse_game_techstack #techstack_box:before {
+        position: absolute;
+        content: '';
+        background: linear-gradient(93.58deg, rgba(196, 52, 229, 0.15) 20.68%, rgba(139, 82, 255, 0.15) 91.07%);
+        transform: rotate(-2.19deg);
+        left: 0%;
+        top: 0%;
+        width: 100%;
+        height: 210px;
+    }
+}
+
+#metaverse_game_main .metaverse_game_techstack .techstack_list {
+    text-align: center;
+}
+
+#metaverse_game_main .metaverse_game_techstack .sub_title {
+    padding-top: 10px;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+#metaverse_game_main .metaverse_game_techstack .sprite_icons {
+    width: 70px;
+    height: 70px;
+    /* object-fit: none;
+    animation: zoom-in-zoom-out 2s ease-out infinite; */
+}
+
+#metaverse_game_main .metaverse_game_hire {
+    padding: 50px 0px;
+}
+
+#metaverse_game_main .metaverse_game_hire .title {
+    text-align: center;
+    font-size: 35px;
+    color: #C434E5;
+    font-weight: 700;
+    line-height: 1.4;
+    text-transform: capitalize;
+    text-align: center;
+    font-family: "Urbanist", sans-serif;
+}
+
+#metaverse_game_main .metaverse_game_hire .contents {
+    font-size: 16px;
+    font-weight: 300;
+    text-align: justify;
+    line-height: 30px;
+}
+
+#metaverse_game_main .metaverse_game_hire .metaverse_game_btn_sec {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+}
+
+#metaverse_game_main .metaverse_game_whydo {
+    padding: 50px 0px;
+}
+
+#metaverse_game_main .metaverse_game_whydo .why_do_box {
+    padding: 130px 20px 20px 20px;
+    text-align: center;
+    background: linear-gradient(360deg, rgba(255, 255, 255, 0.05) 7.69%, rgba(255, 255, 255, 0) 143.98%);
+    border-radius: 27px;
+    margin-top: -200px;
+}
+
+#metaverse_game_main .metaverse_game_whydo .title {
+    text-align: center;
+    font-size: 35px;
+    color: #C434E5;
+    font-weight: 700;
+    line-height: 1.4;
+    text-transform: capitalize;
+    text-align: center;
+    font-family: "Urbanist", sans-serif;
+}
+
+#metaverse_game_main .metaverse_game_whydo .contents {
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 30px;
+}
+
+#metaverse_game_main .metaverse_game_whydo .sub_title {
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 1.6;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+#metaverse_game_main .metaverse_game_whydo .whydo_list {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+#metaverse_game_main .metaverse_game_whydo .sub_contents {
+    font-size: 16px;
+    padding-left: 10px;
+    line-height: 1.6;
+    text-transform: capitalize;
+}
+
+#metaverse_game_main .metaverse_game_ebook_sec {
+    padding: 90px 0px;
+}
+
+#metaverse_game_main .metaverse_game_ebook_sec .title-15 {
+    font-size: 50px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 1.3;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+}
+
+#metaverse_game_main .metaverse_game_ebook_sec .contents-15 {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+#metaverse_game_main .metaverse_game_ebook_sec #ebook_card {
+    padding: 30px;
+    background: linear-gradient(93.79deg, #E442FF -13.43%, #3C5BFF 100.49%);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    position: relative;
+}
+
+#metaverse_game_main .metaverse_game_ebook_sec #ebook_card .ebook_card_img {
+    position: absolute;
+    top: -28%;
+    right: 8%;
+    height: 480px;
+}
+
+#metaverse_game_main .metaverse_game_ebook_sec .ebook_btn_sec {
+    margin-top: 20px;
+}
+
+#metaverse_game_main .metaverse_game_ebook_sec .ebook_btn {
+    background: #01030b;
+    border-radius: 5px;
+    font-weight: 600;
+    border: none;
+    text-transform: capitalize;
+    font-size: 16px !important;
+    color: #fff !important;
+    font-family: "Urbanist", sans-serif;
+    display: inline-block;
+    position: relative;
+    padding: 10px 15px 10px 50px;
+}
+
+#metaverse_game_main .metaverse_game_ebook_sec .ebook_btn:hover:after {
+    animation: unset;
+}
+
+#metaverse_game_main .metaverse_game_ebook_sec .ebook_btn:before {
+    width: 25px;
+    height: 7px;
+    border-style: solid;
+    border-width: 0 2px 2px;
+}
+
+#metaverse_game_main .metaverse_game_ebook_sec .ebook_btn:before,
+#metaverse_game_main .metaverse_game_ebook_sec .ebook_btn:after {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 15px;
+    top: 50%;
+}
+
+#metaverse_game_main .metaverse_game_ebook_sec .ebook_btn:after {
+    width: 0;
+    height: 0;
+    margin-left: 3px;
+    margin-top: -7px;
+    border-style: solid;
+    border-width: 9px 9px 0 9px;
+    border-color: transparent;
+    border-top-color: inherit;
+    animation: downloadArrow 2s linear infinite;
+}
+
+@keyframes downloadArrow {
+    0% {
+        margin-top: -7px;
+        opacity: 1;
+    }
+
+    0.001% {
+        margin-top: -15px;
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        margin-top: 0;
+        opacity: 0;
+    }
+}
+
+#metaverse_game_main .metaverse_game_ebook_sec .free_title_sec {
+    padding: 10px 20px;
+    position: absolute;
+    right: 0%;
+    top: -13%;
+    width: 150px;
+    animation: zoom-in-zoom-out 2s ease-out infinite;
+    text-align: center;
+}
+
+#metaverse_game_main .metaverse_game_ebook_sec .free_img {
+    width: 80px;
+}
+
+@media(max-width: 991px) {
+    #metaverse_game_main .metaverse_game_banner {
+        display: flex;
+        align-items: center;
+        height: 650px;
+        padding: 50px 0px;
+        text-align: center;
+    }
+
+    #metaverse_game_main .metaverse_game_banner .banner_contsec {
+        padding-right: 0px;
+        margin-left: 0%;
+    }
+
+    #metaverse_game_main .metaverse_game_banner .title {
+        margin-top: 0px;
+    }
+
+    #metaverse_game_main .metaverse_game_banner .banner_btn_sec {
+        display: flex;
+        justify-content: center;
+    }
+
+    #metaverse_game_main .metaverse_game_sec {
+        padding-top: 0px;
+    }
+
+    #metaverse_game_main .metaverse_game_sec,
+    #metaverse_game_main .metaverse_game_clone,
+    #metaverse_game_main .metaverse_game_hire,
+    #metaverse_game_main .metaverse_game_hire .contents {
+        text-align: center;
+    }
+
+    #metaverse_game_main .metaverse_game_comp #metaverse_game_comp_card {
+        padding: 20px;
+    }
+
+    #metaverse_game_main .metaverse_game_benefits .benefits_box {
+        min-height: 370px;
+    }
+
+    #metaverse_game_main .metaverse_game_benefits .img_sec:before {
+        bottom: 1%;
+        left: 48%;
+    }
+
+    #metaverse_game_main .metaverse_game_process .bg_title,
+    #metaverse_game_main .metaverse_game_process .bg_title1 {
+        display: none;
+    }
+
+    #metaverse_game_main .metaverse_game_services {
+        padding: 50px 0px;
+    }
+
+    #metaverse_game_main .metaverse_game_whydo .why_do_box {
+        margin-top: -150px;
+    }
+
+    #metaverse_game_main .metaverse_game_hire .contents {
+        padding: 0px 20px;
+    }
+
+    #metaverse_game_main .metaverse_game_category .category_box {
+        background: unset;
+        box-shadow: unset;
+    }
+
+    #metaverse_game_main .metaverse_game_category .contents {
+        margin-bottom: 0px;
+    }
+
+    #metaverse_game_main .metaverse_game_ebook_sec {
+        padding: 50px 0px;
+    }
+
+    #metaverse_game_main .metaverse_game_ebook_sec .free_title_sec {
+        right: -3%;
+        top: -9%;
+    }
+
+    #metaverse_game_main .metaverse_game_ebook_sec .free_title_sec .free_img {
+        width: 60px;
+    }
+}
+
+/* @media(max-width: 430px) {
+    .What-is-metaverse-NFT-img {
+        display: none !important;
+    }
+} */
+
+@media (max-width:430px) {
+    #metaverse_game_main .metaverse_game_whatsec>.container>.what-is-metaverse-nft-container {
+        flex-direction: column-reverse !important;
+        gap: 30px;
+    }
+}
+
+@media(max-width: 767px) {
+    #metaverse_game_main .metaverse_game_banner {
+        display: flex;
+        align-items: center;
+        height: auto !important;
+        padding: 50px 0px;
+    }
+
+    /* .What-is-metaverse-NFT-img {
+        display: none !important;
+    } */
+
+    #metaverse_game_main .metaverse_game_sec .title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    #metaverse_game_main .metaverse_game_banner .title {
+        font-size: 25px !important;
+        line-height: 1.5;
+        letter-spacing: 0px;
+        margin-top: 10%;
+    }
+
+    #metaverse_game_main .metaverse_game_banner .cus_brn_title {
+        font-size: 35px !important;
+    }
+
+    #metaverse_game_main .metaverse_game_banner .banner_btn {
+        font-size: 14px !important;
+        padding: 8px 18px;
+    }
+
+    #metaverse_game_main .metaverse_game_whatsec .title,
+    #metaverse_game_main .metaverse_game_comp .title-14,
+    #metaverse_game_main .metaverse_game_benefits .title,
+    #metaverse_game_main .metaverse_game_unique .title,
+    #metaverse_game_main .metaverse_game_model .title,
+    #metaverse_game_main .metaverse_game_process .title,
+    #metaverse_game_main .metaverse_game_services .title,
+    #metaverse_game_main .metaverse_game_industry .title,
+    #metaverse_game_main .metaverse_game_clone .title,
+    #metaverse_game_main .metaverse_game_category .title,
+    #metaverse_game_main .metaverse_game_techstack .title,
+    #metaverse_game_main .metaverse_game_hire .title,
+    #metaverse_game_main .metaverse_game_whydo .title,
+    #metaverse_game_main .metaverse_game_ebook_sec .title-15 {
+        font-size: 25px !important;
+        line-height: 1.4 !important;
+        text-align: center;
+    }
+
+    #metaverse_game_main .metaverse_game_whatsec .met_game_what_about_btn,
+    #metaverse_game_main .metaverse_game_whatsec .met_game_what_about_btn1 {
+        font-size: 14px !important;
+        padding: 8px 18px;
+    }
+
+    #metaverse_game_main .metaverse_game_ebook_sec .ebook_btn {
+        font-size: 14px !important;
+    }
+
+    #metaverse_game_main .metaverse_game_benefits .benefits_box,
+    #metaverse_game_main .metaverse_game_services .service_box {
+        min-height: 0px;
+    }
+
+    #metaverse_game_main .metaverse_game_process .process_after:after {
+        left: 0%;
+    }
+
+    #metaverse_game_main .metaverse_game_process .process_list_after:after {
+        left: 0.2%;
+    }
+
+    #metaverse_game_main .metaverse_game_category .sub_title {
+        padding-left: 5px;
+    }
+
+    #metaverse_game_main .metaverse_game_techstack .techstack_list {
+        margin-top: 20px;
+    }
+
+    #metaverse_game_main .metaverse_game_ebook_sec #ebook_card {
+        text-align: center;
+        padding: 20px 10px;
+        margin: 0px 10px;
+    }
+
+    #metaverse_game_main .metaverse_game_ebook_sec .free_title_sec {
+        right: -3%;
+        top: -14%;
+    }
+
+    #metaverse_game_main .metaverse_game_ebook_sec .title-15-15 {
+        margin-top: 30px;
+    }
+
+    #metaverse_game_main .metaverse_game_sec .metaverse_game_btn_sec {
+        justify-content: center;
+    }
+
+    #metaverse_game_main .metaverse_game_sec .metaverse_game_btn {
+        font-size: 14px;
+        width: 170px;
+    }
+
+    #metaverse_game_main .metaverse_game_sec .metav_game_dev_img {
+        margin-top: 20px;
+    }
+
+    #metaverse_game_main .metaverse_game_whydo .sub_title {
+        font-size: 18px;
+    }
+
+    .met_advant {
+        padding-top: 0px !important;
+    }
+}
+
+@media(max-width: 576px) {
+    #metaverse_game_main .metaverse_game_process .process_after:after {
+        left: 4%;
+    }
+
+    #metaverse_game_main .metaverse_game_process .process_list_after:after {
+        left: 4.2%;
+    }
+
+    .met_advant {
+        padding-top: 0px !important;
+    }
+}
+
+@media(max-width: 467px) {
+    #metaverse_game_main .metaverse_game_ebook_sec .free_title_sec {
+        right: -10%;
+        top: -10%;
+    }
+
+    .met_advant {
+        padding-top: 0px !important;
+    }
+}

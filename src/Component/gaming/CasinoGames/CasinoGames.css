@@ -1,0 +1,1270 @@
+#casino_game_dev_main {
+    background: #000;
+}
+
+#casino_game_dev_main .casino_game_dev_banner {
+    background: url('/public/images/banner.webp');
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.casino-main-slider-div {
+    width: 400px;
+}
+
+.casino-main-box {
+    margin-left: 40px;
+    width: 480px;
+    margin: auto;
+}
+
+@media (max-width: 991px) {
+    #casino_game_dev_main .casino_game_dev_banner {
+        position: relative;
+        z-index: 1;
+        text-align: center;
+        background-position: 75% !important;
+        height: 650px;
+    }
+
+    #casino_game_dev_main .casino_game_dev_banner:after {
+        content: "";
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        background: #090909db;
+    }
+}
+
+#casino_game_dev_main .casino_game_dev_banner .title {
+    font-weight: 300;
+    font-size: 35px !important;
+    text-transform: capitalize;
+    line-height: 1.3;
+    color: #fff;
+    letter-spacing: 3px;
+}
+
+#casino_game_dev_main .casino_game_dev_banner .cus_title {
+    background: linear-gradient(91deg, #FEC750 2.91%, #FFF9B5 47.54%, #FF8D27 99.75%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 55px !important;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#casino_game_dev_main .casino_game_dev_banner .contents {
+    width: 444px;
+    font-size: 16px !important;
+    color: #FFFFFF;
+    line-height: 1.8;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+
+#casino_game_dev_main .casino_game_dev_banner .banner_btn_sec {
+    margin-top: 30px;
+}
+
+#casino_game_dev_main .casino_game_dev_banner .banner_btn {
+    clip-path: polygon(15% 0%, 85% 0%, 100% 50%, 85% 100%, 15% 100%, 0% 50%);
+    padding: 10px 30px;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 16px !important;
+    color: #000 !important;
+    background: linear-gradient(91deg, #FEC750 2.91%, #FFF9B5 47.54%, #FF8D27 99.75%);
+    border-radius: 0px;
+}
+
+#casino_game_dev_main .casino_game_dev_sec {
+    padding: 50px 0px;
+}
+
+@media (min-width: 991px) {
+    #casino_game_dev_main .casino_game_dev_sec .cus_container {
+        max-width: 1300px;
+    }
+
+    #casino_game_dev_main .casino_game_dev_sec #casino_game_card {
+        background: url('/public/images/casnio-game-sec.webp');
+
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 830px;
+        display: flex;
+        align-items: center;
+        mix-blend-mode: screen;
+    }
+}
+
+#casino_game_dev_main .casino_game_dev_sec #casino_game_card .casino_game_cardsec {
+    text-align: center;
+    padding: 30px;
+}
+
+#casino_game_dev_main .casino_game_dev_sec .title {
+    width: 566px;
+    font-size: 35px;
+    background: linear-gradient(91deg, #FEC750 2.91%, #FFF9B5 47.54%, #FF8D27 99.75%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    line-height: 1.4;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    font-family: "Urbanist", sans-serif;
+}
+
+#casino_game_dev_main .casino_game_dev_sec .contents {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 22px;
+}
+
+#casino_game_dev_main .casino_game_dev_sec .casino_game_dev_about_btn_sec {
+    margin-top: 30px;
+}
+
+#casino_game_dev_main .casino_game_dev_sec .casino_game_dev_about_btn {
+    text-transform: uppercase;
+    padding: 8px 30px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #000 !important;
+    background: #11FF37;
+    margin-right: 10px;
+    clip-path: polygon(15% 0%, 85% 0%, 100% 50%, 85% 100%, 15% 100%, 0% 50%);
+}
+
+#casino_game_dev_main .casino_game_dev_sec .casino_game_dev_about_btn1 {
+    text-transform: uppercase;
+    padding: 8px 30px;
+    font-weight: 600;
+    font-size: 15px;
+    background: #11E2FF;
+    color: #000 !important;
+    clip-path: polygon(15% 0%, 85% 0%, 100% 50%, 85% 100%, 15% 100%, 0% 50%);
+}
+
+#casino_game_dev_main .casino_game_dev_service {
+    padding: 50px 0px;
+}
+
+#casino_game_dev_main .casino_game_dev_service .title {
+    font-size: 35px;
+    background: linear-gradient(91deg, #FEC750 2.91%, #FFF9B5 47.54%, #FF8D27 99.75%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    line-height: 1.4;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    font-family: "Urbanist", sans-serif;
+}
+
+#casino_game_dev_main .casino_game_dev_service .contents {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+#casino_game_dev_main .casino_game_dev_service .service_box {
+    padding: 10px;
+    margin-top: 30px;
+}
+
+#casino_game_dev_main .casino_game_dev_service .sub_title {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+    padding-top: 5px;
+    background: linear-gradient(91deg, #FEC750 2.91%, #FFF9B5 47.54%, #FF8D27 99.75%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 1.4;
+}
+
+#casino_game_dev_main .casino_game_dev_service .sub_contents p {
+
+    text-align: justify;
+    /* width:150px !important; */
+}
+
+#casino_game_dev_main .casino_game_dev_service .sub_contents {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 300;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    line-height: 1.7;
+}
+
+#casino_game_dev_main .casino_game_dev_service .sprite_icons {
+    width: 110px;
+    height: 110px;
+    object-fit: none;
+}
+
+#casino_game_dev_main .casino_game_dev_cardsec {
+    padding: 50px 0px;
+}
+
+@media(min-width: 991px) {
+    #casino_game_dev_main .casino_game_dev_cardsec #casino_game_dev_card {
+        background: url('/public/images/casino_game_card.webp');
+
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 500px;
+        display: flex;
+        padding: 60px 200px;
+    }
+}
+
+#casino_game_dev_main .casino_game_dev_cardsec .casino_disc_sec {
+    transform: rotate(353deg);
+    margin-top: 10%;
+    text-align: center;
+}
+
+#casino_game_dev_main .casino_game_dev_cardsec .contents {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.8;
+    text-transform: capitalize;
+}
+
+#casino_game_dev_main .casino_game_dev_cardsec .cus_contents {
+    background: linear-gradient(91deg, #FEC750 2.91%, #FFF9B5 47.54%, #FF8D27 99.75%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 500;
+}
+
+#casino_game_dev_main .casino_game_dev_cardsec .casino_game_btn_sec {
+    margin-top: 30px;
+}
+
+#casino_game_dev_main .casino_game_dev_cardsec .casino_game_btn {
+    clip-path: polygon(15% 0%, 85% 0%, 100% 50%, 85% 100%, 15% 100%, 0% 50%);
+    padding: 10px 30px;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 16px !important;
+    color: #000 !important;
+    background: linear-gradient(91deg, #FEC750 2.91%, #FFF9B5 47.54%, #FF8D27 99.75%);
+    border-radius: 0px;
+}
+
+#casino_game_dev_main .casino_game_dev_varieties {
+    padding: 50px 0px;
+}
+
+#casino_game_dev_main .casino_game_dev_varieties .varieties_listsec {
+    border-radius: 0px 0px 25px 25px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(255, 255, 255, 0.05) 100%);
+    padding: 50px;
+}
+
+#casino_game_dev_main .casino_game_dev_varieties .title {
+    font-size: 35px;
+    background: linear-gradient(91deg, #FEC750 2.91%, #FFF9B5 47.54%, #FF8D27 99.75%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    line-height: 1.4;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    font-family: "Urbanist", sans-serif;
+    text-align: center;
+}
+
+#casino_game_dev_main .casino_game_dev_varieties .contents {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#casino_game_dev_main .casino_game_dev_varieties .varieties_list {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+#casino_game_dev_main .casino_game_dev_varieties .sub_title {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+    padding-left: 10px;
+    margin-bottom: 0px;
+}
+
+#casino_game_dev_main .casino_game_dev_varieties .casino_game_btn_sec {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#casino_game_dev_main .casino_game_dev_varieties .casino_game_btn {
+    clip-path: polygon(15% 0%, 85% 0%, 100% 50%, 85% 100%, 15% 100%, 0% 50%);
+    padding: 8px 30px;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 16px !important;
+    color: #000 !important;
+    background: linear-gradient(91deg, #FEC750 2.91%, #FFF9B5 47.54%, #FF8D27 99.75%);
+    border-radius: 0px;
+}
+
+#casino_game_dev_main .casino_game_dev_features {
+    padding: 50px 0px;
+}
+
+#casino_game_dev_main .casino_game_dev_features .title {
+    width: 400px;
+    font-size: 45px;
+    background: linear-gradient(91deg, #FEC750 2.91%, #FFF9B5 47.54%, #FF8D27 99.75%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    line-height: 1.4;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    font-family: "Urbanist", sans-serif;
+}
+
+#casino_game_dev_main .casino_game_dev_features .contents {
+    width: 250px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+@media(min-width: 991px) {
+    #casino_game_dev_main .casino_game_dev_features .feature_list_bg {
+        background: url('/public/images/features-img.webp');
+
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 730px;
+        padding: 150px 150px;
+    }
+}
+
+#casino_game_dev_main .casino_game_dev_features .casino-game-features {
+    margin-top: 20%;
+}
+
+#casino_game_dev_main .casino_game_dev_features .item {
+    margin: 0px 10px;
+    /* width: 200px !important; */
+}
+
+#casino_game_dev_main .casino_game_dev_features .feature_box {
+    width: 450px;
+    padding: 30px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    margin-left: 50px;
+}
+
+#casino_game_dev_main .casino_game_dev_features .sub_title {
+    background: linear-gradient(91deg, #FEC750 2.91%, #FFF9B5 47.54%, #FF8D27 99.75%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 0px;
+    font-family: "Urbanist", sans-serif;
+}
+
+#casino_game_dev_main .casino_game_dev_features .sub_contents {
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    line-height: 1.8;
+}
+
+#casino_game_dev_main .casino_game_dev_features .slick-prev,
+#casino_game_dev_main .casino_game_dev_features .slick-next {
+    top: 83% !important;
+    transform: unset;
+    font-size: 0px;
+}
+
+#casino_game_dev_main .casino_game_dev_features .slick-prev {
+    left: 38%;
+}
+
+#casino_game_dev_main .casino_game_dev_features .slick-prev {
+    /* background: url('./asset/inner-pages-new/casino-game-development/arrow.svg'); */
+    width: 40px;
+    height: 30px;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+#casino_game_dev_main .casino_game_dev_features .slick-next {
+    /* background: url('./asset/inner-pages-new/casino-game-development/arrow.svg'); */
+    width: 40px;
+    height: 30px;
+    background-repeat: no-repeat;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    z-index: 1;
+}
+
+#casino_game_dev_main .casino_game_dev_features .slick-next {
+    right: 38%;
+}
+
+#casino_game_dev_main .casino_game_dev_features .slick-prev:before,
+#casino_game_dev_main .casino_game_dev_features .slick-next:before {
+    opacity: 0;
+    display: none;
+}
+
+#casino_game_dev_main .casino_game_dev_benefits {
+    padding: 50px 0px;
+}
+
+#casino_game_dev_main .casino_game_dev_benefits .title {
+    font-size: 35px;
+    background: linear-gradient(91deg, #FEC750 2.91%, #FFF9B5 47.54%, #FF8D27 99.75%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    line-height: 1.4;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    font-family: "Urbanist", sans-serif;
+    text-align: center;
+}
+
+#casino_game_dev_main .casino_game_dev_benefits .contents {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+#casino_game_dev_main .casino_game_dev_benefits .benefits_list {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+#casino_game_dev_main .casino_game_dev_benefits .sub_title {
+    background: linear-gradient(91deg, #FEC750 2.91%, #FFF9B5 47.54%, #FF8D27 99.75%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-family: "Urbanist", sans-serif;
+}
+
+#casino_game_dev_main .casino_game_dev_benefits .sub_contents {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+    padding-left: 10px;
+    margin-bottom: 0px;
+}
+
+#casino_game_dev_main .casino_game_dev_benefits .benefits_img {
+    -webkit-animation: change_bg 2s infinite;
+    animation: change_bg 2s linear infinite alternate;
+}
+
+@-webkit-keyframes change_bg {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+
+    50% {
+        filter: hue-rotate(360deg);
+    }
+}
+
+@keyframes change_bg {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+
+    50% {
+        filter: hue-rotate(360deg);
+    }
+}
+
+#casino_game_dev_main .casino_game_dev_techsec {
+    padding: 50px 0px;
+}
+
+@media(min-width: 991px) {
+    #casino_game_dev_main .casino_game_dev_techsec #casino_game_dev_techcard {
+        background: url('/public/images/banner.webp');
+
+
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 400px;
+        display: flex;
+        align-items: center;
+        padding: 30px;
+    }
+}
+
+#casino_game_dev_main .casino_game_dev_techsec .casino_disc_sec {
+    text-align: center;
+}
+
+#casino_game_dev_main .casino_game_dev_techsec .contents {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.8;
+    text-transform: capitalize;
+}
+
+#casino_game_dev_main .casino_game_dev_techsec .cus_contents {
+    background: linear-gradient(91deg, #FEC750 2.91%, #FFF9B5 47.54%, #FF8D27 99.75%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 500;
+}
+
+#casino_game_dev_main .casino_game_dev_techsec .casino_game_dev_about_btn_sec {
+    margin-top: 30px;
+}
+
+#casino_game_dev_main .casino_game_dev_techsec .casino_game_dev_about_btn {
+    text-transform: uppercase;
+    padding: 8px 30px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #000 !important;
+    background: #11FF37;
+    margin-right: 10px;
+    clip-path: polygon(15% 0%, 85% 0%, 100% 50%, 85% 100%, 15% 100%, 0% 50%);
+}
+
+#casino_game_dev_main .casino_game_dev_techsec .casino_game_dev_about_btn1 {
+    text-transform: uppercase;
+    padding: 8px 30px;
+    font-weight: 600;
+    font-size: 15px;
+    background: #11E2FF;
+    color: #000 !important;
+    clip-path: polygon(15% 0%, 85% 0%, 100% 50%, 85% 100%, 15% 100%, 0% 50%);
+}
+
+#casino_game_dev_main .casino_game_dev_process {
+    padding: 50px 0px;
+}
+
+#casino_game_dev_main .casino_game_dev_process .title {
+    font-size: 35px;
+    background: linear-gradient(91deg, #FEC750 2.91%, #FFF9B5 47.54%, #FF8D27 99.75%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    line-height: 1.4;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    font-family: "Urbanist", sans-serif;
+    text-align: center;
+}
+
+#casino_game_dev_main .casino_game_dev_process .contents {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+@media(min-width: 991px) {
+    #casino_game_dev_main .casino_game_dev_process .cus_container {
+        max-width: 1400px;
+    }
+
+    @media (max-width: 1400px) {
+        #casino_game_dev_main .casino_game_dev_process .process-tab-width {
+            max-width: 53rem !important;
+        }
+    }
+
+    #casino_game_dev_main .casino_game_dev_process .process-tab-width {
+        max-width: 56rem;
+        margin: 0 auto;
+        position: relative;
+        padding-bottom: 100px;
+    }
+
+    #casino_game_dev_main .casino_game_dev_process .process-tab-width .process_tab {
+        border-bottom: none;
+    }
+
+    #casino_game_dev_main .casino_game_dev_process .process-tab-width .process_tab .nav-link .sprite_icons {
+        width: 61px;
+        height: 60px;
+        transition: .3s;
+        object-fit: none;
+        filter: brightness(0.3);
+    }
+
+    #casino_game_dev_main .casino_game_dev_process .process-tab-width .process_tab .nav-item .nav-link.active .sub_title {
+        background: linear-gradient(91deg, #FEC750 2.91%, #FFF9B5 47.54%, #FF8D27 99.75%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: 600;
+    }
+
+    #casino_game_dev_main .casino_game_dev_process .process-tab-width .process_tab .nav-item.show .nav-link,
+    #casino_game_dev_main .casino_game_dev_process .process-tab-width .process_tab .nav-link.active,
+    #casino_game_dev_main .casino_game_dev_process .process-tab-width .process_tab .nav-link:hover {
+        background: transparent;
+        border: 1px solid transparent;
+    }
+
+    #casino_game_dev_main .casino_game_dev_process .process-tab-width .process_tab .nav-link.active .sprite_icons {
+        filter: brightness(1);
+    }
+
+    #casino_game_dev_main .casino_game_dev_process .process-tab-width .process_tab .nav-item .nav-link:hover .sub_title {
+        background: linear-gradient(91deg, #FEC750 2.91%, #FFF9B5 47.54%, #FF8D27 99.75%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: 600;
+    }
+
+    #casino_game_dev_main .casino_game_dev_process .process-tab-width .process_tab .nav-link {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+    }
+
+    #casino_game_dev_main .casino_game_dev_process .process-tab-width .process_tab .nav-link .sub_title {
+        max-width: 10rem;
+        min-width: 10rem;
+        margin-bottom: 0;
+        text-align: right;
+        margin-right: 15px;
+        font-size: 18px;
+        line-height: 1.4;
+        color: #fff;
+        text-transform: capitalize;
+    }
+
+    #casino_game_dev_main .casino_game_dev_process .process-tab-width .border-container {
+        min-height: 30.1875rem;
+        position: relative;
+    }
+
+    #casino_game_dev_main .casino_game_dev_process .process-tab-width .border-container:before {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        z-index: 0;
+        display: none;
+        width: 100%;
+        border-radius: 9999px;
+        content: "";
+        height: 200%;
+        border: 4px dotted #fff2a759;
+    }
+
+    @media(min-width: 768px) {
+        #casino_game_dev_main .casino_game_dev_process .process-tab-width .border-container:before {
+            display: block;
+        }
+    }
+
+    #casino_game_dev_main .casino_game_dev_process .process-tab-width .nav-item {
+        position: absolute;
+    }
+
+    #casino_game_dev_main .casino_game_dev_process .process-tab-width .nav-item:first-child {
+        left: -23%;
+        top: 0;
+    }
+
+    #casino_game_dev_main .casino_game_dev_process .process-tab-width .nav-item:nth-child(2) {
+        left: -18%;
+        top: 40%;
+    }
+
+    #casino_game_dev_main .casino_game_dev_process .process-tab-width .nav-item:nth-child(3) {
+        left: 0%;
+        top: 78%;
+    }
+
+    #casino_game_dev_main .casino_game_dev_process .process-tab-width .nav-item:nth-child(4) {
+        right: 35%;
+        top: 93%;
+    }
+
+    #casino_game_dev_main .casino_game_dev_process .process-tab-width .nav-item:nth-child(4) .nav-link {
+        display: initial !important;
+    }
+
+    #casino_game_dev_main .casino_game_dev_process .process-tab-width .nav-item:nth-child(4) .sub_title {
+        text-align: left;
+        margin-top: 10px;
+        margin-right: 0px;
+        margin-left: -15px;
+    }
+
+    #casino_game_dev_main .casino_game_dev_process .process-tab-width .nav-item:nth-child(5) {
+        right: -2%;
+        top: 78%;
+    }
+
+    #casino_game_dev_main .casino_game_dev_process .process-tab-width .nav-item:nth-child(5) .sub_title {
+        text-align: left;
+        order: 1;
+        margin-left: 10px;
+    }
+
+    #casino_game_dev_main .casino_game_dev_process .process-tab-width .nav-item:nth-child(6) {
+        right: -18%;
+        top: 40%;
+    }
+
+    #casino_game_dev_main .casino_game_dev_process .process-tab-width .nav-item:nth-child(6) .sub_title {
+        text-align: left;
+        order: 1;
+        margin-left: 10px;
+        margin-right: 0;
+    }
+
+    #casino_game_dev_main .casino_game_dev_process .process-tab-width .nav-item:nth-child(7) {
+        right: -24%;
+        top: 0;
+    }
+
+    #casino_game_dev_main .casino_game_dev_process .process-tab-width .nav-item:nth-child(7) .sub_title {
+        text-align: left;
+        order: 1;
+        margin-left: 10px;
+    }
+
+    #casino_game_dev_main .casino_game_dev_process .process-tab-width .process-content-tab {
+        max-width: 500px;
+        margin: 80px auto;
+        padding: 30px;
+        border-radius: 5px;
+        text-align: center;
+    }
+
+    #casino_game_dev_main .casino_game_dev_process .process-tab-width .process-content-tab .title_process {
+        font-size: 25px;
+        font-weight: 700;
+        margin-bottom: 15px;
+        text-transform: capitalize;
+        font-family: "Urbanist", sans-serif;
+        background: linear-gradient(91deg, #FEC750 2.91%, #FFF9B5 47.54%, #FF8D27 99.75%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    #casino_game_dev_main .casino_game_dev_process .process-tab-width .process-content-tab .sub_title {
+        font-weight: 500;
+    }
+
+    #casino_game_dev_main .casino_game_dev_process .process-tab-width .process-content-tab .sub_contents {
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 1.7;
+        margin-bottom: 0px;
+    }
+
+    #casino_game_dev_main .casino_game_dev_process .process-tab-width .process-content-tab .num_sec {
+        color: rgba(255, 255, 255, 0.08);
+        font-family: Urbanist;
+        font-size: 100px;
+        font-style: italic;
+        font-weight: 700;
+    }
+}
+
+#casino_game_dev_main .casino_game_dev_techstack {
+    padding: 50px 0px;
+}
+
+#casino_game_dev_main .casino_game_dev_techstack .title {
+    font-size: 35px;
+    background: linear-gradient(91deg, #FEC750 2.91%, #FFF9B5 47.54%, #FF8D27 99.75%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    line-height: 1.4;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    font-family: "Urbanist", sans-serif;
+    text-align: center;
+}
+
+#casino_game_dev_main .casino_game_dev_techstack .techstack_box {
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#casino_game_dev_main .casino_game_dev_techstack .sub_title {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding-top: 10px;
+    margin-bottom: 0px;
+    font-family: "Urbanist", sans-serif;
+}
+
+#casino_game_dev_main .casino_game_dev_techstack .sprite_icons {
+    width: 100px;
+    height: 100px;
+    object-fit: none;
+}
+
+#casino_game_dev_main .casino_game_dev_whychoose {
+    padding: 50px 0px;
+}
+
+#casino_game_dev_main .casino_game_dev_whychoose .title {
+    font-size: 35px;
+    background: linear-gradient(91deg, #FEC750 2.91%, #FFF9B5 47.54%, #FF8D27 99.75%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    line-height: 1.4;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    font-family: "Urbanist", sans-serif;
+    text-align: center;
+}
+
+#casino_game_dev_main .casino_game_dev_whychoose .contents {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: center;
+}
+
+#casino_game_dev_main .casino_game_dev_whychoose .cus_col {
+    position: relative;
+}
+
+#casino_game_dev_main .casino_game_dev_whychoose .cus_col:after {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #F3C954 49.24%, rgba(0, 0, 0, 0.00) 100%);
+    position: absolute;
+    content: '';
+    width: 3px;
+    height: 55%;
+    top: 35%;
+    right: 0%;
+}
+
+#casino_game_dev_main .casino_game_dev_whychoose .why_box {
+    padding: 10px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+#casino_game_dev_main .casino_game_dev_whychoose .sub_title {
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 1.7;
+    padding-left: 10px;
+    margin-bottom: 0px;
+    font-family: "Urbanist", sans-serif;
+}
+
+#casino_game_dev_main .casino_game_dev_whychoose .sprite_icons {
+    width: 50px;
+    height: 50px;
+    object-fit: none;
+}
+
+#casino_game_dev_main .casino_game_dev_whychoose .cus_title {
+    font-size: 23px;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding-top: 30px;
+    margin-bottom: 0px;
+    font-family: "Urbanist", sans-serif;
+    text-align: center;
+}
+
+#casino_game_dev_main .casino_game_dev_whychoose .casino_game_btn_sec {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#casino_game_dev_main .casino_game_dev_whychoose .casino_game_btn {
+    clip-path: polygon(15% 0%, 85% 0%, 100% 50%, 85% 100%, 15% 100%, 0% 50%);
+    padding: 10px 30px;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 16px !important;
+    color: #000 !important;
+    background: linear-gradient(91deg, #FEC750 2.91%, #FFF9B5 47.54%, #FF8D27 99.75%);
+    border-radius: 0px;
+}
+
+@media(max-width: 991px) {
+    #casino_game_dev_main .casino_game_dev_banner {
+        display: flex;
+        align-items: center;
+        padding: 50px 0px;
+        text-align: center;
+        margin-top: 0%;
+    }
+
+    #casino_game_dev_main .casino_game_dev_banner .banner_sec {
+        margin-top: 0px;
+    }
+
+    #casino_game_dev_main .casino_game_dev_sec #casino_game_card .casino_game_cardsec {
+        padding: 0px;
+    }
+
+    #casino_game_dev_main .casino_game_dev_cardsec #casino_game_dev_card,
+    #casino_game_dev_main .casino_game_dev_techsec #casino_game_dev_techcard {
+        padding: 40px 20px;
+        border: 5px solid #fecb58;
+        border-radius: 20px;
+    }
+
+    #casino_game_dev_main .casino_game_dev_cardsec .casino_disc_sec {
+        transform: unset;
+        margin-top: 0%;
+    }
+
+    #casino_game_dev_main .casino_game_dev_sec,
+    #casino_game_dev_main .casino_game_dev_features .title,
+    #casino_game_dev_main .casino_game_dev_features .contents {
+        text-align: center;
+    }
+
+    #casino_game_dev_main .casino_game_dev_sec img {
+        margin-top: 40px;
+    }
+
+    #casino_game_dev_main .casino_game_dev_features .casino-game-features {
+        margin-top: 0%;
+    }
+
+    #casino_game_dev_main .casino_game_dev_features .feature_box {
+        text-align: center;
+        background: #0a0a0a;
+        border-radius: 5px;
+    }
+
+    #casino_game_dev_main .casino_game_dev_whychoose .cus_col:after {
+        display: none;
+    }
+
+    #casino_game_dev_main .casino_game_dev_process .process_box {
+        padding: 20px 15px;
+        text-align: center;
+        transition: .5s;
+        position: relative;
+        margin-top: 50px;
+        z-index: 1;
+        border-radius: 5px;
+        background: #0a0a0a;
+        padding-bottom: 45px !important;
+    }
+
+    #casino_game_dev_main .casino_game_dev_process .process_box:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 2px 48px 0 rgba(0, 0, 0, .08);
+    }
+
+    #casino_game_dev_main .casino_game_dev_process .sub_title {
+        background: linear-gradient(91deg, #FEC750 2.91%, #FFF9B5 47.54%, #FF8D27 99.75%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 20px;
+        font-weight: 700;
+        text-transform: capitalize;
+        margin-bottom: 0px;
+        font-family: "Urbanist", sans-serif;
+    }
+
+    #casino_game_dev_main .casino_game_dev_process .sub_contents {
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 1.7;
+        margin-bottom: 0px;
+        padding-top: 10px;
+    }
+
+    #casino_game_dev_main .casino_game_dev_process .num_sec {
+        font-family: Urbanist;
+        font-size: 60px;
+        font-style: italic;
+        font-weight: 800;
+        background: linear-gradient(91deg, #FEC750 2.91%, #FFF9B5 47.54%, #FF8D27 99.75%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    #casino_game_dev_main .casino_game_dev_process .sprite_icons {
+        width: 61px;
+        height: 60px;
+        transition: .5s;
+        object-fit: none;
+        margin-top: -15%;
+    }
+
+    #casino_game_dev_main .casino_game_dev_process .process_box:hover:after,
+    #casino_game_dev_main .casino_game_dev_process .process_box:hover:before {
+        opacity: 1;
+        visibility: visible;
+        width: 50%;
+    }
+
+    #casino_game_dev_main .casino_game_dev_process .process_box:hover .sprite_icons {
+        transform: rotateY(-1turn);
+    }
+
+    #casino_game_dev_main .casino_game_dev_process .process_box:after,
+    #casino_game_dev_main .casino_game_dev_process .process_box:before {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 4px;
+        background: #ffd367;
+        opacity: 0;
+        visibility: hidden;
+        bottom: 0;
+        transition: .5s;
+        top: auto;
+        z-index: auto;
+    }
+
+    #casino_game_dev_main .casino_game_dev_process .process_box:before {
+        left: 0
+    }
+
+    #casino_game_dev_main .casino_game_dev_process .process_box:after {
+        right: 0
+    }
+}
+
+@media(max-width: 767px) {
+    #casino_game_dev_main .casino_game_dev_banner {
+        display: flex;
+        align-items: center;
+        height: 550px;
+        padding: 50px 0px;
+    }
+
+    #casino_game_dev_main .casino_game_dev_banner .title {
+        font-size: 25px !important;
+        margin-top: 30px;
+        line-height: 1.5;
+    }
+
+    #casino_game_dev_main .casino_game_dev_banner .cus_title {
+        font-size: 32px !important;
+    }
+
+    #casino_game_dev_main .casino_game_dev_banner .banner_btn,
+    #casino_game_dev_main .casino_game_dev_cardsec .casino_game_btn,
+    #casino_game_dev_main .casino_game_dev_varieties .casino_game_btn,
+    #casino_game_dev_main .casino_game_dev_whychoose .casino_game_btn {
+        font-size: 14px !important;
+        padding: 8px 25px;
+        margin: 0 auto;
+    }
+
+    #casino_game_dev_main .casino_game_dev_sec .title,
+    #casino_game_dev_main .casino_game_dev_service .title,
+    #casino_game_dev_main .casino_game_dev_varieties .title,
+    #casino_game_dev_main .casino_game_dev_features .title,
+    #casino_game_dev_main .casino_game_dev_benefits .title,
+    #casino_game_dev_main .casino_game_dev_techstack .title,
+    #casino_game_dev_main .casino_game_dev_whychoose .title,
+    #casino_game_dev_main .casino_game_dev_process .title {
+        font-size: 25px !important;
+        line-height: 1.5 !important;
+        text-align: center;
+    }
+
+    #casino_game_dev_main .casino_game_dev_sec .casino_game_dev_about_btn,
+    #casino_game_dev_main .casino_game_dev_sec .casino_game_dev_about_btn1 {
+        font-size: 14px !important;
+        padding: 8px 25px;
+    }
+
+    #casino_game_dev_main .casino_game_dev_techsec .casino_game_dev_about_btn,
+    #casino_game_dev_main .casino_game_dev_techsec .casino_game_dev_about_btn1 {
+        font-size: 14px !important;
+        padding: 6px 15px;
+    }
+
+    #casino_game_dev_main .casino_game_dev_cardsec #casino_game_dev_card,
+    #casino_game_dev_main .casino_game_dev_techsec #casino_game_dev_techcard {
+        padding: 25px 5px;
+        margin: 0px 10px;
+    }
+
+    #casino_game_dev_main .casino_game_dev_varieties .varieties_listsec {
+        padding: 20px;
+    }
+
+    #casino_game_dev_main .casino_game_dev_features .slick-prev {
+        left: 36%;
+    }
+
+    #casino_game_dev_main .casino_game_dev_features .slick-next {
+        right: 36%;
+    }
+}
+
+
+/* .item-2{
+    width: 100px;
+} */
+
+
+.color-btn-inner {
+    /* position: absolute;
+        top: 50%;
+        left: 50%; */
+    /* transform: translate(-50%, -50%); */
+    /* width: 200px;
+        height: 60px; */
+    width: fit-content;
+    height: 50px;
+    padding: 0 20px;
+    text-align: center;
+    /* line-height: 60px; */
+    color: #fff;
+    font-size: 16px;
+    /* text-transform: uppercase; */
+    text-decoration: none;
+    /* font-family: sans-serif; */
+    /* box-sizing: border-box; */
+    background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+    background-size: 400%;
+    border-radius: 10px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.color-btn-inner:hover {
+    animation: animate 8s linear infinite;
+    color: white;
+}
+
+@media(min-width: 607px) {
+    .color-btn-inner {
+        /* position: absolute;
+            top: 50%;
+            left: 50%; */
+        /* transform: translate(-50%, -50%); */
+        /* width: 200px;
+            height: 60px; */
+        margin-left: 70px;
+        width: fit-content;
+        height: 50px;
+        padding: 0 20px;
+        text-align: center;
+        /* line-height: 60px; */
+        color: #fff;
+        font-size: 16px;
+        /* text-transform: uppercase; */
+        text-decoration: none;
+        /* font-family: sans-serif; */
+        /* box-sizing: border-box; */
+        background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+        background-size: 400%;
+        border-radius: 10px;
+        z-index: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .color-btn-inner:hover {
+        animation: animate 8s linear infinite;
+        color: white;
+
+
+    }
+}
+
+
+.platform_box-inner {
+    border: 1px solid #00FFFF;
+    padding: 15px;
+    text-align: center;
+    /* margin-bottom: 50px; */
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    /* height: 295px; */
+    height: auto;
+}
+
+.platform_box-inner:hover {
+    background: #000000;
+    box-shadow: 0px 0px 9px #00FFFF;
+    border-radius: 5px;
+}
+
+.ondemand-head {
+    color: #BF6DBF;
+}
+
+@media (max-width:600px) {
+    .rummy-games-button {}
+}

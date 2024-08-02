@@ -1,0 +1,920 @@
+.generative_ai_dev_banner {
+    /* background: url('./asset/inner-pages-new/generative-ai-development-company/banner.webp'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top right;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+}
+
+@media (max-width: 991px) {
+    .generative_ai_dev_banner {
+        position: relative;
+        z-index: 1;
+        text-align: center;
+        background-position: 18% !important;
+    }
+
+    .generative_ai_dev_banner:after {
+        content: "";
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        background: #090909cf;
+    }
+}
+
+.generative_ai_dev_banner .banner_sec {
+    margin-top: -18%;
+}
+
+.generative_ai_dev_banner .title {
+    font-weight: 200;
+    font-size: 40px !important;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+    color: #fff;
+    letter-spacing: 6px;
+}
+
+.generative_ai_dev_banner .bnr_bld_title {
+    font-weight: 800;
+    letter-spacing: 3px;
+    font-size: 60px !important;
+}
+
+.generative_ai_dev_banner .bnr_clr_title {
+    font-size: 120px;
+    font-weight: 900;
+    color: #FF2DAC;
+    -webkit-animation: change_bg 3s infinite;
+    animation: change_bg 3s linear infinite alternate;
+    letter-spacing: 2px;
+    line-height: 1;
+}
+
+.generative_ai_dev_banner .contents {
+    font-size: 16px !important;
+    line-height: 1.9;
+    margin-bottom: 10px;
+    font-weight: 300;
+    padding-top: 10px;
+}
+
+.generative_ai_dev_banner .banner_btn_sec {
+    margin-top: 30px;
+}
+
+.generative_ai_dev_banner .banner_btn {
+    position: relative;
+    width: calc(100% - 22.75rem);
+    border-radius: 6px;
+    color: #fff;
+    display: block;
+    z-index: 2;
+    overflow: hidden;
+    padding: 3px;
+    text-transform: capitalize;
+}
+
+.generative_ai_dev_banner .banner_btn:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 100%;
+    background: linear-gradient(115deg, #4fcf70, #fad648, #a767e5, #12bcfe, #44ce7b);
+    background-size: 50% 100%;
+    animation: gradient_color_border .75s linear infinite;
+}
+
+.generative_ai_dev_banner .banner_btn span {
+    position: relative;
+    z-index: 2;
+    padding: 10px 10px;
+    font-size: 16px;
+    align-items: center;
+    background: #000;
+    border-radius: 3px;
+    display: block;
+    justify-content: center;
+}
+
+@keyframes gradient_color_border {
+    to {
+        transform: translateX(-50%)
+    }
+}
+
+@-webkit-keyframes change_bg {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+
+    50% {
+        filter: hue-rotate(360deg);
+    }
+}
+
+@keyframes change_bg {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+
+    50% {
+        filter: hue-rotate(360deg);
+    }
+}
+
+.generative_ai_dev_sec {
+    padding: 50px 0px;
+}
+
+@media(min-width: 991px) {
+    .generative_ai_dev_sec #generative_ai_dev_card {
+        /* background: url('./asset/inner-pages-new/generative-ai-development-company/generative-ai-dev-sec.webp'); */
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        min-height: 513px;
+        align-items: center;
+        background-size: contain;
+        overflow: unset;
+    }
+}
+
+.generative_ai_dev_sec .title {
+    font-size: 35px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 1.6;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+}
+
+.generative_ai_dev_sec .contents {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.8;
+}
+
+.generative_ai_dev_sec .metaverse_ecosystem_about_btn_sec {
+    margin-top: 30px;
+    display: flex;
+}
+
+.generative_ai_dev_sec .metaverse_ecosystem_about_btn {
+    text-transform: uppercase;
+    padding: 10px 30px;
+    font-weight: 500;
+    font-size: 15px;
+    color: #fff !important;
+    border-radius: 11px;
+    border: 1px solid #52FF00;
+    background: rgba(82, 255, 0, 0.15);
+    margin-right: 10px;
+}
+
+.generative_ai_dev_sec .metaverse_ecosystem_about_btn.mobile {
+    display: none;
+}
+
+.generative_ai_dev_sec .metaverse_ecosystem_about_btn1 {
+    text-transform: uppercase;
+    padding: 10px 30px;
+    font-weight: 500;
+    font-size: 15px;
+    border-radius: 11px;
+    border: 1px solid #00F0FF;
+    background: rgba(0, 240, 255, 0.15);
+    color: #fff !important;
+}
+
+.generative_ai_dev_services {
+    background: url(../../../public/images/generative-ai-services.webp);
+    padding: 60px 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+@media (max-width: 991px) {
+    .generative_ai_dev_services {
+        position: relative;
+        z-index: 1;
+        background-position: 78% !important;
+    }
+
+    .generative_ai_dev_services:after {
+        content: "";
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        background: #090909e0;
+    }
+}
+
+@media(min-width: 991px) {
+    .generative_ai_dev_services .container {
+        max-width: 1350px;
+    }
+}
+
+.generative_ai_dev_services .title {
+    font-size: 35px !important;
+    color: #fff !important;
+    font-weight: 700 !important;
+    line-height: 1.6 !important;
+    text-transform: capitalize !important;
+    font-family: "Urbanist", sans-serif !important;
+    text-align: left;
+}
+
+.generative_ai_dev_services .contents {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.8;
+}
+
+.generative_ai_dev_services .contents_sec {
+    height: 700px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    margin-top: 20px;
+}
+
+/** Scrollbar Styles START **/
+
+.generative_ai_dev_services .contents_sec {
+    scrollbar-width: thin;
+    scrollbar-color: #00F0FF transparent;
+    overflow-y: auto;
+}
+
+.generative_ai_dev_services .contents_sec::-webkit-scrollbar {
+    width: 10px;
+    height: 4px;
+    border-radius: 6px;
+}
+
+.generative_ai_dev_services .contents_sec::-webkit-scrollbar-track {
+    border-radius: 6px;
+    border: 1px solid #FFF;
+    background: transparent;
+}
+
+.generative_ai_dev_services .contents_sec::-webkit-scrollbar-thumb {
+    border-radius: 30px;
+    background: linear-gradient(180deg, #FF2DAC 0%, #E49B0D 100%);
+    height: 500px;
+}
+
+@-moz-document url-prefix() {
+    .generative_ai_dev_services .contents_sec {
+        scrollbar-width: thin;
+        scrollbar-color: #00F0FF transparent;
+        overflow-y: auto;
+    }
+
+    .generative_ai_dev_services .contents_sec::scrollbar {
+        width: 10px;
+        height: 4px;
+        border-radius: 6px;
+    }
+
+    .generative_ai_dev_services .contents_sec::-webkit-scrollbar-track {
+        border-radius: 6px;
+        border: 1px solid #FFF;
+        background: transparent;
+    }
+
+    .generative_ai_dev_services .contents_sec::-webkit-scrollbar-thumb {
+        border-radius: 30px;
+        background: linear-gradient(180deg, #FF2DAC 0%, #E49B0D 100%);
+        height: 500px;
+    }
+}
+
+/** Scrollbar Styles END **/
+
+.generative_ai_dev_services .service_box {
+    padding: 15px;
+}
+
+.generative_ai_dev_services .head_sec {
+    display: flex;
+    align-items: center;
+}
+
+.generative_ai_dev_services .sub_title {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+    padding-left: 15px;
+}
+
+.generative_ai_dev_services .sub_contents {
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    line-height: 1.8;
+}
+
+.generative_ai_dev_services .sprite_icons {
+    width: 80px;
+    height: 80px;
+    object-fit: none;
+}
+
+.generative_ai_dev_techstack {
+    padding-top: 120px;
+    padding-bottom: 50px;
+    overflow: unset;
+}
+
+.generative_ai_dev_techstack .title {
+    font-size: 35px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 1.6;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+}
+
+.generative_ai_dev_techstack .img_sec .techstack_img {
+    position: relative;
+    z-index: 1;
+}
+
+.generative_ai_dev_techstack .round_gif {
+    position: absolute;
+    top: -9%;
+    left: -2%;
+    z-index: 0;
+}
+
+.generative_ai_dev_techstack .generative-ai-techstack {
+    margin-top: 30px;
+}
+
+.generative_ai_dev_techstack .usecase_box {
+    border-radius: 10px;
+    background: #000;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.generative_ai_dev_techstack .sub_title {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+}
+
+.generative_ai_dev_techstack .slick-prev {
+    left: 80%;
+    top: 1% !important;
+    z-index: 1;
+}
+
+.generative_ai_dev_techstack .slick-next {
+    top: 1% !important;
+    right: 5%;
+}
+
+.generative_ai_dev_techstack .slick-prev:before,
+.generative_ai_dev_techstack .slick-next:before {
+    /* background: url('./asset/inner-pages-new/generative-ai-development-company/arrow.svg'); */
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    background-repeat: no-repeat;
+    outline: none;
+    content: '';
+}
+
+.generative_ai_dev_techstack .slick-next:before {
+    transform: rotate(180deg);
+}
+
+.generative_ai_dev_techstack .gen_ai_btn_sec {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.generative_ai_dev_techstack .gen_ai_btn {
+    position: relative;
+    width: calc(100% - 26.75rem);
+    border-radius: 6px;
+    color: #fff;
+    display: block;
+    z-index: 2;
+    overflow: hidden;
+    padding: 3px;
+    text-transform: capitalize;
+}
+
+.generative_ai_dev_techstack .gen_ai_btn:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 100%;
+    background: linear-gradient(115deg, #4fcf70, #fad648, #a767e5, #12bcfe, #44ce7b);
+    background-size: 50% 100%;
+    animation: gradient_color_border .75s linear infinite;
+}
+
+.generative_ai_dev_techstack .gen_ai_btn span {
+    position: relative;
+    z-index: 2;
+    padding: 10px 10px;
+    font-size: 16px;
+    align-items: center;
+    background: #000;
+    border-radius: 3px;
+    display: block;
+    justify-content: center;
+}
+
+@media (min-width: 991px) {
+    .generative_ai_dev_benefits {
+        /* background: url('./asset/inner-pages-new/generative-ai-development-company/benefits-bg.webp'); */
+        padding: 60px 0px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top;
+        display: flex;
+        align-items: center;
+    }
+}
+
+.generative_ai_dev_benefits .title {
+    font-size: 35px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 1.6;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+}
+
+.generative_ai_dev_benefits .benefits_box {
+    padding: 10px;
+}
+
+.generative_ai_dev_benefits .head_sec {
+    display: flex;
+    align-items: center;
+}
+
+.generative_ai_dev_benefits .sub_title {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+    padding-left: 15px;
+}
+
+.generative_ai_dev_benefits .sub_contents {
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    line-height: 1.8;
+}
+
+.generative_ai_dev_benefits .sprite_icons {
+    width: 70px;
+    height: 70px;
+    object-fit: none;
+}
+
+.generative_ai_approaches {
+    padding: 50px 0px;
+}
+
+@media (min-width: 1320px) {
+    .generative_ai_approaches .container {
+        max-width: 1280px;
+    }
+}
+
+.generative_ai_approaches .title {
+    font-size: 35px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 1.6;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.generative_ai_approaches .staggered-grid-wrapper {
+    height: 600px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: relative;
+}
+
+/** Scrollbar Styles START **/
+
+.generative_ai_approaches .staggered-grid-wrapper {
+    scrollbar-width: thin;
+    scrollbar-color: #00F0FF transparent;
+    overflow-y: auto;
+}
+
+.generative_ai_approaches .staggered-grid-wrapper::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+    border-radius: 6px;
+}
+
+.generative_ai_approaches .staggered-grid-wrapper::-webkit-scrollbar-track {
+    background: #fff;
+    border-radius: 30px;
+}
+
+.generative_ai_approaches .staggered-grid-wrapper::-webkit-scrollbar-thumb {
+    border-radius: 30px;
+    background: linear-gradient(180deg, #FF2DAC 0%, #E49B0D 100%);
+    height: 500px;
+}
+
+@-moz-document url-prefix() {
+    .generative_ai_approaches .staggered-grid-wrapper {
+        scrollbar-width: thin;
+        scrollbar-color: #00F0FF transparent;
+        overflow-y: auto;
+    }
+
+    .generative_ai_approaches .staggered-grid-wrapper::scrollbar {
+        width: 4px;
+        height: 4px;
+        border-radius: 6px;
+    }
+
+    .generative_ai_approaches .staggered-grid-wrapper::-webkit-scrollbar-track {
+        background: #fff;
+        border-radius: 30px;
+    }
+
+    .generative_ai_approaches .staggered-grid-wrapper::-webkit-scrollbar-thumb {
+        border-radius: 30px;
+        background: linear-gradient(180deg, #FF2DAC 0%, #E49B0D 100%);
+        height: 500px;
+    }
+}
+
+/** Scrollbar Styles END **/
+
+.generative_ai_approaches .staggered-grid-wrapper .staggered-box-wrapper {
+    -moz-column-width: 320px;
+    column-width: 320px;
+    -moz-column-gap: 15px;
+    column-gap: 15px;
+    width: 100%;
+    row-gap: 15px;
+}
+
+.generative_ai_approaches .approach_box {
+    background: #000;
+    padding: 15px;
+    border-radius: 10px;
+    display: inline-block;
+    max-width: 416px;
+    margin-bottom: 15px;
+}
+
+.generative_ai_approaches .sub_title {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+    padding-top: 15px;
+}
+
+.generative_ai_approaches .sub_contents {
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    line-height: 1.8;
+}
+
+.generative_ai_approaches .approach_box img {
+    width: 100%;
+}
+
+@media (min-width: 991px) {
+    .generative_ai_dev_whyMetaBlock {
+        /* background: url('./asset/inner-pages-new/generative-ai-development-company/why-MetaBlock.webp'); */
+        padding: 60px 0px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top;
+        display: flex;
+        align-items: center;
+        min-height: 100vh;
+    }
+}
+
+.generative_ai_dev_whyMetaBlock .title {
+    font-size: 30px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 1.5;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+    text-align: center;
+}
+
+.generative_ai_dev_whyMetaBlock .contents {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.8;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.generative_ai_dev_whyMetaBlock .gen_ai_btn_sec {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.generative_ai_dev_whyMetaBlock .gen_ai_btn {
+    position: relative;
+    width: calc(100% - 27.75rem);
+    border-radius: 6px;
+    color: #fff;
+    display: block;
+    z-index: 2;
+    overflow: hidden;
+    padding: 3px;
+    text-transform: capitalize;
+}
+
+.generative_ai_dev_whyMetaBlock .gen_ai_btn:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 100%;
+    background: linear-gradient(115deg, #4fcf70, #fad648, #a767e5, #12bcfe, #44ce7b);
+    background-size: 50% 100%;
+    animation: gradient_color_border .75s linear infinite;
+}
+
+.generative_ai_dev_whyMetaBlock .gen_ai_btn span {
+    position: relative;
+    z-index: 2;
+    padding: 10px 10px;
+    font-size: 16px;
+    align-items: center;
+    background: #000;
+    border-radius: 3px;
+    display: block;
+    justify-content: center;
+}
+
+.generative_ai_dev_transform {
+    padding: 50px 0px;
+}
+
+@media (min-width: 991px) {
+    .generative_ai_dev_transform #ai_transform_card {
+        /* background: url('./asset/inner-pages-new/generative-ai-development-company/transform-bg.webp'); */
+        min-height: 512px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: top;
+        display: flex;
+        align-items: center;
+        padding: 30px;
+    }
+}
+
+.generative_ai_dev_transform .title {
+    font-size: 30px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 1.5;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+}
+
+.generative_ai_dev_transform .contents {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.8;
+    padding-top: 10px;
+}
+
+@media(min-width: 991px) {
+    .generative_ai_approaches .approach_img1 {
+        min-height: 245px;
+    }
+
+    .generative_ai_approaches .approach_img3 {
+        min-height: 250px;
+    }
+
+    .generative_ai_approaches .approach_img4 {
+        min-height: 310px;
+    }
+
+    .generative_ai_approaches .approach_img6 {
+        min-height: 285px;
+    }
+}
+
+@media(max-width: 991px) {
+    .generative_ai_dev_banner {
+        display: flex;
+        align-items: center;
+        padding: 50px 0px;
+        text-align: center;
+        min-height: 700px;
+    }
+
+    .generative_ai_dev_banner .banner_sec {
+        margin-top: 10%;
+    }
+
+    .generative_ai_dev_banner .banner_btn_sec {
+        justify-content: center;
+        display: flex;
+        margin-top: 30px;
+    }
+
+    .generative_ai_dev_banner .banner_btn {
+        width: 170px;
+    }
+
+    .generative_ai_dev_sec,
+    .generative_ai_dev_whyMetaBlock {
+        text-align: center;
+        padding: 50px 0px;
+    }
+
+    .generative_ai_dev_sec .metaverse_ecosystem_about_btn_sec {
+        justify-content: center;
+    }
+
+    .generative_ai_dev_sec .metaverse_ecosystem_about_btn.mobile {
+        display: block !important;
+        width: fit-content
+    }
+
+    .generative_ai_dev_sec .metaverse_ecosystem_about_btn.desktop {
+        display: none;
+    }
+
+    .generative_ai_dev_techstack .img_sec {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .generative_ai_dev_techstack .round_gif {
+        left: 14%;
+    }
+
+    .generative_ai_dev_techstack .gen_ai_btn,
+    .generative_ai_dev_whyMetaBlock .gen_ai_btn {
+        width: unset;
+    }
+
+    .generative_ai_dev_techstack .gen_ai_btn span {
+        padding: 10px 25px;
+    }
+
+    .generative_ai_dev_benefits {
+        padding: 30px 0px;
+    }
+
+    .generative_ai_dev_transform {
+        padding: 20px 0px;
+    }
+}
+
+@media(max-width: 767px) {
+    .generative_ai_dev_banner {
+        display: flex;
+        align-items: center;
+        min-height: 600px;
+    }
+
+    .generative_ai_dev_banner .bnr_bld_title {
+        font-size: 35px !important;
+    }
+
+    .generative_ai_dev_banner .title {
+        font-size: 30px !important;
+        line-height: 1.4;
+    }
+
+    .generative_ai_dev_banner .bnr_clr_title {
+        font-size: 85px !important;
+    }
+
+    .generative_ai_dev_sec .title,
+    .generative_ai_dev_services .title,
+    .generative_ai_dev_techstack .title,
+    .generative_ai_dev_benefits .title,
+    .generative_ai_approaches .title,
+    .generative_ai_dev_whyMetaBlock .title {
+        font-size: 28px !important;
+        line-height: 1.4 !important;
+    }
+
+    .generative_ai_dev_transform .title {
+        font-size: 23px !important;
+        lighting-color: 1.4 !important;
+    }
+
+    .generative_ai_dev_techstack .title,
+    .generative_ai_dev_benefits .title {
+        text-align: center;
+    }
+
+    .generative_ai_dev_sec .metaverse_ecosystem_about_btn,
+    .generative_ai_dev_sec .metaverse_ecosystem_about_btn1 {
+        font-size: 14px !important;
+        padding: 8px 18px;
+    }
+
+    .generative_ai_dev_techstack .sub_title {
+        font-size: 25px;
+    }
+
+    .generative_ai_dev_techstack .round_gif {
+        left: 2%;
+    }
+
+    .generative_ai_dev_techstack .slick-prev:before,
+    .generative_ai_dev_techstack .slick-next:before {
+        /* background: url('./asset/inner-pages-new/generative-ai-development-company/arrow-mbl.svg'); */
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        background-repeat: no-repeat;
+        outline: none;
+        content: '';
+    }
+
+    .generative_ai_approaches .title {
+        margin-bottom: 25px;
+    }
+
+    .generative_ai_dev_whyMetaBlock .contents {
+        padding: 0px 15px;
+    }
+}
+
+@media(max-width: 688px) {
+    .generative_ai_approaches .approach_box {
+        max-width: unset;
+    }
+}
+
+@media(max-width: 476px) {
+    .generative_ai_dev_techstack .round_gif {
+        left: 0%;
+    }
+
+    .generative_ai_dev_techstack .slick-prev {
+        left: 70%;
+    }
+
+    .generative_ai_dev_techstack .slick-next {
+        right: 10%;
+    }
+
+    .generative_ai_dev_techstack .sub_title {
+        margin-top: 40px;
+    }
+
+    .generative_ai_dev_techstack .usecase_box {
+        margin-top: 12px;
+    }
+}

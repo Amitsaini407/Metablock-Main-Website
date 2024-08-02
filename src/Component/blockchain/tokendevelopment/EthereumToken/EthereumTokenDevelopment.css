@@ -1,0 +1,1284 @@
+
+#token_dev_main {
+    background: #090909;
+}
+
+@media (min-width: 991px) {
+    #token_dev_main .token_dev_banner {
+        background: url('https://www.metablocktechnologies.com//asset/inner-pages-new/token-development/banner.webp?v1');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top right;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+    }
+}
+
+#token_dev_main .token_dev_banner .bnr_img_sec {
+    margin-top: 18%;
+}
+
+@media (max-width: 1400px) {
+    #token_dev_main .token_dev_banner .banner_anim_img {
+        top: 6.5%;
+    }
+}
+
+@media (max-width: 1366px) {
+    #token_dev_main .token_dev_banner .banner_anim_img {
+        top: 8%;
+    }
+}
+
+#token_dev_main .token_dev_banner .banner_cont_sec {
+    padding-left: 10%;
+}
+
+#token_dev_main .token_dev_banner .title {
+    font-weight: 700;
+    font-size: 35px !important;
+    text-transform: uppercase;
+    font-family: "Urbanist", sans-serif;
+    color: #fff;
+}
+
+#token_dev_main .token_dev_banner .bnr_bld_title {
+    font-weight: 900;
+    letter-spacing: 3px;
+    color: #A06EFF;
+    font-size: 65px !important;
+}
+
+#token_dev_main .token_dev_banner .contents {
+    font-size: 16px !important;
+    line-height: 1.9;
+    margin-bottom: 10px;
+    font-weight: 300;
+    padding-top: 10px;
+}
+
+#token_dev_main .token_dev_banner .banner_btn_sec {
+    margin-top: 30px;
+    position: relative;
+}
+
+#token_dev_main .token_dev_banner .banner_btn {
+    position: relative;
+    width: fit-content;
+    border-radius: 6px;
+    color: #fff;
+    display: block;
+    z-index: 2;
+    overflow: hidden;
+    padding: 3px;
+    text-transform: capitalize;
+    animation: zoom-in-zoom-out-btn 3s ease-out infinite;
+}
+
+#token_dev_main .token_dev_banner .banner_btn:hover {
+    box-shadow: 0px 0px 15px 2px #b5b0ff4d;
+    animation: unset;
+}
+
+#token_dev_main .token_dev_banner .banner_btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+#token_dev_main .token_dev_banner .banner_btn:hover:before {
+    animation: unset;
+}
+
+#token_dev_main .token_dev_banner .banner_btn:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 100%;
+    background: linear-gradient(115deg, #a06fff, #e586ff, #aed464, #56caec, #a16eff);
+    background-size: 50% 100%;
+    animation: gradient_color_border .75s linear infinite;
+}
+
+#token_dev_main .token_dev_banner .banner_btn span {
+    position: relative;
+    z-index: 2;
+    padding: 10px 15px;
+    font-size: 16px;
+    align-items: center;
+    background: #000;
+    border-radius: 3px;
+    display: block;
+    justify-content: center;
+}
+
+@keyframes gradient_color_border {
+    to {
+        transform: translateX(-50%)
+    }
+}
+
+@keyframes zoom-in-zoom-out-btn {
+    0% {
+        transform: scale(0.9, 0.9);
+    }
+    50% {
+        transform: scale(1, 1);
+    }
+    100% {
+        transform: scale(0.9, 0.9);
+    }
+}
+
+#token_dev_main .token_dev_banner .banner_anim_img {
+    position: absolute;
+    top: 5%;
+    left: 3.8%;
+    -webkit-animation: bounce2 3s infinite ease-in-out;
+    -o-animation: bounce2 3s infinite ease-in-out;
+    -ms-animation: bounce2 3s infinite ease-in-out;
+    -moz-animation: bounce2 3s infinite ease-in-out;
+    animation: bounce2 3s infinite ease-in-out;
+}
+
+@-webkit-keyframes bounce2 {
+    0% {
+        transform: translateY(-5px);
+    }
+    50% {
+        transform: translateY(20px);
+    }
+    100% {
+        transform: translateY(-5px);
+    }
+    ;
+}
+
+@keyframes bounce2 {
+    0% {
+        transform: translateY(-5px);
+    }
+    50% {
+        transform: translateY(20px);
+    }
+    100% {
+        transform: translateY(-5px);
+    }
+    ;
+}
+
+#token_dev_main .token_dev_banner .banner_btn_sec svg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    right: -28%;
+    z-index: 0;
+    stroke-width: 3;
+}
+
+#token_dev_main .token_dev_banner .banner_btn_sec svg text {
+    text-transform: uppercase;
+    animation: stroke 5s infinite alternate;
+    stroke-width: 3;
+    stroke: #a06eff;
+    font-size: 280px;
+    letter-spacing: 12px;
+    opacity: 0.45;
+}
+
+@keyframes stroke {
+    0% {
+        fill: rgba(72, 138, 20, 0);
+        stroke: #a06eff;
+        stroke-dashoffset: 25%;
+        stroke-dasharray: 0 50%;
+        stroke-width: 3;
+    }
+    70% {
+        fill: rgba(72, 138, 20, 0);
+        stroke: #a06eff;
+    }
+    80% {
+        fill: rgba(72, 138, 20, 0);
+        stroke: #a06eff;
+        stroke-width: 4;
+    }
+    100% {
+        fill: rgba(72, 138, 20, 0);
+        stroke: #a06eff;
+        stroke-dashoffset: -25%;
+        stroke-dasharray: 50% 0;
+        stroke-width: 1;
+    }
+}
+
+#token_dev_main .token_dev_crypto_sec {
+    padding: 50px 0px;
+}
+
+#token_dev_main .token_dev_crypto_sec .title {
+    font-size: 35px;
+    background: linear-gradient(131deg, #A06EFF 0%, #D1C0FF 50.43%, #B4B0FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    line-height: 1.6;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+}
+
+#token_dev_main .token_dev_crypto_sec .contents {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.8;
+}
+
+#token_dev_main .token_dev_crypto_sec .token_dev_crypto_about_btn_sec {
+    margin-top: 30px;
+    display: flex;
+}
+
+#token_dev_main .token_dev_crypto_sec .token_dev_crypto_about_btn {
+    text-transform: uppercase;
+    padding: 10px 30px;
+    font-weight: 500;
+    font-size: 15px;
+    color: #fff !important;
+    border-radius: 6px;
+    border: 1px solid #52FF00;
+    background: rgba(82, 255, 0, 0.15);
+    margin-right: 10px;
+}
+
+#token_dev_main .token_dev_crypto_sec .token_dev_crypto_about_btn.mobile {
+    display: none;
+}
+
+#token_dev_main .token_dev_crypto_sec .token_dev_crypto_about_btn1 {
+    text-transform: uppercase;
+    padding: 10px 30px;
+    font-weight: 500;
+    font-size: 15px;
+    border-radius: 6px;
+    border: 1px solid #00F0FF;
+    background: rgba(0, 240, 255, 0.15);
+    color: #fff !important;
+}
+
+#token_dev_main .token_dev_services {
+    padding: 50px 0px;
+}
+
+#token_dev_main .token_dev_services .back_color {
+    border-radius: 26px;
+    background: #000;
+    padding: 40px 20px;
+}
+
+#token_dev_main .token_dev_services .title {
+    font-size: 35px;
+    background: linear-gradient(131deg, #A06EFF 0%, #D1C0FF 69.43%, #B4B0FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    line-height: 1.4;
+    text-transform: capitalize;
+    text-align: center;
+    font-family: "Urbanist", sans-serif;
+}
+
+#token_dev_main .token_dev_services .cus_col {
+    position: relative;
+}
+
+#token_dev_main .token_dev_services .cus_col:after {
+    position: absolute;
+    content: '';
+    top: 32%;
+    right: 0px;
+    height: 60%;
+    width: 2px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #A06EFF 48.75%, rgba(0, 0, 0, 0.00) 100%);
+}
+
+#token_dev_main .token_dev_services .service_box {
+    padding: 15px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#token_dev_main .token_dev_services .sub_title {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+    text-align: center;
+    padding-top: 5px;
+}
+
+#token_dev_main .token_dev_services .sub_contents {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 300;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    line-height: 30px;
+}
+
+#token_dev_main .token_dev_services .sprite_icons {
+    width: 50px;
+    height: 50px;
+    object-fit: none;
+}
+
+#token_dev_main .token_dev_models {
+    padding: 50px 0px;
+    position: relative;
+}
+
+#token_dev_main .token_dev_models .title {
+    font-size: 35px;
+    background: linear-gradient(131deg, #A06EFF 0%, #D1C0FF 50.43%, #B4B0FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    line-height: 1.4;
+    text-transform: capitalize;
+    text-align: center;
+    font-family: "Urbanist", sans-serif;
+}
+
+#token_dev_main .token_dev_models .model_box {
+    padding: 15px;
+    border-radius: 7px;
+    background: #000;
+    margin-top: 50px;
+    text-align: center;
+    min-height: 232px;
+}
+
+#token_dev_main .token_dev_models .model_box:hover {
+    border: none;
+    box-shadow: inset 0px 0px 15px 0px #a87cff75;
+    background: unset;
+}
+
+#token_dev_main .token_dev_models .sub_title {
+    background: linear-gradient(139deg, #A170FF 0%, #BFA2FF 100%);
+    color: #090909;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+    clip-path: polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%);
+    padding: 5px 20px;
+    margin-top: -10%;
+}
+
+#token_dev_main .token_dev_models .sub_contents {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 300;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    line-height: 30px;
+}
+
+#token_dev_main .token_dev_idea_cardsec {
+    padding: 50px 0px;
+}
+
+@media (min-width: 991px) {
+    #token_dev_main .token_dev_idea_cardsec #token_dev_idea_card {
+        background: url('https://www.metablocktechnologies.com//asset/inner-pages-new/token-development/token-dev-ideacard.webp?v7');
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        min-height: 477px;
+        padding: 60px;
+        border-radius: 20px;
+    }
+}
+
+#token_dev_main .token_dev_idea_cardsec .title {
+    font-size: 45px;
+    color: #965EFF;
+    font-weight: 900;
+    line-height: 1.6;
+    text-transform: uppercase;
+    font-family: "Urbanist", sans-serif;
+}
+
+#token_dev_main .token_dev_idea_cardsec .sub_title {
+    font-size: 35px;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-family: "Urbanist", sans-serif;
+}
+
+#token_dev_main .token_dev_idea_cardsec .token_dev_btn_sec {
+    margin-top: 30px;
+}
+
+#token_dev_main .token_dev_idea_cardsec .token_dev_btn {
+    position: relative;
+    width: fit-content;
+    border-radius: 6px;
+    color: #fff;
+    display: block;
+    z-index: 2;
+    overflow: hidden;
+    padding: 3px;
+    text-transform: capitalize;
+    animation: zoom-in-zoom-out-btn 3s ease-out infinite;
+}
+
+#token_dev_main .token_dev_idea_cardsec .token_dev_btn:hover {
+    box-shadow: 0px 0px 15px 2px #b5b0ff4d;
+    animation: unset;
+}
+
+#token_dev_main .token_dev_idea_cardsec .token_dev_btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+#token_dev_main .token_dev_idea_cardsec .token_dev_btn:hover:before {
+    animation: unset;
+}
+
+#token_dev_main .token_dev_idea_cardsec .token_dev_btn:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 100%;
+    background: linear-gradient(115deg, #a06fff, #e586ff, #aed464, #56caec, #a16eff);
+    background-size: 50% 100%;
+    animation: gradient_color_border .75s linear infinite;
+}
+
+#token_dev_main .token_dev_idea_cardsec .token_dev_btn span {
+    position: relative;
+    z-index: 2;
+    padding: 10px 15px;
+    font-size: 16px;
+    align-items: center;
+    background: #000;
+    border-radius: 3px;
+    display: block;
+    justify-content: center;
+}
+
+#token_dev_main .token_dev_techstack {
+    padding: 50px 0px;
+}
+
+#token_dev_main .token_dev_techstack .title {
+    font-size: 35px;
+    background: linear-gradient(131deg, #A06EFF 0%, #D1C0FF 39.43%, #B4B0FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    line-height: 1.6;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+}
+
+#token_dev_main .token_dev_techstack .contents {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#token_dev_main .token_dev_features {
+    padding: 50px 0px;
+}
+
+#token_dev_main .token_dev_features .title {
+    font-size: 35px;
+    background: linear-gradient(131deg, #A06EFF 0%, #D1C0FF 39.43%, #B4B0FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    line-height: 1.6;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+    text-align: center;
+}
+
+#token_dev_main .token_dev_features #feature_bg_color {
+    padding: 30px;
+    border-radius: 39px;
+    background: rgba(160, 110, 255, 0.08);
+    box-shadow: 0px 0px 12px 0px #A06EFF inset;
+    margin-top: 20px;
+}
+
+#token_dev_main .token_dev_features .feature_box {
+    border-radius: 6px;
+    background: #000;
+    box-shadow: 0px 0px 21px 0px rgba(160, 110, 255, 0.58) inset;
+    padding: 20px;
+    margin: 15px 0px;
+    min-height: 248px;
+}
+
+#token_dev_main .token_dev_features .head_sec {
+    display: flex;
+    align-items: center;
+}
+
+#token_dev_main .token_dev_features .sub_title {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+    padding-left: 10px;
+}
+
+#token_dev_main .token_dev_features .sub_contents {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 300;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    line-height: 30px;
+}
+
+#token_dev_main .token_dev_features .sprite_icons {
+    width: 50px;
+    height: 50px;
+    object-fit: none;
+}
+
+#token_dev_main .token_dev_benefits {
+    padding: 50px 0px;
+}
+
+#token_dev_main .token_dev_benefits .title {
+    font-size: 35px;
+    background: linear-gradient(131deg, #A06EFF 0%, #D1C0FF 39.43%, #B4B0FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    line-height: 1.6;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+    text-align: center;
+}
+
+#token_dev_main .token_dev_benefits .benefits_list_sec {
+    max-height: 400px;
+    overflow-y: scroll;
+}
+
+/** Scrollbar Styles START **/
+
+#token_dev_main .token_dev_benefits .benefits_list_sec {
+    scrollbar-width: thin;
+    scrollbar-color: #00F0FF transparent;
+    overflow-x: auto;
+}
+
+#token_dev_main .token_dev_benefits .benefits_list_sec::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+    border-radius: 6px;
+}
+
+#token_dev_main .token_dev_benefits .benefits_list_sec::-webkit-scrollbar-track {
+    border-radius: 6px;
+    background: #1e1e1e;
+}
+
+#token_dev_main .token_dev_benefits .benefits_list_sec::-webkit-scrollbar-thumb {
+    border-radius: 30px;
+    background: linear-gradient(131deg, #A06EFF 0%, #D1C0FF 39.43%, #B4B0FF 100%);
+    height: 100px;
+}
+
+@-moz-document url-prefix() {
+    #token_dev_main .token_dev_benefits .benefits_list_sec {
+        scrollbar-width: thin;
+        scrollbar-color: #00F0FF transparent;
+        overflow-y: auto;
+    }
+    #token_dev_main .token_dev_benefits .benefits_list_sec::scrollbar {
+        width: 5px;
+        height: 5px;
+        border-radius: 6px;
+    }
+    #token_dev_main .token_dev_benefits .benefits_list_sec::-webkit-scrollbar-track {
+        border-radius: 6px;
+        background: #1e1e1e;
+    }
+    #token_dev_main .token_dev_benefits .benefits_list_sec::-webkit-scrollbar-thumb {
+        border-radius: 30px;
+        background: linear-gradient(131deg, #A06EFF 0%, #D1C0FF 39.43%, #B4B0FF 100%);
+        height: 100px;
+    }
+}
+
+/** Scrollbar Styles END **/
+
+#token_dev_main .token_dev_benefits .benefits_list {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 20px;
+    padding: 0px 20px;
+}
+
+#token_dev_main .token_dev_benefits .benefits_list img {
+    padding-top: 5px;
+}
+
+#token_dev_main .token_dev_benefits .contents_sec {
+    padding-left: 20px;
+}
+
+#token_dev_main .token_dev_benefits .sub_title {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+}
+
+#token_dev_main .token_dev_benefits .sub_contents {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 300;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    line-height: 30px;
+}
+
+#token_dev_main .token_dev_join_cardsec {
+    padding: 50px 0px;
+}
+
+@media (min-width: 991px) {
+    #token_dev_main .token_dev_join_cardsec #token_dev_join_card {
+        background: url('https://www.metablocktechnologies.com//asset/inner-pages-new/token-development/token-dev-joincard.webp');
+        background-repeat: no-repeat;
+        display: flex;
+        min-height: 542px;
+        padding: 30px;
+    }
+}
+
+#token_dev_main .token_dev_join_cardsec .title {
+    font-size: 35px;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-family: "Urbanist", sans-serif;
+}
+
+#token_dev_main .token_dev_join_cardsec .token_dev_btn_sec {
+    margin-top: 30px;
+}
+
+#token_dev_main .token_dev_join_cardsec .token_dev_btn {
+    position: relative;
+    width: fit-content;
+    border-radius: 6px;
+    color: #fff;
+    display: block;
+    z-index: 2;
+    overflow: hidden;
+    padding: 3px;
+    text-transform: capitalize;
+    animation: zoom-in-zoom-out-btn 3s ease-out infinite;
+}
+
+#token_dev_main .token_dev_join_cardsec .token_dev_btn:hover {
+    box-shadow: 0px 0px 15px 2px #b5b0ff4d;
+    animation: unset;
+}
+
+#token_dev_main .token_dev_join_cardsec .token_dev_btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+#token_dev_main .token_dev_join_cardsec .token_dev_btn:hover:before {
+    animation: unset;
+}
+
+#token_dev_main .token_dev_join_cardsec .token_dev_btn:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 100%;
+    background: linear-gradient(115deg, #a06fff, #e586ff, #aed464, #56caec, #a16eff);
+    background-size: 50% 100%;
+    animation: gradient_color_border .75s linear infinite;
+}
+
+#token_dev_main .token_dev_join_cardsec .token_dev_btn span {
+    position: relative;
+    z-index: 2;
+    padding: 10px 15px;
+    font-size: 16px;
+    align-items: center;
+    background: #000;
+    border-radius: 3px;
+    display: block;
+    justify-content: center;
+}
+
+#token_dev_main .token_dev_process {
+    padding: 50px 0px;
+    position: relative;
+}
+
+#token_dev_main .token_dev_process .title {
+    font-size: 35px;
+    background: linear-gradient(131deg, #A06EFF 0%, #D1C0FF 50.43%, #B4B0FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    line-height: 1.4;
+    text-transform: capitalize;
+    text-align: center;
+    font-family: "Urbanist", sans-serif;
+}
+
+#token_dev_main .token_dev_process .process_box {
+    padding: 0px 20px 20px 20px;
+    border-radius: 8px;
+    background: #000;
+    box-shadow: 0px 0px 12px 0px rgba(160, 110, 255, 0.79) inset;
+    margin-top: 40px;
+    min-height: 280px;
+}
+
+#token_dev_main .token_dev_process .process_box:hover {
+    border: none;
+    box-shadow: inset 0px 0px 15px 0px #a87cff75;
+    background: unset;
+}
+
+#token_dev_main .token_dev_process .head_sec {
+    display: flex;
+    align-items: center;
+}
+
+#token_dev_main .token_dev_process .num_sec {
+    border-radius: 0px 0px 5px 5px;
+    background: linear-gradient(180deg, #B4B0FF 0%, #A06EFF 100%);
+    font-size: 25px;
+    color: #000;
+    font-weight: 600;
+    padding: 15px 3px 3px 3px;
+}
+
+#token_dev_main .token_dev_process .sub_title {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+    padding-left: 10px;
+}
+
+#token_dev_main .token_dev_process .sub_contents {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    line-height: 30px;
+}
+
+#token_dev_main .token_dev_process .cus_numsec {
+    margin-top: -6%;
+}
+
+#token_dev_main .token_dev_process .cus_subtitle {
+    margin-top: 15px;
+}
+
+#token_dev_main .token_dev_platforms {
+    padding: 50px 0px;
+}
+
+#token_dev_main .token_dev_platforms .title {
+    font-size: 35px;
+    background: linear-gradient(131deg, #A06EFF 0%, #D1C0FF 39.43%, #B4B0FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    line-height: 1.6;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+    text-align: center;
+}
+
+#token_dev_main .token_dev_platforms .platform_list {
+    padding: 10px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#token_dev_main .token_dev_platforms .sub_title {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+    padding-top: 10px;
+}
+
+#token_dev_main .token_dev_platforms .sprite_icons {
+    width: 100px;
+    height: 100px;
+    object-fit: none;
+}
+
+#token_dev_main .token_dev_sectors {
+    padding: 50px 0px;
+}
+
+#token_dev_main .token_dev_sectors .title {
+    font-size: 35px;
+    background: linear-gradient(131deg, #A06EFF 0%, #D1C0FF 39.43%, #B4B0FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    line-height: 1.6;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+    text-align: center;
+}
+
+#token_dev_main .token_dev_sectors .contents {
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+#token_dev_main .token_dev_sectors .sector_box {
+    padding: 15px;
+    border-radius: 8px;
+    background: #000;
+    box-shadow: 5px 4px 0px 0px #A06EFF;
+    margin-top: 50px;
+    text-align: center;
+    min-height: 195px;
+}
+
+#token_dev_main .token_dev_sectors .sector_box:hover {
+    box-shadow: -5px 4px 0px 0px #A06EFF;
+}
+
+#token_dev_main .token_dev_sectors .sub_title {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+    padding-top: 10px;
+}
+
+#token_dev_main .token_dev_sectors .sub_contents {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    line-height: 30px;
+}
+
+#token_dev_main .token_dev_sectors .sprite_icons {
+    width: 65px;
+    height: 65px;
+    object-fit: none;
+    margin-top: -15%;
+}
+
+#token_dev_main .token_dev_whymetablock {
+    padding: 50px 0px;
+}
+
+#token_dev_main .token_dev_whymetablock .title {
+    font-size: 35px;
+    background: linear-gradient(131deg, #A06EFF 0%, #D1C0FF 39.43%, #B4B0FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    line-height: 1.6;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+}
+
+#token_dev_main .token_dev_whymetablock .contents {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.8;
+}
+
+#token_dev_main .token_dev_whymetablock .token_dev_btn_sec {
+    margin-top: 30px;
+}
+
+#token_dev_main .token_dev_whymetablock .token_dev_btn {
+    position: relative;
+    width: fit-content;
+    border-radius: 6px;
+    color: #fff;
+    display: block;
+    z-index: 2;
+    overflow: hidden;
+    padding: 3px;
+    text-transform: capitalize;
+    animation: zoom-in-zoom-out-btn 3s ease-out infinite;
+}
+
+#token_dev_main .token_dev_whymetablock .token_dev_btn:hover {
+    box-shadow: 0px 0px 15px 2px #b5b0ff4d;
+    animation: unset;
+}
+
+#token_dev_main .token_dev_whymetablock .token_dev_btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+#token_dev_main .token_dev_whymetablock .token_dev_btn:hover:before {
+    animation: unset;
+}
+
+#token_dev_main .token_dev_whymetablock .token_dev_btn:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 100%;
+    background: linear-gradient(115deg, #a06fff, #e586ff, #aed464, #56caec, #a16eff);
+    background-size: 50% 100%;
+    animation: gradient_color_border .75s linear infinite;
+}
+
+#token_dev_main .token_dev_whymetablock .token_dev_btn span {
+    position: relative;
+    z-index: 2;
+    padding: 10px 15px;
+    font-size: 16px;
+    align-items: center;
+    background: #000;
+    border-radius: 3px;
+    display: block;
+    justify-content: center;
+}
+
+@media(max-width: 991px) {
+    #token_dev_main .token_dev_banner {
+        display: flex;
+        align-items: center;
+        padding-top: 110px;
+        text-align: center;
+    }
+    #token_dev_main .token_dev_banner .img-responsive {
+        width: 100%;
+    }
+    #token_dev_main .token_dev_banner .banner_anim_img {
+        width: 85%;
+        left: 3%;
+    }
+    #token_dev_main .token_dev_banner .banner_cont_sec {
+        padding-left: 0;
+    }
+    #token_dev_main .token_dev_banner .banner_btn_sec {
+        justify-content: center;
+        display: flex;
+        margin-top: 30px;
+    }
+    #token_dev_main .token_dev_crypto_sec,
+    #token_dev_main .token_dev_whymetablock,
+    #token_dev_main .token_dev_benefits .benefits_img_mblsec {
+        text-align: center;
+    }
+    #token_dev_main .token_dev_crypto_sec img,
+    #token_dev_main .token_dev_benefits .benefits_img_mbl,
+    #token_dev_main .token_dev_whymetablock img {
+        margin-top: 40px;
+    }
+    #token_dev_main .token_dev_services .cus_col:after {
+        display: none;
+    }
+    #token_dev_main .token_dev_crypto_sec .token_dev_crypto_about_btn_sec {
+        justify-content: center;
+    }
+    #token_dev_main .token_dev_crypto_sec .token_dev_crypto_about_btn.mobile {
+        display: block !important;
+        width: fit-content
+    }
+    #token_dev_main .token_dev_crypto_sec .token_dev_crypto_about_btn.desktop {
+        display: none;
+    }
+    #token_dev_main .token_dev_idea_cardsec #token_dev_idea_card,
+    #token_dev_main .token_dev_join_cardsec #token_dev_join_card {
+        padding: 30px;
+        border-radius: 28px;
+        background: linear-gradient(90deg, #000 0%, rgba(0, 0, 0, 0.73) 53.65%, rgba(0, 0, 0, 0.44) 100%);
+        text-align: center;
+        margin: 0px 10px;
+    }
+    #token_dev_main .token_dev_process .cus_numsec,
+    #token_dev_main .token_dev_process .cus_subtitle {
+        margin-top: 0;
+    }
+    #token_dev_main .token_dev_process .sub_title {
+        margin-top: 10px;
+    }
+    #token_dev_main .token_dev_odd_serv .odd_serv_cardsec {
+        display: inherit;
+    }
+    #token_dev_main .token_dev_odd_serv .odd_serv_cardsec .card {
+        width: 100% !important;
+    }
+}
+
+@media(max-width: 767px) {
+    #token_dev_main .token_dev_banner {
+        display: flex;
+        align-items: center;
+    }
+    #token_dev_main .token_dev_banner .bnr_img_sec {
+        margin-top: 23%;
+    }
+    #token_dev_main .token_dev_banner .bnr_bld_title {
+        font-size: 35px !important;
+    }
+    #token_dev_main .token_dev_banner .title,
+    #token_dev_main .token_dev_idea_cardsec .title {
+        font-size: 26px !important;
+        line-height: 1.4;
+    }
+    #token_dev_main .token_dev_banner .banner_btn span,
+    #token_dev_main .token_dev_idea_cardsec .token_dev_btn span,
+    #token_dev_main .token_dev_whymetablock .token_dev_btn span,
+    #token_dev_main .token_dev_join_cardsec .token_dev_btn span {
+        font-size: 14px !important;
+        padding: 10px 10px;
+    }
+    #token_dev_main .token_dev_crypto_sec .title,
+    #token_dev_main .token_dev_services .title,
+    #token_dev_main .token_dev_models .title,
+    #token_dev_main .token_dev_idea_cardsec .sub_title,
+    #token_dev_main .token_dev_techstack .title,
+    #token_dev_main .token_dev_features .title,
+    #token_dev_main .token_dev_benefits .title,
+    #token_dev_main .token_dev_join_cardsec .title,
+    #token_dev_main .token_dev_process .title,
+    #token_dev_main .token_dev_platforms .title,
+    #token_dev_main .token_dev_sectors .title,
+    #token_dev_main .token_dev_whymetablock .title,
+    #token_dev_main .token_dev_odd_serv .title {
+        font-size: 28px !important;
+        line-height: 1.5 !important;
+    }
+    #token_dev_main .token_dev_crypto_sec .token_dev_crypto_about_btn,
+    #token_dev_main .token_dev_crypto_sec .token_dev_crypto_about_btn1 {
+        font-size: 14px !important;
+        padding: 8px 18px;
+    }
+    #token_dev_main .token_dev_models .model_box,
+    #token_dev_main .token_dev_features .feature_box,
+    #token_dev_main .token_dev_process .process_box,
+    #token_dev_main .token_dev_sectors .sector_box {
+        min-height: 0px;
+    }
+    #token_dev_main .token_dev_services {
+        padding: 50px 20px;
+    }
+    #token_dev_main .token_dev_services .back_color {
+        padding: 30px 10px;
+    }
+    #token_dev_main .token_dev_services .service_box {
+        margin-top: 0;
+    }
+    #token_dev_main .token_dev_idea_cardsec .token_dev_btn_sec,
+    #token_dev_main .token_dev_join_cardsec .token_dev_btn_sec,
+    #token_dev_main .token_dev_whymetablock .token_dev_btn_sec {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+}
+
+@media(max-width: 576px) {
+    #token_dev_main .token_dev_idea_cardsec #token_dev_idea_card {
+        padding: 20px 10px;
+    }
+    #token_dev_main .token_dev_join_cardsec #token_dev_join_card {
+        padding: 20px 10px;
+    }
+    #token_dev_main .token_dev_banner .banner_anim_img {
+        left: 5%;
+        width: 83%;
+    }
+    #token_dev_main .token_dev_features #feature_bg_color {
+        margin: 20px 0 10px;
+        padding: 20px;
+    }
+    #token_dev_main .token_dev_idea_cardsec,
+    #token_dev_main .token_dev_join_cardsec {
+        padding: 10px 0px;
+    }
+    #token_dev_main .token_dev_odd_serv .odd_serv_cardsec .card:hover .imgBx {
+        width: 80px !important;
+        height: 80px !important;
+        left: calc(50% - 50px) !important;
+        top: calc(10% - 75px) !important;
+    }
+    #token_dev_main .token_dev_odd_serv .odd_serv_cardsec .card .content_sec {
+        width: 100% !important;
+        text-align: center;
+    }
+    #token_dev_main .token_dev_odd_serv .odd_serv_cardsec .card .content_sec {
+        padding-left: 20px !important;
+        padding-top: 40px !important;
+    }
+    #token_dev_main .token_dev_odd_serv .odd_serv_cardsec .card:hover .imgBx img {
+        max-width: 55px !important;
+    }
+    #token_dev_main .token_dev_odd_serv .odd_serv_cardsec .card {
+        margin: 15px 0px !important;
+    }
+}
+
+#token_dev_main .token_dev_odd_serv {
+    padding: 50px 0px;
+}
+
+#token_dev_main .token_dev_odd_serv .title {
+    font-size: 35px;
+    background: linear-gradient(131deg, #A06EFF 20%, #D1C0FF 69.43%, #B4B0FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    line-height: 1.6;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+    text-align: center;
+}
+
+#token_dev_main .token_dev_odd_serv .odd_serv_cardsec {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+#token_dev_main .token_dev_odd_serv .odd_serv_cardsec .card {
+    position: relative;
+    min-height: 250px;
+    height: 100%;
+    background: #000;
+    display: flex;
+    width: 45%;
+    margin: 30px 0;
+}
+
+#token_dev_main .token_dev_odd_serv .odd_serv_cardsec .card .imgBx {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #000;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+    width: 100%;
+}
+
+#token_dev_main .token_dev_odd_serv .odd_serv_cardsec .card:hover .imgBx {
+    width: 120px;
+    height: 120px;
+    left: -75px;
+    top: calc(50% - 75px);
+    transition: 0.5s ease-in-out;
+    background: #a679ff;
+    border-radius: 5px;
+}
+
+#token_dev_main .token_dev_odd_serv .odd_serv_cardsec .card .imgBx:before {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-style: 6em;
+    color: rgba(255, 255, 255, .05);
+    font-weight: 700;
+}
+
+#token_dev_main .token_dev_odd_serv .odd_serv_cardsec .card .imgBx img {
+    max-width: 100px;
+    transition: 0.5s ease-in-out;
+}
+
+#token_dev_main .token_dev_odd_serv .odd_serv_cardsec .card .imgBx img {
+    max-width: 100px;
+}
+
+#token_dev_main .token_dev_odd_serv .odd_serv_cardsec .card:hover .imgBx img {
+    max-width: 75px;
+}
+
+#token_dev_main .token_dev_odd_serv .odd_serv_cardsec .card .content_sec {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 13%;
+}
+
+#token_dev_main .token_dev_odd_serv .odd_serv_cardsec .card .content_sec .sub_title {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+    padding-top: 10px;
+    background: linear-gradient(131deg, #A06EFF 20%, #D1C0FF 69.43%, #B4B0FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#token_dev_main .token_dev_odd_serv .odd_serv_cardsec .card .content_sec .sub_contents {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    line-height: 30px;
+}
+
+#token_dev_main .token_dev_odd_serv .odd_serv_cardsec .sprite_icons {
+    width: 100px;
+    height: 100px;
+    object-fit: none;
+}

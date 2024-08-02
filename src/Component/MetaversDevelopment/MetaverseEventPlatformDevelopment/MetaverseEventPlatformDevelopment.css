@@ -1,0 +1,868 @@
+#metaverse_event_platform_main {
+    background: #090909;
+}
+
+#metaverse_event_platform_main .metaverse_event_platform_banner {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)), url('../../../../public/images/bannerEvent.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top left;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .metaverse-social-develoment {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        text-align: center !important;
+    }
+}
+
+@media (max-width:500px) {
+    .ourservice-titles-new {
+        font-weight: 600 !important;
+        font-size: 20px !important;
+        text-align: center;
+    }
+}
+
+.ourservice-titles-new {
+    font-weight: 600 !important;
+    font-size: 35px !important;
+    text-align: center;
+}
+
+@media (max-width: 991px) {
+    #metaverse_event_platform_main .metaverse_event_platform_banner {
+        position: relative;
+        z-index: 1;
+        text-align: center;
+        background-position: 50% !important;
+    }
+
+    #metaverse_event_platform_main .metaverse_event_platform_banner:after {
+        content: "";
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        background: #090909c9;
+    }
+}
+
+#metaverse_event_platform_main .metaverse_event_platform_banner .banner_sec {
+    margin-top: 38%;
+}
+
+#metaverse_event_platform_main .metaverse_event_platform_banner .title {
+    font-weight: 700;
+    font-size: 45px !important;
+    text-transform: capitalize;
+    line-height: 1.4;
+    font-family: "Urbanist", sans-serif;
+    text-align: center;
+}
+
+#metaverse_event_platform_main .metaverse_event_platform_banner .contents {
+    font-size: 16px !important;
+    line-height: 1.9;
+    margin-bottom: 10px;
+    font-weight: 300;
+    text-align: center;
+}
+
+#metaverse_event_platform_main .metaverse_event_platform_banner .banner_btn_sec {
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+#metaverse_event_platform_main .metaverse_event_platform_banner .banner_btn {
+    padding: 8px 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 16px !important;
+    border: none;
+    color: #FFF;
+    text-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+@media(min-width: 991px) {
+    #metaverse_event_platform_main .metaverse_event_platform_virtual {
+        background: url('../../../../public/images/solution-bg.webp');
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        min-height: 1281px;
+        align-items: center;
+        -webkit-animation: change_bg 2s infinite;
+        animation: change_bg 2s linear infinite alternate;
+    }
+}
+
+@-webkit-keyframes change_bg {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+
+    50% {
+        filter: hue-rotate(360deg);
+    }
+}
+
+@keyframes change_bg {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+
+    50% {
+        filter: hue-rotate(360deg);
+    }
+}
+
+#metaverse_event_platform_main .metaverse_event_platform_virtual img {
+    -webkit-animation: change_bg 2s infinite;
+    animation: change_bg 2s linear infinite alternate;
+}
+
+#metaverse_event_platform_main .metaverse_event_platform_virtual .title {
+    font-size: 35px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 1.7;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+}
+
+#metaverse_event_platform_main .metaverse_event_platform_virtual .contents {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+#metaverse_event_platform_main .metaverse_event_platform_virtual .virtual_content_sec {
+    text-align: center;
+    margin-top: 80%;
+}
+
+#metaverse_event_platform_main .metaverse_event_platform_comp {
+    padding: 50px 0px;
+}
+
+#metaverse_event_platform_main .metaverse_event_platform_comp .title {
+    font-size: 35px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 1.6;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+}
+
+#metaverse_event_platform_main .metaverse_event_platform_comp .contents {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.8;
+}
+
+#metaverse_event_platform_main .metaverse_event_platform_comp .metaverse_event_platform_about_btn_sec {
+    margin-top: 30px;
+    display: flex;
+}
+
+#metaverse_event_platform_main .metaverse_event_platform_comp .metaverse_event_platform_about_btn {
+    text-transform: uppercase;
+    padding: 10px 30px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #000 !important;
+    border-radius: 57px;
+    background: #00FF47;
+    margin-right: 10px;
+}
+
+#metaverse_event_platform_main .metaverse_event_platform_comp .metaverse_event_platform_about_btn.mobile {
+    display: none;
+}
+
+#metaverse_event_platform_main .metaverse_event_platform_comp .metaverse_event_platform_about_btn1 {
+    text-transform: uppercase;
+    padding: 10px 30px;
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 57px;
+    background: #00F0FF;
+    color: #000 !important;
+}
+
+#metaverse_event_platform_main .metaverse_event_platform_solut {
+    padding: 50px 0px;
+}
+
+#metaverse_event_platform_main .metaverse_event_platform_solut .solution_bg_sec {
+    background: url(../../../../public/images/solution-bg.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 816px;
+    display: flex;
+    align-items: center;
+}
+
+#metaverse_event_platform_main .metaverse_event_platform_solut .solution_scroll_box {
+    border-radius: 18px 5px 5px 18px;
+    background: rgba(0, 0, 0, 0.45);
+    box-shadow: 12px 12px 10px 0px rgba(0, 0, 0, 0.77);
+    backdrop-filter: blur(9.5px);
+    padding: 30px 15px;
+    overflow-y: scroll;
+    height: 600px;
+}
+
+/** Scrollbar Styles START **/
+
+#metaverse_event_platform_main .metaverse_event_platform_solut .solution_scroll_box {
+    scrollbar-width: thin;
+    scrollbar-color: #00F0FF transparent;
+    overflow-y: auto;
+}
+
+#metaverse_event_platform_main .metaverse_event_platform_solut .solution_scroll_box::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+}
+
+#metaverse_event_platform_main .metaverse_event_platform_solut .solution_scroll_box::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+#metaverse_event_platform_main .metaverse_event_platform_solut .solution_scroll_box::-webkit-scrollbar-thumb {
+    border-radius: 5px 0px 0px 5px;
+    background: #00F0FF;
+}
+
+#metaverse_event_platform_main .metaverse_event_platform_solut .solution_scroll_box::-webkit-scrollbar-track,
+#metaverse_event_platform_main .metaverse_event_platform_solut .solution_scroll_box::-webkit-scrollbar-thumb {
+    border-radius: 5px 0px 0px 5px;
+}
+
+@-moz-document url-prefix() {
+    #metaverse_event_platform_main .metaverse_event_platform_solut .solution_scroll_box {
+        scrollbar-width: thin;
+        scrollbar-color: #00F0FF transparent;
+        overflow-y: auto;
+    }
+
+    #metaverse_event_platform_main .metaverse_event_platform_solut .solution_scroll_box::scrollbar {
+        width: 4px;
+        height: 3px;
+    }
+
+    #metaverse_event_platform_main .metaverse_event_platform_solut .solution_scroll_box::-webkit-scrollbar-track {
+        background-color: transparent;
+    }
+
+    #metaverse_event_platform_main .metaverse_event_platform_solut .solution_scroll_box::-webkit-scrollbar-thumb {
+        background: #00F0FF;
+    }
+
+    #metaverse_event_platform_main .metaverse_event_platform_solut .solution_scroll_box::-scrollbar-track,
+    #metaverse_event_platform_main .metaverse_event_platform_solut .solution_scroll_box::-webkit-scrollbar-thumb {
+        border-radius: 5px 0px 0px 5px;
+    }
+}
+
+/** Scrollbar Styles END **/
+
+#metaverse_event_platform_main .metaverse_event_platform_solut .title {
+    font-size: 35px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 1.6;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#metaverse_event_platform_main .metaverse_event_platform_solut .solution_box {
+    display: flex;
+    padding: 10px;
+}
+
+#metaverse_event_platform_main .metaverse_event_platform_solut .contents_sec {
+    padding-left: 15px;
+}
+
+#metaverse_event_platform_main .metaverse_event_platform_solut .sub_title {
+    color: #06EAFF;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+}
+
+#metaverse_event_platform_main .metaverse_event_platform_solut .sub_contents {
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    line-height: 1.7;
+    font-family: "Urbanist", sans-serif;
+}
+
+#metaverse_event_platform_main .metaverse_event_platform_solut .sprite_icons {
+    width: 50px;
+    height: 50px;
+    object-fit: none;
+}
+
+#metaverse_event_platform_main .metaverse_event_platform_features {
+    padding: 50px 0px;
+}
+
+#metaverse_event_platform_main .metaverse_event_platform_features .title {
+    font-size: 35px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 1.7;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+    text-align: center;
+}
+
+#metaverse_event_platform_main .metaverse_event_platform_features .contents {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: center;
+}
+
+#metaverse_event_platform_main .metaverse_event_platform_features .card-thumbnail {
+    display: flex;
+    align-items: center;
+}
+
+#metaverse_event_platform_main .metaverse_event_platform_features .feature_box {
+    padding: 20px;
+    position: relative;
+    z-index: 5;
+    margin-top: 40px;
+    border-radius: 10px;
+    background: #000;
+    min-height: 320px;
+}
+
+#metaverse_event_platform_main .metaverse_event_platform_features .feature_box::before {
+    content: "";
+    position: absolute;
+    top: auto;
+    bottom: 0;
+    left: 0;
+    border-radius: 10px;
+    background: linear-gradient(139deg, #00F0FF 0%, #CB45FF 100%);
+    background-repeat: repeat-x;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+}
+
+#metaverse_event_platform_main .metaverse_event_platform_features .feature_box::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: #000;
+    border-radius: 7px;
+    position: absolute;
+    z-index: -1;
+}
+
+#metaverse_event_platform_main .metaverse_event_platform_features .feature_box:hover::before {
+    transform: rotate(2.663deg);
+}
+
+#metaverse_event_platform_main .metaverse_event_platform_features .sub_title {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+    padding-left: 15px;
+}
+
+#metaverse_event_platform_main .metaverse_event_platform_features .sub_contents {
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    line-height: 1.7;
+}
+
+#metaverse_event_platform_main .metaverse_event_platform_features .sprite_icons {
+    width: 50px;
+    height: 50px;
+    object-fit: none;
+}
+
+#metaverse_event_platform_main .metaverse_event_platform_benefits {
+    padding: 50px 0px;
+}
+
+#metaverse_event_platform_main .metaverse_event_platform_benefits .title {
+    font-size: 35px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 1.7;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+    text-align: center;
+}
+
+#metaverse_event_platform_main .metaverse_event_platform_benefits .contents {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#metaverse_event_platform_main .metaverse_event_platform_benefits .benefits_box {
+    padding: 20px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.03);
+    position: relative;
+    margin-bottom: 50px;
+}
+
+#metaverse_event_platform_main .metaverse_event_platform_benefits .sub_title {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#metaverse_event_platform_main .metaverse_event_platform_benefits .sub_contents {
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 0px;
+    line-height: 1.8;
+    padding-top: 5px;
+    text-align: center;
+    font-family: "Urbanist", sans-serif;
+}
+
+#metaverse_event_platform_main .metaverse_event_platform_benefits .sprite_icons {
+    width: 50px;
+    height: 50px;
+    object-fit: none;
+    margin: 0 auto;
+    position: absolute;
+    top: -8%;
+    left: 40%;
+}
+
+@media(min-width: 991px) {
+    #metaverse_event_platform_main .metaverse_event_platform_why {
+        /* background: url('./asset/inner-pages-new/metaverse-event-platform-development/why-bg.webp'); */
+        background-position: 60%;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        height: 697px;
+        padding: 50px 0px;
+    }
+}
+
+#metaverse_event_platform_main .metaverse_event_platform_why .title {
+    font-size: 35px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 1.3;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+}
+
+#metaverse_event_platform_main .metaverse_event_platform_why .contents {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.8;
+}
+
+#metaverse_event_platform_main .metaverse_event_platform_why .window {
+    position: relative;
+    transition: all 0.6s ease;
+}
+
+#metaverse_event_platform_main .metaverse_event_platform_why .why_box {
+    position: relative;
+    padding: 15px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.03);
+    text-align: center;
+    min-height: 320px;
+    margin-right: 15px;
+}
+
+#metaverse_event_platform_main .metaverse_event_platform_why .sub_title {
+    color: #00F0FF;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+}
+
+#metaverse_event_platform_main .metaverse_event_platform_why .contents {
+    font-size: 16px;
+    padding-top: 5px;
+    font-weight: 300;
+    margin-bottom: 0px;
+}
+
+#metaverse_event_platform_main .metaverse_event_platform_why #carrousel .owl-carousel .owl-item {
+    margin-bottom: 30px;
+}
+
+#metaverse_event_platform_main .metaverse_event_platform_why #carrousel {
+    margin-top: 30px;
+}
+
+#metaverse_event_platform_main .metaverse_event_platform_why #carrousel .owl-carousel .owl-item {
+    position: relative;
+    z-index: 1;
+}
+
+#metaverse_event_platform_main .metaverse_event_platform_why #carrousel .owl-carousel .owl-stage-outer {
+    padding-bottom: 10px;
+}
+
+#metaverse_event_platform_main .metaverse_event_platform_why #carrousel .owl-item.medium.mdright {
+    position: relative;
+    opacity: 0.4;
+    backdrop-filter: blur(5px);
+}
+
+#metaverse_event_platform_main .metaverse_event_platform_why #carrousel .owl-nav {
+    position: absolute;
+    bottom: 5%;
+    width: 100%;
+}
+
+#metaverse_event_platform_main .metaverse_event_platform_why #carrousel .owl-nav .owl-prev {
+    position: absolute;
+    left: 45%;
+    top: 10px;
+    background: #00F0FF !important;
+    font-size: 16px !important;
+    background: #fff;
+    border-radius: 50%;
+    height: 25px;
+    font-weight: 800;
+    width: 25px;
+    display: flex;
+    align-items: center;
+    color: #000;
+    justify-content: center;
+}
+
+#metaverse_event_platform_main .metaverse_event_platform_why #carrousel .owl-nav .owl-prev:hover {
+    color: #fff !important;
+}
+
+#metaverse_event_platform_main .metaverse_event_platform_why #carrousel .owl-nav .owl-next {
+    position: absolute;
+    right: 45%;
+    top: 10px;
+    background: #00F0FF !important;
+    font-size: 16px !important;
+    background: #fff;
+    border-radius: 50%;
+    height: 25px;
+    font-weight: 800;
+    width: 25px;
+    display: flex;
+    align-items: center;
+    color: #000;
+    justify-content: center;
+}
+
+#metaverse_event_platform_main .metaverse_event_platform_why #carrousel .owl-nav .owl-next:hover {
+    color: #fff !important;
+}
+
+@media(min-width: 991px) {
+    #metaverse_event_platform_main .metaverse_event_platform_hire {
+        /* background: url('./asset/inner-pages-new/metaverse-event-platform-development/hire-bg.webp'); */
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        min-height: 100vh;
+        align-items: center;
+        padding: 100px 0px;
+        margin-top: -15px;
+    }
+}
+
+#metaverse_event_platform_main .metaverse_event_platform_hire .title {
+    font-size: 35px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 1.7;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+}
+
+#metaverse_event_platform_main .metaverse_event_platform_hire .contents {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+#metaverse_event_platform_main .metaverse_event_platform_hire .hire_content_sec {
+    text-align: center;
+    margin-top: 60%;
+}
+
+#metaverse_event_platform_main .metaverse_event_platform_hire .metaverse_event_plat_btn_sec {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#metaverse_event_platform_main .metaverse_event_platform_whyMetaBlock {
+    padding: 50px 0px;
+}
+
+#metaverse_event_platform_main .metaverse_event_platform_whyMetaBlock .title-10 {
+    font-size: 35px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 1.5;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+}
+
+#metaverse_event_platform_main .metaverse_event_platform_whyMetaBlock .contents {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+#metaverse_event_platform_main .metaverse_event_platform_whyMetaBlock .whyMetaBlock_list_box {
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(67.5px);
+    padding: 20px;
+}
+
+#metaverse_event_platform_main .metaverse_event_platform_whyMetaBlock .whyMetaBlock_list_col {
+    position: relative;
+    z-index: 1;
+}
+
+#metaverse_event_platform_main .metaverse_event_platform_whyMetaBlock .whyMetaBlock_list_col:after {
+    position: absolute;
+    content: '';
+    bottom: -8%;
+    right: -4%;
+    width: 85px;
+    height: 85px;
+    background: linear-gradient(152deg, #CB45FF 0%, #435AFF 100%);
+    border-radius: 50%;
+    z-index: -1;
+}
+
+#metaverse_event_platform_main .metaverse_event_platform_whyMetaBlock .whyMetaBlock_list {
+    display: flex;
+    align-items: center;
+    padding: 15px 0px;
+}
+
+#metaverse_event_platform_main .metaverse_event_platform_whyMetaBlock .sub_title {
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding-left: 15px;
+}
+
+#metaverse_event_platform_main .metaverse_event_platform_whyMetaBlock .whyMetaBlock_list img {
+    width: 30px;
+}
+
+@media(max-width: 991px) {
+    #metaverse_event_platform_main .metaverse_event_platform_banner {
+        display: flex;
+        align-items: center;
+        padding: 50px 0px;
+        text-align: center;
+        height: 500px;
+    }
+
+    #metaverse_event_platform_main .metaverse_event_platform_banner .banner_sec {
+        margin-top: 0%;
+    }
+
+    #metaverse_event_platform_main .metaverse_event_platform_banner .banner_btn {
+        width: 170px;
+    }
+
+    #metaverse_event_platform_main .metaverse_event_platform_comp {
+        text-align: center;
+        padding: 50px 0px;
+    }
+
+    #metaverse_event_platform_main .metaverse_event_platform_virtual .virtual_content_sec {
+        margin-top: 0%;
+    }
+
+    #metaverse_event_platform_main .metaverse_event_platform_comp .metaverse_event_platform_about_btn_sec {
+        justify-content: center;
+    }
+
+    #metaverse_event_platform_main .metaverse_event_platform_benefits img {
+        margin-bottom: 50px;
+    }
+
+    #metaverse_event_platform_main .metaverse_event_platform_benefits .sprite_icons {
+        left: 45%;
+        top: -12%;
+    }
+
+    #metaverse_event_platform_main .metaverse_event_platform_comp .metaverse_event_platform_about_btn.mobile {
+        display: block !important;
+        width: fit-content
+    }
+
+    #metaverse_event_platform_main .metaverse_event_platform_comp .metaverse_event_platform_about_btn.desktop {
+        display: none;
+    }
+
+    #metaverse_event_platform_main .metaverse_event_platform_why {
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+    #metaverse_event_platform_main .metaverse_event_platform_why .why_box {
+        min-height: 305px;
+        padding: 20px;
+        margin: 0px 10px;
+    }
+
+    #metaverse_event_platform_main .metaverse_event_platform_hire {
+        padding: 50px 0px;
+    }
+
+    #metaverse_event_platform_main .metaverse_event_platform_hire .hire_content_sec {
+        margin-top: 0;
+    }
+
+    #metaverse_event_platform_main .metaverse_event_platform_whyMetaBlock .contents {
+        text-align: center;
+    }
+
+    #metaverse_event_platform_main .metaverse_event_platform_whyMetaBlock .whyMetaBlock_list_box {
+        margin-top: 20px;
+    }
+}
+
+@media(max-width: 767px) {
+    #metaverse_event_platform_main .metaverse_event_platform_banner {
+        display: flex;
+        align-items: center;
+        min-height: 550px;
+        padding: 50px 0px;
+    }
+
+    #metaverse_event_platform_main .metaverse_event_platform_banner .title {
+        font-size: 28px !important;
+    }
+
+    #metaverse_event_platform_main .metaverse_event_platform_banner .banner_btn,
+    #metaverse_event_platform_main .metaverse_event_platform_hire .metaverse_event_plat_btn {
+        font-size: 14px !important;
+        padding: 8px 18px;
+        margin: 0 auto;
+        width: 170px;
+    }
+
+    #metaverse_event_platform_main .metaverse_event_platform_virtual .title,
+    #metaverse_event_platform_main .metaverse_event_platform_solut .title,
+    #metaverse_event_platform_main .metaverse_event_platform_features .title,
+    #metaverse_event_platform_main .metaverse_event_platform_benefits .title,
+    #metaverse_event_platform_main .metaverse_event_platform_comp .title,
+    #metaverse_event_platform_main .metaverse_event_platform_why .title,
+    #metaverse_event_platform_main .metaverse_event_platform_whyMetaBlock .title-10,
+    #metaverse_event_platform_main .metaverse_event_platform_hire .title {
+        font-size: 26px !important;
+        line-height: 1.6 !important;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    #metaverse_event_platform_main .metaverse_event_platform_comp .metaverse_event_platform_about_btn,
+    #metaverse_event_platform_main .metaverse_event_platform_comp .metaverse_event_platform_about_btn1 {
+        font-size: 14px !important;
+        padding: 8px 18px;
+    }
+
+    #metaverse_event_platform_main .metaverse_event_platform_features .feature_box {
+        min-height: 0px;
+    }
+
+    #metaverse_event_platform_main .metaverse_event_platform_solut .solution_bg_sec {
+        min-height: 720px;
+        padding: 0px 15px;
+    }
+
+    #metaverse_event_platform_main .metaverse_event_platform_why #carrousel {
+        margin-top: 20px;
+    }
+
+    #metaverse_event_platform_main .metaverse_event_platform_why #carrousel .owl-carousel .owl-item {
+        margin-bottom: 0px;
+    }
+
+    #metaverse_event_platform_main .metaverse_event_platform_why #carrousel .owl-nav .owl-prev {
+        left: 38%;
+    }
+
+    #metaverse_event_platform_main .metaverse_event_platform_why #carrousel .owl-nav .owl-next {
+        right: 38%;
+    }
+
+    #metaverse_event_platform_main .metaverse_event_platform_why #carrousel .owl-nav {
+        bottom: 0%;
+    }
+
+    #metaverse_event_platform_main .metaverse_event_platform_whyMetaBlock .whyMetaBlock_list_col:after {
+        display: none;
+    }
+}
+
+@media(max-width: 476px) {
+    #metaverse_event_platform_main .metaverse_event_platform_banner .banner_btn {
+        width: 170px;
+    }
+
+    #metaverse_event_platform_main .metaverse_event_platform_solut {
+        padding: 0px 0px;
+    }
+
+    #metaverse_event_platform_main .metaverse_event_platform_why .slick-next {
+        right: 40%;
+    }
+
+    #metaverse_event_platform_main .metaverse_event_platform_why .slick-prev {
+        left: 40%;
+    }
+}

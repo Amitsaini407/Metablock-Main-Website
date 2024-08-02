@@ -1,0 +1,1787 @@
+#metaverse_dev_main {
+    background: #000000;
+}
+
+#metaverse_dev_main .metaverse_dev_banner {
+    padding: 50px 0px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.nft_top {
+    display: flex;
+    justify-content: center;
+}
+
+.nft_top img {
+    width: 600px;
+    border-radius: 5px;
+}
+
+.nft_tops {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.nft_tops img {
+    width: 600px;
+    border-radius: 5px;
+}
+
+.live_meta img {
+    width: 500px;
+}
+
+
+#metaverse_dev_main .metaverse_dev_banner .banner_img {
+    transform: translate(0%, -10%) !important;
+}
+
+@media (max-width: 991px) {
+    #metaverse_dev_main .metaverse_dev_banner {
+        position: relative;
+        z-index: 1;
+        text-align: center;
+        background-position: 75% !important;
+    }
+}
+
+#metaverse_dev_main .metaverse_dev_banner .title {
+    font-weight: 800;
+    font-size: 45px !important;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 1.1;
+    font-family: "Urbanist", sans-serif;
+    position: relative;
+}
+
+#metaverse_dev_main .metaverse_dev_banner .cus_title {
+    color: #00FFFF;
+    font-size: 95px;
+    text-transform: uppercase;
+    margin-top: 100px !important;
+}
+
+#metaverse_dev_main .metaverse_dev_banner .cus_contents {
+    font-size: 16px !important;
+    font-weight: 600;
+    color: #00FFFF;
+    line-height: 1.8;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#metaverse_dev_main .metaverse_dev_banner .contents {
+    font-size: 16px !important;
+    color: #FFFFFF;
+    line-height: 1.8;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+
+#metaverse_dev_main .metaverse_dev_banner .banner_btn_sec {
+    margin-top: 30px;
+}
+
+#metaverse_dev_main .metaverse_dev_banner .banner_btn {
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: 600;
+    border: none;
+    text-transform: capitalize;
+    font-size: 16px !important;
+    color: #fff !important;
+    font-family: "Urbanist", sans-serif;
+}
+
+#metaverse_dev_main .metaverse_dev_banner .banner_btn span {
+    background: linear-gradient(96.74deg, #FA00FF -4.87%, #00FFFF 114.94%) !important;
+}
+
+#metaverse_dev_main .metaverse_dev_sec {
+    padding: 50px 0px;
+}
+
+#metaverse_dev_main .metaverse_dev_sec .title {
+    font-size: 40px;
+    color: #00FFFF;
+    font-weight: 700;
+    line-height: 1.4;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    font-family: "Urbanist", sans-serif;
+}
+
+#metaverse_dev_main .metaverse_dev_sec .contents {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+#metaverse_dev_main .metaverse_dev_sec .met_game_what_about_btn_sec {
+    margin-top: 30px;
+    display: flex;
+}
+
+#metaverse_dev_main .metaverse_dev_sec .met_game_what_about_btn {
+    text-transform: uppercase;
+    padding: 10px 30px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #000 !important;
+    background: #33FF00;
+    box-shadow: 0px 0px 10px #33FF00;
+    margin-right: 10px;
+}
+
+@media (min-width: 991px) {
+    #metaverse_dev_main .metaverse_dev_sec .met_game_what_about_btn.mobile {
+        display: none !important;
+    }
+}
+
+#metaverse_dev_main .metaverse_dev_sec .met_game_what_about_btn1 {
+    text-transform: uppercase;
+    padding: 10px 30px;
+    font-weight: 600;
+    font-size: 15px;
+    background: #00C2FF;
+    box-shadow: 0px 0px 10px #00C2FF;
+    color: #000 !important;
+}
+
+/*#metaverse_dev_main .metaverse_dev_sec .gif_img_bg {
+    position: relative;
+}
+#metaverse_dev_main .metaverse_dev_sec .gif_img {
+    position: absolute;
+    top: 26%;
+    left: 6%;
+    width: 420px;
+    height: 240px;
+    border-radius: 15px;
+    }*/
+
+#metaverse_dev_main a {
+    text-decoration: none;
+}
+
+#metaverse_dev_main .metaverse_dev_facts {
+    padding: 50px 0px;
+}
+
+#metaverse_dev_main .metaverse_dev_facts .title {
+    font-size: 75px;
+    color: #000;
+    font-weight: 800;
+    line-height: 1.4;
+    text-transform: capitalize;
+    padding-left: 30px;
+    font-family: "Urbanist", sans-serif;
+}
+
+#metaverse_dev_main .metaverse_dev_facts .contents {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+#metaverse_dev_main .metaverse_dev_facts .left_side_box-1 {
+    background: linear-gradient(90.07deg, #FA00FF -1.25%, #00FFFF 99.93%);
+    border-radius: 0px 20px 20px 0px;
+    padding: 60px;
+}
+
+#metaverse_dev_main .metaverse_dev_facts .facts_list {
+    display: flex;
+    margin: 25px;
+}
+
+#metaverse_dev_main .metaverse_dev_facts .sub_title-15 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    padding-left: 10px;
+}
+
+#metaverse_dev_main .metaverse_dev_benefits {
+    padding: 50px 0px;
+    position: relative;
+}
+
+#metaverse_dev_main .metaverse_dev_benefits .title {
+    font-size: 40px;
+    color: #00FFFF;
+    font-weight: 700;
+    line-height: 1.4;
+    text-transform: capitalize;
+    text-align: center;
+    font-family: "Urbanist", sans-serif;
+}
+
+#metaverse_dev_main .metaverse_dev_benefits .contents {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: center;
+}
+
+#metaverse_dev_main .metaverse_dev_benefits .benefits_box {
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.03);
+    border: 2px dashed #00FFFF;
+    backdrop-filter: blur(17px);
+    border-radius: 9px;
+    margin-top: 30px;
+    text-align: center;
+    min-height: 310px !important;
+    /* display: flex !important;
+    justify-content: center !important;
+    align-items: center !important; */
+}
+
+#metaverse_dev_main .metaverse_dev_benefits .benefits_box:hover {
+    border: none;
+    box-shadow: inset 0px 0px 8px 0px #01fdffa1;
+    background: unset;
+}
+
+#metaverse_dev_main .metaverse_dev_benefits .sub_title-15 {
+    color: #00FFFF;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+}
+
+#metaverse_dev_main .metaverse_dev_benefits .sub_contents-15 {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 300;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    line-height: 30px;
+}
+
+#metaverse_dev_main .metaverse_dev_platform {
+    padding: 50px 0px;
+}
+
+#metaverse_dev_main .metaverse_dev_platform .title {
+    font-size: 40px;
+    color: #00FFFF;
+    font-weight: 700;
+    line-height: 1.4;
+    text-transform: capitalize;
+    text-align: center;
+    font-family: "Urbanist", sans-serif;
+}
+
+#metaverse_dev_main .metaverse_dev_platform .contents {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: center;
+}
+
+#metaverse_dev_main .metaverse_dev_platform .scroll_sec {
+    max-height: 400px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+/** Scrollbar Styles START **/
+
+#metaverse_dev_main .metaverse_dev_platform .scroll_sec {
+    scrollbar-width: thin;
+    scrollbar-color: #0FF #ffffff17;
+    overflow-y: auto;
+}
+
+#metaverse_dev_main .metaverse_dev_platform .scroll_sec::-webkit-scrollbar {
+    width: 5px;
+    height: 4px;
+}
+
+#metaverse_dev_main .metaverse_dev_platform .scroll_sec::-webkit-scrollbar-track {
+    background-color: #ffffff17;
+}
+
+#metaverse_dev_main .metaverse_dev_platform .scroll_sec::-webkit-scrollbar-thumb {
+    background-color: #0FF;
+}
+
+#metaverse_dev_main .metaverse_dev_platform .scroll_sec::-webkit-scrollbar-track,
+#metaverse_dev_main .metaverse_dev_platform .scroll_sec::-webkit-scrollbar-thumb {
+    border-radius: 50px;
+}
+
+@-moz-document url-prefix() {
+    #metaverse_dev_main .metaverse_dev_platform .scroll_sec {
+        scrollbar-width: thin;
+        scrollbar-color: #0FF #ffffff17;
+        overflow-y: auto;
+    }
+
+    #metaverse_dev_main .metaverse_dev_platform .scroll_sec::scrollbar {
+        width: 5px;
+        height: 4px;
+    }
+
+    #metaverse_dev_main .metaverse_dev_platform .scroll_sec::-webkit-scrollbar-track {
+        background-color: #ffffff17;
+    }
+
+    #metaverse_dev_main .metaverse_dev_platform .scroll_sec::-webkit-scrollbar-thumb {
+        background-color: #0FF;
+    }
+
+    #metaverse_dev_main .metaverse_dev_platform .scroll_sec::-scrollbar-track,
+    #metaverse_dev_main .metaverse_dev_platform .scroll_sec::-webkit-scrollbar-thumb {
+        border-radius: 50px;
+    }
+}
+
+/** Scrollbar Styles END **/
+
+#metaverse_dev_main .metaverse_dev_platform .platform_box {
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#metaverse_dev_main .metaverse_dev_platform .platform_box:hover {
+    background: #000000;
+    box-shadow: 0px 0px 9px #00FFFF;
+    border-radius: 5px;
+}
+
+#metaverse_dev_main .metaverse_dev_platform .sub_title-15 {
+    color: #00FFFF;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#metaverse_dev_main .metaverse_dev_platform .sub_contents-15 {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    line-height: 30px;
+}
+
+#metaverse_dev_main .metaverse_dev_platform .sprite_icons {
+    width: 50px;
+    height: 50px;
+    object-fit: none;
+}
+
+#metaverse_dev_main .metaverse_dev_platform .met_dev_btn_sec {
+    margin-top: 30px;
+}
+
+#metaverse_dev_main .metaverse_dev_platform .met_dev_btn {
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: 600;
+    border: none;
+    text-transform: capitalize;
+    font-size: 16px !important;
+    color: #fff !important;
+    margin: 0 auto;
+    font-family: "Urbanist", sans-serif;
+}
+
+#metaverse_dev_main .metaverse_dev_platform .met_dev_btn span {
+    background: linear-gradient(96.74deg, #FA00FF -4.87%, #00FFFF 114.94%) !important;
+}
+
+#metaverse_dev_main .metaverse_dev_features {
+    padding: 50px 0px;
+}
+
+#metaverse_dev_main .metaverse_dev_features .title {
+    font-size: 40px;
+    color: #00FFFF;
+    font-weight: 700;
+    line-height: 1.4;
+    text-transform: capitalize;
+    text-align: center;
+    font-family: "Urbanist", sans-serif;
+}
+
+#metaverse_dev_main .metaverse_dev_features .contents {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: center;
+}
+
+#metaverse_dev_main .metaverse_dev_features .feature_box {
+    padding: 20px;
+    background: #0D0D0D;
+    border-radius: 7px;
+    position: relative;
+    z-index: 5;
+    margin-top: 40px;
+    min-height: 518px;
+}
+
+#metaverse_dev_main .metaverse_dev_features .feature_box::before {
+    content: "";
+    position: absolute;
+    top: auto;
+    bottom: 0;
+    left: 0;
+    border-radius: 10px;
+    background-image: linear-gradient(162.58deg, #FA00FF 0.68%, #00FFFF 88.73%);
+    background-repeat: repeat-x;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+}
+
+#metaverse_dev_main .metaverse_dev_features .feature_box::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: #0D0D0D;
+    border-radius: 7px;
+    position: absolute;
+    z-index: -1;
+}
+
+#metaverse_dev_main .metaverse_dev_features .feature_box:hover::before {
+    transform: rotate(2deg) translateX(-7px) translateY(11px);
+}
+
+#metaverse_dev_main .metaverse_dev_features .feature_box:hover .card-thumbnail img {
+    transform: scale(1.1);
+}
+
+#metaverse_dev_main .metaverse_dev_features .feature_box .card-thumbnail {
+    overflow: hidden;
+    border-radius: 7px;
+    position: relative;
+    margin: -15px;
+}
+
+#metaverse_dev_main .metaverse_dev_features .feature_box .card-thumbnail::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 50%;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+
+#metaverse_dev_main .metaverse_dev_features .sub_title-15 {
+    color: #00FFFF;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+    text-align: center;
+    padding-top: 30px;
+}
+
+#metaverse_dev_main .metaverse_dev_features .sub_contents-15 {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    line-height: 30px;
+    text-align: center;
+}
+
+#metaverse_dev_main .metaverse_dev_features .sprite_icons {
+    width: 340px;
+    height: 195px;
+    object-fit: none;
+    border-radius: 7px;
+    transition: 0.7s;
+}
+
+#metaverse_dev_main .metaverse_dev_business {
+    padding: 50px 0px;
+}
+
+#metaverse_dev_main .metaverse_dev_business .title {
+    font-size: 40px;
+    color: #00FFFF;
+    font-weight: 700;
+    line-height: 1.4;
+    text-transform: capitalize;
+    text-align: center;
+    font-family: "Urbanist", sans-serif;
+}
+
+#metaverse_dev_main .metaverse_dev_business .contents {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: center;
+}
+
+#metaverse_dev_main .metaverse_dev_business .cus_col {
+    position: relative;
+}
+
+#metaverse_dev_main .metaverse_dev_business .cus_col:after {
+    position: absolute;
+    content: '';
+    top: 32%;
+    right: 0px;
+    height: 60%;
+    width: 1.5px;
+    background: linear-gradient(45deg, #000, #00FFFF, #000);
+}
+
+#metaverse_dev_main .metaverse_dev_business .business_box {
+    padding: 15px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#metaverse_dev_main .metaverse_dev_business .sub_title-15 {
+    background: linear-gradient(120.45deg, #FA00FF 10.65%, #00FFFF 97.34%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+    text-align: center;
+    padding-top: 5px;
+}
+
+#metaverse_dev_main .metaverse_dev_business .sub_contents-15 {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 300;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    line-height: 30px;
+}
+
+#metaverse_dev_main .metaverse_dev_business .sprite_icons {
+    width: 60px;
+    height: 60px;
+    object-fit: none;
+}
+
+#metaverse_dev_main .metaverse_dev_services {
+    padding: 50px 0px;
+}
+
+#metaverse_dev_main .metaverse_dev_services .title {
+    font-size: 40px;
+    color: #00FFFF;
+    font-weight: 700;
+    line-height: 1.4;
+    text-transform: capitalize;
+    text-align: center;
+    font-family: "Urbanist", sans-serif;
+}
+
+#metaverse_dev_main .metaverse_dev_services .contents {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: center;
+}
+
+#metaverse_dev_main .metaverse_dev_services .sub_title-15 {
+    color: #00FFFF;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+    text-align: center;
+    line-height: 1.5;
+}
+
+#metaverse_dev_main .metaverse_dev_services .sub_contents-15 {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 300;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    line-height: 30px;
+}
+
+#metaverse_dev_main .metaverse_dev_services .services_box {
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.03);
+    margin-top: 30px;
+    min-height: 320px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+#metaverse_dev_main .metaverse_dev_services .services_box:hover,
+#metaverse_dev_main .metaverse_dev_services .services_box:hover span {
+    opacity: 1;
+}
+
+#metaverse_dev_main .metaverse_dev_services .services_box span {
+    position: absolute;
+    transition: .5;
+    opacity: 0;
+}
+
+#metaverse_dev_main .metaverse_dev_services .services_box span:nth-child(1) {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(to right, transparent, #00e0ff);
+    animation: borderTop 1s linear infinite;
+}
+
+#metaverse_dev_main .metaverse_dev_services .services_box span:nth-child(2) {
+    top: 0;
+    right: 0;
+    width: 1px;
+    height: 100%;
+    background: linear-gradient(to bottom, transparent, #00e0ff);
+    animation: borderRight 1s linear infinite;
+    animation-delay: .5s;
+}
+
+#metaverse_dev_main .metaverse_dev_services .services_box span:nth-child(3) {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(to left, transparent, #00e0ff);
+    animation: borderBottom 1s linear infinite;
+}
+
+#metaverse_dev_main .metaverse_dev_services .services_box span:nth-child(4) {
+    top: 0;
+    left: 0;
+    width: 1px;
+    height: 100%;
+    background: linear-gradient(to top, transparent, #00e0ff);
+    animation: borderLeft 1s linear infinite;
+    animation-delay: .5s;
+}
+
+@keyframes borderTop {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+@keyframes borderRight {
+    0% {
+        transform: translateY(-100%);
+    }
+
+    100% {
+        transform: translateY(100%);
+    }
+}
+
+@keyframes borderBottom {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes borderLeft {
+    0% {
+        transform: translateY(100%);
+    }
+
+    100% {
+        transform: translateY(-100%);
+    }
+}
+
+#metaverse_dev_main .metaverse_dev_top {
+    padding: 50px 0px;
+}
+
+#metaverse_dev_main .metaverse_dev_top .title-13 {
+    font-size: 40px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 1.4;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+}
+
+#metaverse_dev_main .metaverse_dev_top .cus_title {
+    color: #00FFFF;
+}
+
+#metaverse_dev_main .metaverse_dev_top .top_list {
+    text-align: center;
+    padding: 10px;
+}
+
+#metaverse_dev_main .metaverse_dev_top .sub_title-15 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+    text-align: center;
+    padding-top: 5px;
+}
+
+#metaverse_dev_main .metaverse_dev_top .sprite_icons {
+    width: 140px;
+    height: 140px;
+    object-fit: none;
+}
+
+#metaverse_dev_main .metaverse_dev_top .met_dev_btn_sec {
+    margin-top: 30px;
+}
+
+#metaverse_dev_main .metaverse_dev_top .met_dev_btn {
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: 600;
+    border: none;
+    text-transform: capitalize;
+    font-size: 16px !important;
+    color: #fff !important;
+    font-family: "Urbanist", sans-serif;
+}
+
+#metaverse_dev_main .metaverse_dev_top .met_dev_btn span {
+    background: linear-gradient(96.74deg, #FA00FF -4.87%, #00FFFF 114.94%) !important;
+}
+
+#metaverse_dev_main .metaverse_dev_model {
+    padding: 50px 0px;
+}
+
+#metaverse_dev_main .metaverse_dev_model .title {
+    font-size: 40px;
+    color: #00FFFF;
+    font-weight: 700;
+    line-height: 1.4;
+    text-transform: capitalize;
+    text-align: center;
+    font-family: "Urbanist", sans-serif;
+}
+
+#metaverse_dev_main .metaverse_dev_model .contents {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: center;
+}
+
+#metaverse_dev_main .metaverse_dev_model .how_box {
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px;
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 10px;
+    min-height: 352px;
+}
+
+#metaverse_dev_main .metaverse_dev_model .how_box:hover {
+    box-shadow: -3px 3px 0px #00FFFF;
+}
+
+#metaverse_dev_main .metaverse_dev_model .sub_title-15 {
+    color: #00FFFF;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+    text-align: center;
+}
+
+#metaverse_dev_main .metaverse_dev_model .sub_contents-15 {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    line-height: 30px;
+    text-align: center;
+}
+
+#metaverse_dev_main .metaverse_dev_whychoose {
+    padding: 50px 0px;
+}
+
+#metaverse_dev_main .metaverse_dev_whychoose .title {
+    font-size: 35px;
+    color: #00FFFF;
+    font-weight: 700;
+    line-height: 1.4;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    font-family: "Urbanist", sans-serif;
+    text-align: center;
+}
+
+#metaverse_dev_main .metaverse_dev_whychoose .contents {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: center;
+}
+
+#metaverse_dev_main .metaverse_dev_whychoose .cus_title {
+    font-size: 20px;
+    color: #00FFFF;
+    font-weight: 700;
+    line-height: 1.4;
+    text-transform: capitalize;
+    margin-top: 20px;
+    font-family: "Urbanist", sans-serif;
+    text-align: center;
+}
+
+#metaverse_dev_main .metaverse_dev_whychoose .why_box {
+    padding: 20px;
+    text-align: center;
+    clip-path: polygon(10% 0, 100% 0, 100% 10%, 100% 85%, 90% 100%, 0 100%, 0 90%, 0 15%);
+    background: #080808;
+    margin-top: 30px;
+    min-height: 285px;
+}
+
+#metaverse_dev_main .metaverse_dev_whychoose .why_box:hover {
+    background: #00ffff17;
+}
+
+#metaverse_dev_main .metaverse_dev_whychoose .sub_title-15 {
+    color: #00FFFF;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+    text-align: center;
+}
+
+#metaverse_dev_main .metaverse_dev_whychoose .sub_contents-15 {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    line-height: 30px;
+    text-align: center;
+}
+
+#metaverse_dev_main .metaverse_game_ebook_sec {
+    padding: 90px 0px;
+}
+
+#metaverse_dev_main .metaverse_game_ebook_sec .title {
+    font-size: 50px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 1.3;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+}
+
+#metaverse_dev_main .metaverse_game_ebook_sec .contents {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+#metaverse_dev_main .metaverse_game_ebook_sec #ebook_card {
+    padding: 30px;
+    background: linear-gradient(93.79deg, #E442FF -13.43%, #3C5BFF 100.49%);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    position: relative;
+}
+
+#metaverse_dev_main .metaverse_game_ebook_sec #ebook_card .ebook_card_img {
+    position: absolute;
+    top: -28%;
+    right: 8%;
+    height: 480px;
+}
+
+#metaverse_dev_main .metaverse_game_ebook_sec .ebook_btn_sec {
+    margin-top: 20px;
+}
+
+#metaverse_dev_main .metaverse_game_ebook_sec .ebook_btn {
+    background: #01030b;
+    border-radius: 5px;
+    font-weight: 600;
+    border: none;
+    text-transform: capitalize;
+    font-size: 16px !important;
+    color: #fff !important;
+    font-family: "Urbanist", sans-serif;
+    display: inline-block;
+    position: relative;
+    padding: 10px 15px 10px 50px;
+}
+
+#metaverse_dev_main .metaverse_game_ebook_sec .ebook_btn:hover:after {
+    animation: unset;
+}
+
+#metaverse_dev_main .metaverse_game_ebook_sec .ebook_btn:before {
+    width: 25px;
+    height: 7px;
+    border-style: solid;
+    border-width: 0 2px 2px;
+}
+
+#metaverse_dev_main .metaverse_game_ebook_sec .ebook_btn:before,
+#metaverse_dev_main .metaverse_game_ebook_sec .ebook_btn:after {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 15px;
+    top: 50%;
+}
+
+#metaverse_dev_main .metaverse_game_ebook_sec .ebook_btn:after {
+    width: 0;
+    height: 0;
+    margin-left: 3px;
+    margin-top: -7px;
+    border-style: solid;
+    border-width: 9px 9px 0 9px;
+    border-color: transparent;
+    border-top-color: inherit;
+    animation: downloadArrow 2s linear infinite;
+}
+
+@keyframes downloadArrow {
+    0% {
+        margin-top: -7px;
+        opacity: 1;
+    }
+
+    0.001% {
+        margin-top: -15px;
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        margin-top: 0;
+        opacity: 0;
+    }
+}
+
+#metaverse_dev_main .metaverse_game_ebook_sec .free_title_sec {
+    padding: 10px 20px;
+    position: absolute;
+    right: 0%;
+    top: -13%;
+    width: 150px;
+    animation: zoom-in-zoom-out 2s ease-out infinite;
+    text-align: center;
+}
+
+@keyframes zoom-in-zoom-out {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(0.9);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+#metaverse_dev_main .metaverse_game_ebook_sec .free_img {
+    width: 80px;
+}
+
+@media(max-width: 991px) {
+    #metaverse_dev_main .metaverse_dev_banner {
+        display: flex;
+        align-items: center;
+        padding: 50px 0px;
+        text-align: center;
+    }
+
+    #metaverse_dev_main .metaverse_dev_banner svg {
+        left: 0%;
+    }
+
+    #metaverse_dev_main .metaverse_dev_banner .cus_col {
+        padding-left: 15px;
+        padding-top: 0px;
+    }
+
+    #metaverse_dev_main .metaverse_dev_banner .title {
+        margin-top: 0px;
+    }
+
+    #metaverse_dev_main .metaverse_dev_banner .banner_btn {
+        margin: 0 auto;
+    }
+
+    #metaverse_dev_main .metaverse_dev_sec .mbl_video {
+        width: 100%;
+    }
+
+    #metaverse_dev_main .metaverse_dev_sec,
+    #metaverse_dev_main .metaverse_dev_whychoose .contents,
+    #metaverse_dev_main .metaverse_dev_features .feature_box {
+        text-align: center;
+    }
+
+    #metaverse_dev_main .metaverse_dev_sec .gif_img {
+        top: 34%;
+        left: 21%;
+    }
+
+    #metaverse_dev_main .metaverse_game_comp #metaverse_game_comp_card {
+        padding: 20px;
+    }
+
+    #metaverse_dev_main .metaverse_game_benefits .benefits_box {
+        min-height: 370px;
+    }
+
+    #metaverse_dev_main .metaverse_game_benefits .img_sec:before {
+        bottom: 1%;
+        left: 48%;
+    }
+
+    #metaverse_dev_main .metaverse_game_process .bg_title,
+    #metaverse_dev_main .metaverse_game_process .bg_title1 {
+        display: none;
+    }
+
+    #metaverse_dev_main .metaverse_game_services {
+        padding: 50px 0px;
+    }
+
+    #metaverse_dev_main .metaverse_game_whydo .why_do_box {
+        margin-top: -150px;
+    }
+
+    #metaverse_dev_main .metaverse_game_hire .contents {
+        padding: 0px 20px;
+    }
+
+    #metaverse_dev_main .metaverse_game_category .category_box {
+        background: unset;
+        box-shadow: unset;
+    }
+
+    #metaverse_dev_main .metaverse_game_category .contents {
+        margin-bottom: 0px;
+    }
+
+    #metaverse_dev_main .metaverse_game_ebook_sec {
+        padding: 50px 0px;
+    }
+
+    #metaverse_dev_main .metaverse_game_ebook_sec .free_title_sec {
+        right: -3%;
+        top: -9%;
+    }
+
+    #metaverse_dev_main .metaverse_game_ebook_sec .free_title_sec .free_img {
+        width: 60px;
+    }
+
+    #metaverse_dev_main .metaverse_dev_sec .met_game_what_about_btn.mobile {
+        display: block !important;
+        width: fit-content;
+    }
+
+    #metaverse_dev_main .metaverse_dev_sec .met_game_what_about_btn.desktop {
+        display: none;
+    }
+
+    #metaverse_dev_main .metaverse_dev_sec .met_game_what_about_btn_sec {
+        justify-content: center;
+    }
+
+    #metaverse_dev_main .metaverse_dev_services .services_box,
+    #metaverse_dev_main .metaverse_dev_benefits .benefits_box,
+    #metaverse_dev_main .metaverse_dev_features .feature_box,
+    #metaverse_dev_main .metaverse_dev_model .how_box,
+    #metaverse_dev_main .metaverse_dev_whychoose .why_box {
+        min-height: 0px;
+    }
+
+    #metaverse_dev_main .metaverse_dev_business .cus_col:after,
+    #metaverse_dev_main .metaverse_dev_blckchn .cus_col:after {
+        display: none;
+    }
+
+    #metaverse_dev_main .metaverse_dev_why .why_box_col {
+        margin-bottom: 20px;
+    }
+
+    #metaverse_dev_main .metaverse_dev_process .process_box {
+        text-align: center;
+        padding: 20px !important;
+    }
+
+    #metaverse_dev_main .metaverse_dev_process .sub_contents-15 {
+        margin-left: 0px !important;
+    }
+
+    #metaverse_dev_main .metaverse_dev_process .sub_title-15 {
+        font-size: 20px !important;
+    }
+
+    #metaverse_dev_main .metaverse_dev_process .process_numsec {
+        font-size: 100px !important;
+    }
+}
+
+@media(max-width: 767px) {
+    #metaverse_dev_main .metaverse_dev_banner {
+        display: flex;
+        align-items: center;
+        height: 100vh !important;
+        padding: 50px 0px;
+    }
+
+    #metaverse_dev_main .metaverse_dev_banner .title {
+        font-size: 25px !important;
+        line-height: 1.5;
+        margin-top: 150px !important;
+        margin-right: 150px !important;
+    }
+
+    #metaverse_dev_main .metaverse_dev_banner .cus_title {
+        font-size: 45px;
+
+    }
+
+    #metaverse_dev_main .metaverse_dev_banner svg text {
+        font-size: 200px !important;
+    }
+
+    #metaverse_dev_main .metaverse_dev_banner .cus_brn_title {
+        font-size: 35px !important;
+    }
+
+    #metaverse_dev_main .metaverse_dev_banner .banner_btn,
+    #metaverse_dev_main .metaverse_dev_platform .met_dev_btn,
+    #metaverse_dev_main .metaverse_dev_top .met_dev_btn,
+    #metaverse_dev_main .metaverse_dev_whychoose .met_dev_btn {
+        font-size: 14px !important;
+        padding: 8px 18px;
+        margin: 0 auto;
+    }
+
+    #metaverse_dev_main .metaverse_dev_sec .title,
+    #metaverse_dev_main .metaverse_dev_benefits .title,
+    #metaverse_dev_main .metaverse_dev_platform .title,
+    #metaverse_dev_main .metaverse_dev_features .title,
+    #metaverse_dev_main .metaverse_dev_business .title,
+    #metaverse_dev_main .metaverse_dev_services .title,
+    #metaverse_dev_main .metaverse_dev_top .title-13,
+    #metaverse_dev_main .metaverse_dev_model .title,
+    #metaverse_dev_main .metaverse_dev_whychoose .title,
+    #metaverse_dev_main .metaverse_game_ebook_sec .title,
+    #metaverse_dev_main .blockchain_software .blockchain_dev_aboutus_title,
+    #metaverse_dev_main .metaverse_dev_why .title,
+    #metaverse_dev_main .metaverse_dev_process .title,
+    #metaverse_dev_main .metaverse_dev_techstack .title,
+    #metaverse_dev_main .metaverse_dev_blckchn .title {
+        font-size: 25px !important;
+        line-height: 1.4 !important;
+        text-align: center;
+    }
+
+    #metaverse_dev_main .metaverse_dev_sec .met_game_what_about_btn,
+    .met_game_what_about_btn,
+    #metaverse_dev_main .metaverse_dev_sec .met_game_what_about_btn1 {
+        font-size: 14px !important;
+        padding: 8px 18px;
+    }
+
+    #metaverse_dev_main .metaverse_dev_sec .gif_img {
+        top: 32%;
+        left: 11%;
+    }
+
+    #metaverse_dev_main .metaverse_game_ebook_sec .ebook_btn {
+        font-size: 14px !important;
+    }
+
+    #metaverse_dev_main .metaverse_dev_features .feature_box,
+    #metaverse_dev_main .metaverse_dev_model .how_box,
+    #metaverse_dev_main .metaverse_dev_benefits .benefits_box,
+    #metaverse_dev_main .metaverse_dev_services .services_box {
+        min-height: 0px;
+    }
+
+    #metaverse_dev_main .metaverse_dev_facts .left_side_box-1 {
+        padding: 22px;
+    }
+
+    #metaverse_dev_main .metaverse_dev_facts .title {
+        font-size: 35px;
+    }
+
+    #metaverse_dev_main .metaverse_game_ebook_sec #ebook_card {
+        text-align: center;
+        padding: 20px 10px;
+        margin: 0px 10px;
+    }
+
+    #metaverse_dev_main .metaverse_game_ebook_sec .free_title_sec {
+        right: -3%;
+        top: -14%;
+    }
+
+    #metaverse_dev_main .metaverse_game_ebook_sec .title {
+        margin-top: 30px;
+    }
+
+    #metaverse_dev_main .blockchain_software .section_heading {
+        text-align: center;
+    }
+
+    #metaverse_dev_main .blockchain_software .bg_image {
+        background: none;
+        height: 30vh;
+    }
+
+    #metaverse_dev_main .TlkBtn {
+        width: 170px;
+    }
+}
+
+@media(max-width: 520px) {
+    #metaverse_dev_main .metaverse_game_ebook_sec .free_title_sec {
+        right: -10%;
+        top: -10%;
+    }
+}
+
+#metaverse_dev_main .metaverse_dev_techstack {
+    padding: 50px 0px;
+}
+
+#metaverse_dev_main .metaverse_dev_techstack .title {
+    font-size: 40px;
+    color: #00FFFF;
+    font-weight: 700;
+    line-height: 1.4;
+    text-transform: capitalize;
+    text-align: center;
+    font-family: "Urbanist", sans-serif;
+}
+
+#metaverse_dev_main .metaverse_dev_techstack .contents {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: center;
+}
+
+#metaverse_dev_main .metaverse_dev_techstack .techstack_box {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    margin-top: 30px;
+}
+
+#metaverse_dev_main .metaverse_dev_techstack .techstack_box:hover .gradient_box {
+    box-shadow: inset 0px 0px 12px 1px #00ffff6b;
+    border: solid 0px transparent;
+}
+
+#metaverse_dev_main .metaverse_dev_techstack .techstack_box:hover .sprite_icons {
+    transform: rotateY(360deg);
+    transition: all 2s;
+}
+
+#metaverse_dev_main .metaverse_dev_techstack .techstack_box:hover .gradient_box:before {
+    margin: 0px;
+}
+
+#metaverse_dev_main .metaverse_dev_techstack .techstack_box .gradient_box {
+    position: relative;
+    padding: 20px;
+    box-sizing: border-box;
+    background: #000;
+    background-clip: padding-box;
+    border: solid 1px transparent;
+    border-radius: 10px;
+}
+
+#metaverse_dev_main .metaverse_dev_techstack .techstack_box .gradient_box:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    margin: -1px;
+    border-radius: inherit;
+    background: linear-gradient(125deg, rgba(250, 0, 255, 1), rgba(0, 255, 255, 1));
+}
+
+#metaverse_dev_main .metaverse_dev_techstack .sub_title-15 {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#metaverse_dev_main .metaverse_dev_techstack .sprite_icons {
+    width: 60px;
+    height: 60px;
+    object-fit: none;
+}
+
+#metaverse_dev_main .metaverse_dev_process {
+    padding: 50px 0px;
+}
+
+#metaverse_dev_main .metaverse_dev_process .cus_container {
+    max-width: 1400px;
+}
+
+#metaverse_dev_main .metaverse_dev_process .title {
+    font-size: 40px;
+    color: #00FFFF;
+    font-weight: 700;
+    line-height: 1.4;
+    text-transform: capitalize;
+    text-align: center;
+    font-family: "Urbanist", sans-serif;
+}
+
+#metaverse_dev_main .metaverse_dev_process ul.nav-tabs {
+    border-bottom: unset;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin-top: 30px;
+}
+
+#metaverse_dev_main .metaverse_dev_process .nav-tabs .nav-item.show .nav-link,
+#metaverse_dev_main .metaverse_dev_process .nav-tabs .nav-link.active,
+#metaverse_dev_main .metaverse_dev_process .nav-tabs .nav-link:focus,
+#metaverse_dev_main .metaverse_dev_process .nav-tabs .nav-link:hover {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+#metaverse_dev_main .metaverse_dev_process .nav-tabs .nav-link.active .num_sec {
+    background: #00FFFF;
+    color: #000;
+}
+
+#metaverse_dev_main .metaverse_dev_process .nav-tabs .nav-link.active:hover .num_sec {
+    color: #000;
+}
+
+#metaverse_dev_main .metaverse_dev_process .nav-tabs .nav-link:hover .num_sec {
+    color: #00FFFF;
+}
+
+#metaverse_dev_main .metaverse_dev_process ul.nav-tabs .num_sec {
+    width: 50px;
+    height: 50px;
+    background: #1f1f1f;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    margin: 0 auto;
+}
+
+#metaverse_dev_main .metaverse_dev_process .sub_title-15 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#metaverse_dev_main .metaverse_dev_process .sub_contents-15 {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 300;
+    margin-left: 25px;
+    margin-bottom: 0px;
+    line-height: 30px;
+    padding-top: 10px;
+}
+
+#metaverse_dev_main .metaverse_dev_process .sprite_icons {
+    width: 50px;
+    height: 50px;
+    object-fit: none;
+    margin-left: 25px;
+}
+
+#metaverse_dev_main .metaverse_dev_process .process_box {
+    padding: 0px 100px;
+}
+
+#metaverse_dev_main .metaverse_dev_process .process_numsec {
+    font-size: 150px;
+    font-weight: 800;
+    font-family: "Urbanist", sans-serif;
+    text-align: center;
+    color: #00FFFF;
+}
+
+#metaverse_dev_main .metaverse_dev_process .cus_line {
+    border-left: 2px solid #00ffff;
+}
+
+#metaverse_dev_main .metaverse_dev_process .nav-tabs .nav-link {
+    max-width: 200px;
+}
+
+#metaverse_dev_main .metaverse_dev_process .tab-content {
+    margin-top: 50px;
+}
+
+#metaverse_dev_main .metaverse_dev_blckchn {
+    padding: 50px 0px;
+}
+
+#metaverse_dev_main .metaverse_dev_blckchn .title {
+    font-size: 40px;
+    color: #00FFFF;
+    font-weight: 700;
+    line-height: 1.4;
+    text-transform: capitalize;
+    text-align: center;
+    font-family: "Urbanist", sans-serif;
+}
+
+#metaverse_dev_main .metaverse_dev_blckchn .contents {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: center;
+}
+
+#metaverse_dev_main .metaverse_dev_blckchn .blk_card_bg {
+    background: #0d0d0d;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+#metaverse_dev_main .metaverse_dev_blckchn .cus_col {
+    position: relative;
+}
+
+#metaverse_dev_main .metaverse_dev_blckchn .cus_col:after {
+    position: absolute;
+    content: '';
+    top: 15%;
+    right: 0px;
+    height: 70%;
+    width: 1.5px;
+    background: linear-gradient(45deg, #0d0d0d, #00FFFF, #0d0d0d);
+}
+
+#metaverse_dev_main .metaverse_dev_blckchn .blkchn_box {
+    padding: 15px;
+    text-align: center;
+}
+
+#metaverse_dev_main .metaverse_dev_blckchn .sub_title-15 {
+    background: linear-gradient(120.45deg, #FA00FF 10.65%, #00FFFF 97.34%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+    text-align: center;
+    padding-top: 5px;
+}
+
+#metaverse_dev_main .metaverse_dev_blckchn .sub_contents-15 {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 300;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    line-height: 30px;
+}
+
+#metaverse_dev_main .metaverse_dev_blckchn .sprite_icons {
+    width: 60px;
+    height: 60px;
+    object-fit: none;
+}
+
+
+
+@media (min-width: 991px) {
+    .faq_main .faq_section_new {
+        background: url(https://www.metablocktechnologies.com/asset/img/faq-bg.webp);
+        min-height: 982px;
+        background-repeat: no-repeat;
+        background-position: 90%;
+        mix-blend-mode: lighten;
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media (max-width: 991px) {
+    .faq_main .faq_section_new {
+        position: relative;
+        z-index: 1;
+        background-position: 100% !important;
+    }
+
+    .faq_main .faq_section_new:after {
+        content: "";
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        background: #090909e3;
+    }
+}
+
+@media(max-width: 1465px) {
+    .faq_main .faq_section_new {
+        background-position: 75%;
+    }
+}
+
+.faq_main {
+    background: linear-gradient(0deg, #060606, #060606), #FFFFFF;
+}
+
+.faq_main .faq_section_new #accordion .panel {
+    background: transparent;
+}
+
+.faq_main .faq_section_new #accordion .panel-title a {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 10px 0 10px 30px;
+    border-radius: 127px 15px 15px 127px;
+    background: linear-gradient(162deg, #00B2DD 0%, #006DB3 100%);
+    overflow: hidden;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    width: 100%;
+    text-align: left;
+    white-space: normal;
+    margin-bottom: 15px;
+    font-family: "Readex Pro", sans-serif;
+    line-height: 1.7;
+}
+
+.faq_main .faq_section_new #accordion .panel-title a.collapsed:after {
+    content: "\002B";
+    width: 50px;
+    height: 100%;
+    right: 0px;
+    top: 0px;
+    line-height: 28px;
+    font-size: 25px;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    float: right;
+    color: #000000;
+}
+
+.faq_main .faq_section_new #accordion .panel-title a:after {
+    content: "\2212";
+    width: 50px;
+    height: 100%;
+    right: 0px;
+    top: 0px;
+    line-height: 28px;
+    font-size: 25px;
+    font-weight: 900;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    float: right;
+    color: #fff;
+}
+
+.faq_main .faq_section_new #accordion .panel-title a:before {
+    content: "";
+    width: 4px;
+    height: 100%;
+    background: #0688C3;
+    position: absolute;
+    top: 0;
+    right: 8%;
+}
+
+.faq_main .faq_section_new #accordion .panel-body {
+    padding: 10px;
+    box-shadow: unset;
+    border: none;
+}
+
+.faq_main .faq_section_new #accordion .panel-body p,
+.faq_main .faq_section_new #accordion .panel-body ul li {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    padding-top: 0px;
+    margin-bottom: 15px;
+    line-height: 1.8;
+    font-family: "Readex Pro", sans-serif;
+}
+
+.faq_main .faq_section_new .faq_load_btn_sec {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.faq_main .faq_section_new .faq_load_btn {
+    padding: 8px 20px;
+    background: linear-gradient(93.79deg, #E442FF -13.43%, #3C5BFF 100.49%);
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+@media(max-width: 991px) {
+    .faq_main .faq_section_new {
+        padding: 50px 0px;
+    }
+}
+
+@media(max-width: 767px) {
+    .faq_main .faq_section_new .faq_load_btn {
+        font-size: 14px;
+        padding: 8px 20px;
+    }
+
+    .faq_main .faq_section_new .faq_title {
+        font-size: 30px !important;
+        text-align: center;
+    }
+}
+
+@media(max-width: 576px) {
+    .faq_main .faq_section_new #accordion .panel-title .qus_title {
+        margin-right: 18% !important;
+    }
+
+    .faq_main .faq_section_new #accordion .panel-title a:before {
+        right: 10% !important;
+    }
+}
+
+@media(max-width: 476px) {
+    .faq_main .faq_section_new #accordion .panel-title a:before {
+        right: 13% !important;
+    }
+}
+
+.faq_main .faq_section_new .faq_title {
+    font-size: 60px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 1.3;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+    margin-bottom: 0px;
+}
+
+.faq_main .faq_section_new .faq_contents {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.7;
+    margin-bottom: 30px;
+    padding-top: 10px;
+}
+
+.faq_main .faq_section_new #accordion .panel-title .qus_title {
+    padding-bottom: 0px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7;
+    margin-bottom: 0px;
+    margin-right: 10%;
+}
+
+@media (max-width:600px) {
+    .Our-Methodology {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+}

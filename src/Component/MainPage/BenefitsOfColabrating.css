@@ -1,0 +1,124 @@
+/* .swiper {
+    width: 100%;
+    height: 100%;
+} */
+
+
+
+
+.benefits-slider-main-container {
+    padding: 40px 30px 0px 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 60px; */
+}
+
+/* .benefits-slider-inner-container {
+    width: 100% !important;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+} */
+
+.arrow.prev {
+    left: 10px;
+}
+
+.arrow.next {
+    right: 10px;
+}
+
+
+.benefits-slider-box {
+    width: 300px;
+    /* height: auto; */
+    /* border: 1px solid white; */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* gap: 15px; */
+    border-radius: 15px;
+
+}
+
+.benefits-slider-box img {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    width: 300px !important;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.benefits-slider-box h4 {
+    flex-wrap: wrap;
+    width: 300px;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+
+@media (max-width:430px) {
+    .benefits-slider-main-container {
+        width: 100% !important;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    background-color: rgb(0, 0, 0);
+    /* Set background color */
+    color: black !important;
+    /* Set text color */
+    font-size: 20px;
+    /* Set font size */
+    width: 40px !important;
+    /* Set width */
+    height: 40px !important;
+    /* Set height */
+    border-radius: 50%;
+    /* Make it circular */
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+    font-size: 20px !important;
+    /* Set arrow size */
+}
+
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    /* background: #fff; */
+
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .swiper-slide img {
+    display: block;
+    width: 80%;
+    height: 100%;
+    object-fit: cover;
+} */
+
+
+.Benefits-slider-box {
+    text-align: center;
+    /* To center the content inside each slide */
+}

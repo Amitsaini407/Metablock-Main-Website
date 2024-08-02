@@ -1,0 +1,264 @@
+.row-1 {
+    display: -ms-flexbox;
+    /* display: flex; */
+    /* flex-direction: column-reverse; */
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px
+}
+
+.mnyExpoSc-1 {
+    background-color: black;
+    padding: 130px 0px 60px 0px;
+
+}
+
+.mnyExpoSc-1 .mnySubTlt {
+    font-weight: 500 !important;
+    font-size: 20px !important;
+    line-height: 30px !important;
+    color: #FFFFFF !important;
+}
+
+.mnyExpoSc-1 .mnySub {
+    position: relative;
+    z-index: 1;
+}
+
+.Case-Study {
+    text-align: center;
+    font-size: 50px !important;
+    font-size: 800 !important;
+}
+
+.Case-Study span {
+    background: linear-gradient(92.12deg, #e442ff 2.22%, #3c5bff 51.79%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.mnyExpoSc-1 .mnySub:after {
+    content: "";
+    position: absolute;
+    bottom: 2px;
+    left: 0px;
+    background: linear-gradient(92.12deg, #E442FF 2.22%, #3C5BFF 51.79%);
+    width: 170px;
+    height: 10px;
+    z-index: -1;
+}
+
+.mnyExpoSc-1Img {
+    position: relative;
+    z-index: 1;
+}
+
+.mnyExpoSc-1Img:after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 50px;
+    background: #3C5BFF;
+    width: 94.46px;
+    height: 230px;
+    transform: rotate(-51.35deg);
+    border-radius: 50%;
+    z-index: -1;
+    filter: blur(52px);
+}
+
+.BnrCnt p {
+    text-align: start;
+    font-size: 16px;
+    line-height: 1.9;
+}
+
+.BnrCnt h2 {
+    text-wrap: wrap;
+}
+
+.mnyExpoSc-1Img:before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 70px;
+    background: #E442FF;
+    width: 94.46px;
+    height: 230px;
+    border-radius: 50%;
+    z-index: -1;
+    filter: blur(52px);
+}
+
+@media(max-width: 991px) {
+
+    .row-1 {
+        flex-direction: column-reverse !important;
+        margin-right: -15px;
+        margin-left: -15px
+    }
+}
+
+
+
+@media(max-width: 767px) {
+
+
+    .mnyExpoSc-1 .mnySubTlt {
+        font-size: 15px !important;
+    }
+}
+
+@media(max-width: 372px) {
+    .mnyExpoSc-1 .mnySubTlt {
+        font-size: 13px !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .Main-section .blockchain_dev_sec .mnyExpoScImg-1 img {
+        margin-top: 30px;
+    }
+}
+
+
+.MnuPaddTop .mnyExpoSc-1 {
+    text-align: center !important;
+}
+
+@media (max-width:768px) {
+
+    .mnyExpoSc-1 .mnySub:after {
+        display: none;
+    }
+}
+
+/*------flex-direction-coloumn-inverse----  */
+
+.mnyExpoSc-2 {
+    background-color: black;
+    padding: 0px 0px 60px 0px;
+
+}
+
+.mnyExpoSc-2 .mnySubTlt {
+    font-weight: 500 !important;
+    font-size: 20px !important;
+    line-height: 30px !important;
+    leading-trim: both !important;
+    text-edge: cap !important;
+    color: #FFFFFF !important;
+}
+
+.mnyExpoSc-2 .mnySub {
+    position: relative;
+    z-index: 1;
+}
+
+.Case-Study {
+    text-align: center;
+    font-size: 50px;
+    font-size: 800;
+}
+
+.mnyExpoSc-2 .mnySub:after {
+    content: "";
+    position: absolute;
+    bottom: 2px;
+    left: 0px;
+    background: linear-gradient(92.12deg, #E442FF 2.22%, #3C5BFF 51.79%);
+    width: 170px;
+    height: 10px;
+    z-index: -1;
+}
+
+.mnyExpoSc-2Img {
+    position: relative;
+    z-index: 1;
+}
+
+.mnyExpoSc-2Img:after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 50px;
+    background: #3C5BFF;
+    width: 94.46px;
+    height: 230px;
+    transform: rotate(-51.35deg);
+    border-radius: 50%;
+    z-index: -1;
+    filter: blur(52px);
+}
+
+.mnyExpoSc-2Img:before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 70px;
+    background: #E442FF;
+    width: 94.46px;
+    height: 230px;
+    border-radius: 50%;
+    z-index: -1;
+    filter: blur(52px);
+}
+
+@media(max-width: 767px) {
+    .mnyExpoSc-2 .mnySubTlt {
+        font-size: 15px !important;
+    }
+}
+
+@media(max-width: 372px) {
+    .mnyExpoSc-2 .mnySubTlt {
+        font-size: 13px !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .Main-section .blockchain_dev_sec .mnyExpoScImg-1 img {
+        margin-top: 30px;
+    }
+}
+
+
+.MnuPaddTop .mnyExpoSc-2 {
+    text-align: center !important;
+}
+
+@media (max-width:768px) {
+
+    .mnyExpoSc-2 .mnySub:after {
+        display: none;
+    }
+}
+
+.left-case {
+    display: flex;
+    margin-top: 80px;
+    align-items: center;
+}
+
+.right-case {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 80px;
+    align-items: center;
+
+
+}
+
+
+@media all and (max-width:992px) {
+
+    .left-case {
+        flex-direction: column;
+    }
+
+    .right-case {
+        flex-direction: column;
+    }
+
+}

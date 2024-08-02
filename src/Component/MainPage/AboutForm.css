@@ -1,0 +1,101 @@
+.contect-form {
+  position: absolute;
+  right: 100px;
+  top: 70px;
+  margin-top: 40px;
+  opacity: 1;
+  background: #313240;
+  border-radius: 10px;
+  /* color: white !important; */
+}
+
+
+.form-div {
+  border-radius: 5px;
+  /* box-shadow: 0px 0px 13px #D8AF72; */
+  margin: auto;
+  /* padding-top: 20px;
+  padding-bottom: 20px; */
+  padding: 20px 40px;
+  width: auto;
+  height: auto;
+  /* border: 1px solid #D8AF72; */
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+}
+
+.form-heading-1 {
+  font-size: 23px;
+  /* color: #fff; */
+  background: linear-gradient(90deg, #CC46FB 0%, #4DFFF4 38.02%, #FFB44A 70.31%, #FF00E5 100%);
+  -webkit-background-clip: text;
+  /* for WebKit browsers like Chrome and Safari */
+  color: transparent;
+  /* make the text color transparent to show the gradient */
+  font-size: 24px;
+  /* set the font size as needed */
+  font-weight: bold;
+  /* set the font weight as needed */
+  display: inline-block;
+  /* to ensure the gradient spans across the entire text */
+  /* Add any additional styles or adjustments as needed */
+  font-weight: 800;
+}
+
+.form-div input {
+  background-color: transparent;
+  padding-left: 10px;
+  width: 250px;
+  height: 7vh;
+  border: 1px solid #575555;
+  color: white !important;
+}
+
+.form-div textarea {
+  background-color: transparent;
+  border: 1px solid #575555;
+  padding-left: 10px;
+
+}
+
+.form-div input:hover {
+  background-color: rgba(106, 105, 105, 0.164);
+}
+
+
+.submit {
+  color: #fff;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 500;
+  background: linear-gradient(93.79deg, #56f3f5 -13.43%, #ec25f8 100.49%);
+  border-radius: 4px;
+  border: none;
+  padding-left: 20px;
+  box-shadow: unset;
+  margin-top: 10px;
+  width: auto !important;
+  text-align: center;
+  transition: 2s;
+  animation: glowing 2s ease infinite alternate;
+}
+
+/* 
+.submit:hover {
+  transform: scale(1.05);
+  background-color: rgb(233, 241, 218);
+  color: blue;
+  cursor: pointer !important;
+  box-shadow: 0px 0px 13px #ff0000;
+  border: transparent;
+} */
+
+
+@media (max-width:992px) {
+  .contect-form {
+    display: none;
+  }
+}

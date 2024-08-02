@@ -1,0 +1,1050 @@
+ .nft_token_development .banner_sec {
+     /* background: url(./asset/nft-token-development/banner_new.png); */
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: top;
+     display: flex;
+     height: 100vh;
+     align-items: center;
+     justify-content: center;
+     padding: 50px 0;
+ }
+
+ .nft_token_development .banner_sec .title {
+     font-size: 60px;
+     font-weight: 800;
+     color: #fff;
+     margin-top: 120px;
+     text-transform: capitalize;
+     margin-bottom: 20px;
+ }
+
+ .nft_token_development .banner_sec .contents {
+     font-weight: 400;
+     font-size: 18px;
+     line-height: 1.8;
+     text-align: left;
+     color: #fff;
+     margin-top: 20px;
+ }
+
+ .nft_token_development .banner_btn {
+     background: linear-gradient(93.79deg, #E442FF -13.43%, #3C5BFF 100.49%);
+     color: #fff;
+     font-weight: 900;
+     font-size: 14px;
+     border-radius: 50px;
+     width: 209px;
+     line-height: 32px;
+     text-transform: none;
+     text-transform: uppercase;
+     margin-top: 15px;
+ }
+
+ .nft_token_development .banner_sec .btn_style {
+     text-align: left;
+ }
+
+ .nft_token_development .banner_sec .row_just {
+     display: flex;
+     justify-content: flex-start;
+     margin-left: 60px;
+ }
+
+ .nft_token_development .banner_sec .spel_txt {
+     background: linear-gradient(93.79deg, #E442FF -13.43%, #3C5BFF 100.49%);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     background-clip: text;
+     text-fill-color: transparent;
+ }
+
+ .nft_token_development .non_fungible_token .row_just {
+     display: flex;
+     justify-content: center;
+ }
+
+ .nft_token_development .non_fungible_token {
+     padding: 60px 0px 30px 0px;
+ }
+
+ .nft_token_development .non_fungible_token .title {
+     font-weight: 700;
+     font-size: 35px;
+     background: linear-gradient(93.79deg, #E442FF -13.43%, #3C5BFF 100.49%);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     background-clip: text;
+     text-fill-color: transparent;
+ }
+
+ .nft_token_development .non_fungible_token .contents {
+     font-size: 17px;
+     line-height: 1.8;
+     color: #fff;
+     text-align: left;
+ }
+
+ .non_fungible_token .row_align {
+     align-items: center;
+     display: flex;
+ }
+
+ .nft_token_development .bitcoin_whats {
+     color: #fff !important;
+     background-color: #25D366;
+     font-weight: 600;
+     font-size: 18px;
+     padding: 7px 25px;
+     border-radius: 50px;
+     margin-bottom: 20px;
+ }
+
+ .nft_token_development .bitcoin_tele {
+     color: #fff !important;
+     background-color: #4eaff0;
+     font-weight: 600;
+     font-size: 18px;
+     padding: 7px 25px;
+     border-radius: 50px;
+     margin-left: 20px;
+     margin-bottom: 20px;
+ }
+
+ .nft_token_development .service-grid {
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: top;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     padding: 50px 0;
+ }
+
+ .nft_token_development .service-title .title {
+     position: relative;
+     display: inline-block;
+     font-weight: 700;
+     font-size: 35px;
+     background: linear-gradient(93.79deg, #E442FF -13.43%, #3C5BFF 100.49%);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     background-clip: text;
+     text-fill-color: transparent;
+ }
+
+ .nft_token_development .service-grid .title {
+     font-weight: 700;
+     font-size: 35px;
+     background: linear-gradient(93.79deg, #E442FF -13.43%, #3C5BFF 100.49%);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     background-clip: text;
+     text-fill-color: transparent;
+ }
+
+ .nft_token_development .service-grid .icon_sprit {
+     width: 50px;
+     height: 50px;
+     object-fit: none;
+     filter: brightness(0);
+ }
+
+ .nft_token_development .service-wrap:hover {
+     /* background-image: url(./asset/nft-token-development/provide_img.jpg); */
+     background-size: cover;
+     background-position: center center;
+     background-attachment: local;
+     transition: all .5s;
+ }
+
+ .nft_token_development .service-wrap:hover .icon_sprit {
+     filter: none;
+ }
+
+ .nft_token_development .nft_token_development .service-icon {
+     position: relative;
+ }
+
+ .nft_token_development .service-wrap {
+     border: 1px solid #bd48ff;
+     padding: 30px 10px 10px;
+     position: relative;
+     margin-top: 30px;
+     min-height: 430px !important;
+     background: #000;
+ }
+
+
+ .nft_token_development .service-wrap .sub-title {
+     font-weight: 700;
+     color: #fff !important;
+     margin-bottom: 17px;
+     font-size: 22px;
+     text-transform: capitalize;
+     position: relative;
+ }
+
+ .nft_token_development .service-wrap .sub-content {
+     position: relative;
+     font-weight: 400;
+     font-size: 17px;
+ }
+
+ .nft_token_development .service-wrap:hover .sub-title,
+ .nft_token_development .service-wrap:hover .sub-content {
+     color: #fff;
+ }
+
+ .nft_token_development .service-wrap:hover:before {
+     background: rgba(0, 0, 0, 0.2901960784313726);
+     position: absolute;
+     height: 100%;
+     width: 100%;
+     left: 0px;
+     content: "";
+     top: 0;
+     opacity: 1;
+ }
+
+ .nft_token_development .identity_management_with_nft .row_align {
+     justify-content: center;
+     display: flex;
+ }
+
+ .nft_token_development .identity_management_with_nft {
+     padding: 50px 0;
+ }
+
+ .nft_token_development .identity_management_with_nft .title {
+     font-weight: 700;
+     font-size: 35px;
+     color: #8527a3;
+     text-align: center;
+ }
+
+ .nft_token_development .identity_management_with_nft .tab_new {
+     padding-top: 50px;
+     margin-bottom: 20px;
+     position: relative;
+     overflow: hidden;
+     background: #fff;
+     width: 100%;
+     margin: 0 auto;
+     line-height: 1.5;
+     font-weight: 300;
+     color: #888;
+     -webkit-font-smoothing: antialiased;
+ }
+
+ .nft_token_development .identity_management_with_nft .tabs_new {
+     display: table;
+     position: relative;
+     overflow: hidden;
+     margin: 0;
+     width: 100%;
+     padding-left: 0;
+ }
+
+ .nft_token_development .identity_management_with_nft .tabs_new li {
+     float: left;
+     line-height: 38px;
+     overflow: hidden;
+     padding: 0;
+     position: relative;
+     width: 25%;
+ }
+
+ .nft_token_development .identity_management_with_nft .tabs_new a {
+     background-color: #eff0f2;
+     border-bottom: 1px solid #fff;
+     color: #888;
+     font-weight: 700;
+     display: block;
+     letter-spacing: 0;
+     outline: none;
+     padding: 0 20px;
+     text-decoration: none;
+     -webkit-transition: all 0.2s ease-in-out;
+     -moz-transition: all 0.2s ease-in-out;
+     transition: all 0.2s ease-in-out;
+     border-bottom: 2px solid #f0b80b;
+     font-size: 22px;
+     text-align: center;
+ }
+
+ .nft_token_development .identity_management_with_nft .tabs_item_new {
+     display: none;
+     padding: 30px 0;
+     background-image: linear-gradient(to right, #85e2ff, #a89dee);
+     margin-top: 50px;
+ }
+
+ .nft_token_development .identity_management_with_nft .tabs_item_new p {
+     font-size: 17px;
+     color: #000;
+     padding-right: 20px;
+ }
+
+ .nft_token_development .identity_management_with_nft .tabs_item_new h4 {
+     font-weight: bold;
+     color: #8527a3;
+     font-size: 20px;
+ }
+
+ .nft_token_development .identity_management_with_nft .tabs_item_new img {
+     width: 200px;
+     float: left;
+     margin-right: 30px;
+     margin-left: 30px;
+ }
+
+ .nft_token_development .identity_management_with_nft .tabs_item_new:first-child {
+     display: block;
+ }
+
+ .nft_token_development .identity_management_with_nft .current a {
+     color: #fff;
+     background-image: linear-gradient(to right, #85e2ff, #a89dee);
+ }
+
+ .nft_token_development .identity_management_with_nft .icon_sprit {
+     width: 200px;
+     height: 200px;
+     object-fit: none;
+ }
+
+ .nft_token_development .nft_token_development_standards {
+     padding: 50px 0 0 0;
+ }
+
+ .nft_token_development .nft_token_development_standards .title {
+     font-weight: 700;
+     font-size: 35px;
+     color: #fff;
+     text-align: center;
+ }
+
+ .nft_token_development .nft_token_development_standards {
+     /*background: url(./asset/nft-token-development/provide_bg.png);*/
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: top;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+ .nft_token_development .nft_token_development_standards .wrapper_new {
+     width: 100% !important;
+     margin: 50px auto;
+ }
+
+ .nft_token_development .nft_token_development_standards .wrapper_new h1 {
+     margin-top: 50px;
+     margin-bottom: 50px;
+     text-transform: uppercase;
+     font-size: 1.5em;
+ }
+
+ .nft_token_development .nft_token_development_standards .wrapper_new .speechbubble {
+     background-color: #fff;
+     color: #000;
+     font-size: 0.8em;
+     line-height: 1.75;
+     padding: 15px 25px;
+     margin-bottom: 30px;
+     cursor: default;
+     box-shadow: 4px 6px 3px rgb(0 0 0 / 4%), 4px 5px 13px 0px rgb(0 0 0 / 12%);
+     min-height: 200px;
+ }
+
+ .nft_token_development .nft_token_development_standards .wrapper_new .speechbubble .contant {
+     font-size: 18px;
+     color: #000;
+     font-weight: 600;
+ }
+
+ .nft_token_development .nft_token_development_standards .wrapper_new .speechbubble .sub_title {
+     font-weight: bold;
+     font-size: 20px;
+ }
+
+ .nft_token_development .nft_token_development_standards .wrapper_new .speechbubble .sub_title.tit_clr1 {
+     color: #56b273;
+ }
+
+ .nft_token_development .nft_token_development_standards .wrapper_new .speechbubble .sub_title.tit_clr2 {
+     color: #01AD9B;
+ }
+
+ .nft_token_development .nft_token_development_standards .wrapper_new .speechbubble .sub_title.tit_clr3 {
+     color: #b388dd;
+ }
+
+ .nft_token_development .nft_token_development_standards .wrapper_new .speechbubble .sub_title.tit_clr4 {
+     color: #ff8750;
+ }
+
+ .nft_token_development .nft_token_development_standards .wrapper_new .speechbubble .sub_title.tit_clr5 {
+     color: #85e2ff;
+ }
+
+ .nft_token_development .nft_token_development_standards .wrapper_new .speechbubble .sub_title.tit_clr6 {
+     color: #cddc39;
+ }
+
+ .nft_token_development .nft_token_development_standards .wrapper_new .speechbubble.odd_item {
+     border-left: 5px solid;
+ }
+
+ .nft_token_development .nft_token_development_standards .wrapper_new .speechbubble.even_item {
+     border-right: 5px solid;
+ }
+
+ .nft_token_development .nft_token_development_standards .wrapper_new .speechbubble.odd_item.color_1 {
+     border-color: #56b273;
+ }
+
+ .nft_token_development .nft_token_development_standards .wrapper_new .speechbubble.even_item.color_2 {
+     border-color: #01AD9B;
+ }
+
+ .nft_token_development .nft_token_development_standards .wrapper_new .speechbubble.odd_item.color_3 {
+     border-color: #b388dd;
+ }
+
+ .nft_token_development .nft_token_development_standards .wrapper_new .speechbubble.even_item.color_4 {
+     border-color: #ff8750;
+ }
+
+ .nft_token_development .nft_token_development_standards .wrapper_new .speechbubble.odd_item.color_5 {
+     border-color: #85e2ff;
+ }
+
+ .nft_token_development .nft_token_development_standards .wrapper_new .speechbubble.even_item.color_6 {
+     border-color: #cddc39;
+ }
+
+ .nft_token_development .use_cases_of_non_fungible_token {
+     padding: 50px 0;
+     background: #000;
+ }
+
+ .nft_token_development .use_cases_of_non_fungible_token .icon_sprit {
+     object-fit: none;
+     width: 90px;
+     height: 90px;
+ }
+
+ .nft_token_development .we_help_you_with_qualified_services .icon_sprit {
+     object-fit: none;
+     width: 90px;
+     height: 90px;
+ }
+
+ .nft_token_development .we_help_you_with_qualified_services .icon_sprit_1 {
+     object-fit: none;
+     width: 20px;
+     height: 20px;
+ }
+
+ .nft_token_development .use_cases_of_non_fungible_token .top {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     width: 100%;
+ }
+
+ .nft_token_development .use_cases_of_non_fungible_token .heart-btn {
+     position: absolute;
+     top: 25px;
+     right: 20px;
+     padding: 1rem;
+     display: none;
+ }
+
+ .nft_token_development .use_cases_of_non_fungible_token .content {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     padding: 0;
+ }
+
+ .nft_token_development .use_cases_of_non_fungible_token .content img {
+     width: 90px;
+     height: 90px;
+     border-radius: 100px;
+     overflow: hidden;
+     object-fit: cover;
+     object-position: top;
+ }
+
+ .nft_token_development .use_cases_of_non_fungible_token .content strong {
+     font-weight: 500;
+     color: #141414;
+     margin-top: 10px;
+ }
+
+ .nft_token_development .use_cases_of_non_fungible_token .box {
+     position: relative;
+     min-width: 250px;
+     background-color: #fff;
+     box-shadow: 2px 3px 30px rgb(0 0 0 / 5%);
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     padding: 20px;
+     margin: 20px;
+     position: relative;
+     border-radius: 10px;
+ }
+
+ .nft_token_development .use_cases_of_non_fungible_token .top-bar {
+     width: 50%;
+     height: 4px;
+     background: linear-gradient(93.79deg, #E442FF -13.43%, #3C5BFF 100.49%);
+     position: absolute;
+     top: 0px;
+     left: 50%;
+     transform: translateX(-50%);
+     border-radius: 0px 0px 10px 10px;
+ }
+
+ .nft_token_development .we_help_you_with_qualified_services {
+     padding: 50px 0 100px 0;
+ }
+
+ .nft_token_development .we_help_you_with_qualified_services .header-section {
+     margin-bottom: 50px;
+ }
+
+ .nft_token_development .we_help_you_with_qualified_services .header-section .small-title {
+     margin-bottom: 25px;
+     font-size: 16px;
+     font-weight: 500;
+     color: #3e64ff;
+ }
+
+ .nft_token_development .we_help_you_with_qualified_services .header-section .title {
+     font-weight: 700;
+     font-size: 45px;
+ }
+
+ .nft_token_development .we_help_you_with_qualified_services .single-person {
+     /* margin-top: 30px;*/
+     padding: 30px;
+     background-color: #f6f9ff;
+     border-radius: 5px;
+ }
+
+ .nft_token_development .we_help_you_with_qualified_services .single-person:hover {
+     background: linear-gradient(93.79deg, #E442FF -13.43%, #3C5BFF 100.49%);
+ }
+
+ .nft_token_development .we_help_you_with_qualified_services .single-person .person-image {
+     position: relative;
+     margin-bottom: 50px;
+     border-radius: 50%;
+     border: 4px dashed transparent;
+     transition: padding .3s;
+ }
+
+ .nft_token_development .we_help_you_with_qualified_services .single-person:hover .person-image {
+     padding: 12px;
+ }
+
+ .nft_token_development .we_help_you_with_qualified_services .single-person .person-image .icon {
+     position: absolute;
+     bottom: 0;
+     left: 50%;
+     transform: translate(-50%, 50%);
+     display: inline-block;
+     width: 60px;
+     height: 60px;
+     line-height: 60px;
+     text-align: center;
+     background: linear-gradient(93.79deg, #E442FF -13.43%, #3C5BFF 100.49%);
+     color: #fff;
+     border-radius: 50%;
+     font-size: 24px;
+ }
+
+ .nft_token_development .we_help_you_with_qualified_services .single-person:hover .person-image .icon {
+     background: none;
+     background-color: #fff;
+     color: #016cec;
+ }
+
+ .nft_token_development .we_help_you_with_qualified_services .single-person .person-info .speciality {
+     font-weight: 500;
+     color: #141414;
+     margin-top: 10px;
+     font-size: 17px;
+ }
+
+ .nft_token_development .we_help_you_with_qualified_services .single-person:hover .full-name,
+ .nft_token_development .we_help_you_with_qualified_services .single-person:hover .speciality {
+     color: #fff;
+ }
+
+ .nft_token_development .launch_your_nft_token {
+     padding: 50px 0px;
+ }
+
+ .nft_token_development .launch_your_nft_token .blockchain_bg:after {
+     content: "";
+     position: absolute;
+     top: 0px;
+     left: 0px;
+     /* background: url(./asset/bitcoin-mining/blockchain-banner.png);*/
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: top;
+     width: 100%;
+     height: 100%;
+     z-index: -1;
+ }
+
+ .nft_token_development .launch_your_nft_token .blockchain_bg {
+     background: linear-gradient(93.79deg, #E442FF -13.43%, #3C5BFF 100.49%);
+     border-radius: 31px;
+     position: relative;
+     padding: 40px;
+     text-align: center;
+     z-index: 1;
+ }
+
+ .nft_token_development .launch_your_nft_token .title {
+     font-weight: 700;
+     font-size: 35px;
+     color: #fff;
+ }
+
+ .nft_token_development .launch_your_nft_token .contents {
+     font-size: 17px;
+     line-height: 1.7;
+     color: #fff;
+ }
+
+ .nft_token_development .launch_your_nft_token .row_just {
+     display: flex;
+     justify-content: center;
+ }
+
+ .nft_token_development .we_help_you_with_qualified_services .pricing-table {
+     text-align: center;
+     background-color: #E442FF;
+     color: #feeac9;
+     margin: 0 20px;
+     padding: 30px 0 40px;
+     position: relative;
+ }
+
+ .nft_token_development .we_help_you_with_qualified_services .pricing-table.blue {
+     background-color: #8251ff;
+ }
+
+ .nft_token_development .we_help_you_with_qualified_services .pricing-table:after {
+     background-color: #000;
+     bottom: -60px;
+     content: "";
+     height: 60px;
+     position: absolute;
+     width: 60%;
+     left: 50%;
+     transform: rotate(-12deg);
+     transform-origin: left top 0;
+ }
+
+ .nft_token_development .we_help_you_with_qualified_services .pricing-table:before {
+     background-color: #000;
+     bottom: -60px;
+     content: "";
+     height: 60px;
+     position: absolute;
+     width: 60%;
+     right: 50%;
+     transform: rotate(12deg);
+     transform-origin: right top 0;
+ }
+
+ .nft_token_development .we_help_you_with_qualified_services h3 {
+     margin-top: 10px;
+     padding: 10px;
+     color: #fff;
+ }
+
+ .nft_token_development .we_help_you_with_qualified_services .pricing-table .pricing-header {
+     background-color: #8527a3;
+     color: #635a5b;
+     padding: 0px 0;
+     margin: 0 -20px 10px;
+     position: relative;
+     text-transform: uppercase;
+     letter-spacing: 2px;
+     box-shadow: inset 0 0 10px #635a5b;
+ }
+
+ .nft_token_development .we_help_you_with_qualified_services .pricing-table .pricing-header:before {
+     content: "";
+     position: absolute;
+     bottom: -40px;
+     left: 0;
+     border-top: 20px solid #958b72;
+     border-left: 20px solid transparent;
+     border-bottom: 20px solid transparent;
+ }
+
+ .nft_token_development .we_help_you_with_qualified_services .pricing-table .pricing-header:after {
+     content: "";
+     position: absolute;
+     bottom: -40px;
+     right: 0;
+     border-top: 20px solid #958b72;
+     border-right: 20px solid transparent;
+     border-bottom: 20px solid transparent;
+ }
+
+ .nft_token_development .we_help_you_with_qualified_services .pricing-table .price-value {
+     margin-bottom: 10px;
+     font-size: 50px;
+ }
+
+ .nft_token_development .we_help_you_with_qualified_services .pricing-table .price-value .time {
+     font-size: 17px;
+ }
+
+ .nft_token_development .we_help_you_with_qualified_services .pricing-table .pricingContent ul {
+     font-size: 17px;
+     line-height: 50px;
+     padding: 0 20px;
+     margin-bottom: 20px;
+ }
+
+ .nft_token_development .we_help_you_with_qualified_services .pricing-table .pricingContent ul li {
+     border-bottom: 2px dotted #EEE1D3;
+     font-size: 17px;
+     line-height: 2;
+     font-weight: 500;
+     color: #000;
+     min-height: 107px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .nft_token_development .we_help_you_with_qualified_services .pricing-table .pricingContent ul li:last-child {
+     border-bottom: none;
+ }
+
+ .nft_token_development .we_help_you_with_qualified_services .pricing-table .pricingTable-Sign-Up a {
+     display: inline-block;
+     padding: 10px 25px;
+     font-size: 17px;
+     font-weight: 700;
+     letter-spacing: 1px;
+     color: #635a5b;
+     background-color: #E3D1B9;
+     transition: all 0.3s ease 0s;
+     box-shadow: inset 0 0 10px #635a5b;
+ }
+
+ .nft_token_development .identity_anagement_with_nft .defi_sec_titles {
+     font-size: 35px;
+     line-height: 45px;
+     font-weight: 700;
+     background: linear-gradient(93.79deg, #E442FF -13.43%, #3C5BFF 100.49%);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     background-clip: text;
+     text-fill-color: transparent;
+ }
+
+ .nft_token_development .identity_anagement_with_nft .defi_sec_para {
+     font-size: 17px;
+     line-height: 1.7;
+     color: #fff;
+ }
+
+ .nft_token_development .identity_anagement_with_nft .how_defi_transform_world_box_ul {
+     padding-left: 0px;
+ }
+
+ .identity_anagement_with_nft .how_defi_transform_world_box .title {
+     font-weight: bold;
+     font-size: 20px;
+ }
+
+ .nft_token_development .identity_anagement_with_nft .how_defi_transform_world_box_list {
+     min-height: 184px;
+ }
+
+ .nft_token_development .identity_anagement_with_nft .box_list_cntnt {
+     line-height: 30px;
+     text-align: justify;
+     padding: 12px;
+ }
+
+ .nft_token_development .identity_anagement_with_nft .how_defi_transform_world_box .box_title {
+     padding: 10px;
+     text-align: center;
+     border-bottom: 1px solid #fff;
+ }
+
+ .nft_token_development .identity_anagement_with_nft .how_defi_transform_world_box {
+     background: linear-gradient(93.79deg, #E442FF -13.43%, #3C5BFF 100.49%);
+     color: #fff;
+     margin: 10px auto;
+     min-height: 261px;
+ }
+
+ .nft_token_development .features_of_our_nft_token_development {
+     padding-top: 50px;
+     padding-bottom: 50px;
+     background: #000;
+ }
+
+ .nft_token_development .features_of_our_nft_token_development .title {
+     text-align: center;
+     font-weight: 800;
+     font-size: 35px;
+     background: linear-gradient(93.79deg, #E442FF -13.43%, #3C5BFF 100.49%);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     background-clip: text;
+     text-fill-color: transparent;
+ }
+
+ .nft_token_development .features_of_our_nft_token_development .mgd_advantage_card {
+     padding: 10px;
+     margin-top: 20px;
+     background: linear-gradient(93.79deg, #E442FF -13.43%, #3C5BFF 100.49%);
+     box-shadow: 8px 0px 0px 0px #f77905;
+     border-radius: 20px 0px 20px 0px;
+ }
+
+ .nft_token_development .features_of_our_nft_token_development .mgd_advantage_card_content {
+     text-align: center;
+     color: #fff;
+     font-size: 16px;
+     font-weight: bold;
+     margin-bottom: 0px;
+ }
+
+ .nft_token_development .features_of_our_nft_token_development .row_justify {
+     display: flex;
+     justify-content: center;
+ }
+
+ .nft_token_development .benefits_of_the_nft_token_development {
+     padding-top: 50px;
+     padding-bottom: 50px;
+ }
+
+ .nft_token_development .benefits_of_the_nft_token_development .title {
+     font-size: 35px;
+     text-align: center;
+     font-weight: 800;
+     margin-bottom: 30px;
+     background: linear-gradient(93.79deg, #E442FF -13.43%, #3C5BFF 100.49%);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     background-clip: text;
+     text-fill-color: transparent;
+ }
+
+ .nft_token_development .benefits_of_the_nft_token_development .row_align {
+     display: flex;
+     align-items: center;
+ }
+
+ .nft_token_development .benefits_of_the_nft_token_development .mgd_why_metablock_ul {
+     display: grid;
+     justify-content: flex-end;
+ }
+
+ .nft_token_development .benefits_of_the_nft_token_development ul li p {
+     color: #fff;
+     margin-bottom: 0px;
+     font-size: 16px;
+     padding-left: 15px;
+ }
+
+ .nft_token_development .benefits_of_the_nft_token_development ul li {
+     display: flex;
+     margin-top: 25px;
+     align-items: center;
+ }
+
+ .nft_token_development .benefits_of_the_nft_token_development ul li i {
+     color: #ff7300;
+     font-size: 18px;
+ }
+
+ .nft_token_development .benefits_of_the_nft_token_development .row_justify {
+     display: flex;
+     justify-content: center;
+ }
+
+ .nft_token_development .trending_nft_tokens_list {
+     background-color: #000;
+     padding: 0px;
+     padding-top: 40px;
+     padding-bottom: 40px;
+ }
+
+ .nft_token_development .trending_nft_tokens_list .nftgp_sectitle_wrap {
+     text-align: center;
+     margin-bottom: 2.5rem;
+ }
+
+ .nft_token_development .trending_nft_tokens_list .nftgp_sec_title {
+     font-size: 35px;
+     line-height: 1.2;
+     font-weight: 800;
+     margin-bottom: 2rem;
+     margin-top: 0;
+     text-shadow: none;
+     position: relative;
+     background: linear-gradient(93.79deg, #E442FF -13.43%, #3C5BFF 100.49%);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     background-clip: text;
+     text-fill-color: transparent;
+ }
+
+ .nft_token_development .trending_nft_tokens_list ul li:after {
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     content: '';
+     top: 0;
+     left: 0;
+     z-index: -1;
+     border-radius: 6px;
+     border: 1px solid #7253ff;
+     background-color: #000;
+ }
+
+ .nft_token_development .trending_nft_tokens_list ul {
+     display: flex;
+     justify-content: center;
+     padding: 0;
+     position: relative;
+ }
+
+ .nft_token_development .trending_nft_tokens_list ul li {
+     align-items: center;
+     display: flex;
+     justify-content: center;
+     width: 19%;
+     padding: 22px;
+     text-align: center;
+     border-radius: 7px;
+     margin: 10px 10px;
+     position: relative;
+     z-index: 0;
+ }
+
+ .nft_token_development .trending_nft_tokens_list .nftgp_box .nftgp_desc {
+     color: #fff;
+     font-size: 17px;
+     font-weight: 500;
+ }
+
+ @media screen and (max-width:990px) {
+     .nft_token_development .we_help_you_with_qualified_services .pricing-table {
+         margin-bottom: 30px;
+     }
+ }
+
+ @media (max-width: 991px) {
+     .nft_token_development .banner_sec {
+         height: initial;
+         background: linear-gradient(to right, #85e2ff, #a89dee);
+         padding: 175px 0px 60px 0px;
+     }
+ }
+
+ @media only screen and (max-width: 600px) {
+     .nft_token_development .trending_nft_tokens_list ul {
+         display: grid;
+     }
+
+     .nft_token_development .trending_nft_tokens_list ul li {
+         width: 100%;
+         margin: 10px 0px;
+     }
+
+     .nft_token_development .benefits_of_the_nft_token_development .row_align {
+         display: initial;
+     }
+ }
+
+ @media (max-width: 765px) {
+     .nft_token_development .banner_sec {
+         padding: 0px 0px 50px 0px;
+         background: #000;
+     }
+
+     .nft_token_development .banner_sec .row_just {
+         margin-left: 0px;
+     }
+
+     .nft_token_development .banner_sec .title {
+         font-size: 40px !important;
+         text-align: center;
+     }
+
+     .nft_token_development .bitcoin_tele {
+         margin-left: 0px;
+     }
+
+     .nft_token_development .banner_sec .contents {
+         text-align: center;
+     }
+
+     .nft_token_development .row_just {
+         margin-left: 0px;
+     }
+
+     .nft_token_development .banner_sec .btn_style {
+         text-align: center;
+     }
+
+     .nft_token_development .non_fungible_token .title {
+         text-align: center;
+     }
+
+     .nft_token_development .non_fungible_token .contents {
+         text-align: justify;
+     }
+
+     .nft_token_development .non_fungible_token .social_icon {
+         text-align: center;
+     }
+
+     .we_help_you_with_qualified_services .pricing-table:after {
+         display: none;
+     }
+
+     .we_help_you_with_qualified_services .pricing-table:before {
+         display: none;
+     }
+
+     .nft_token_development .identity_management_with_nft .row_align {
+         margin-right: 0px;
+         margin-left: 0px;
+     }
+
+     .nft_token_development .benefits_of_the_nft_token_development .mgd_why_metablock_ul {
+         justify-content: start;
+     }
+
+     .nft_token_development .benefits_of_the_nft_token_development .title {
+         line-height: 35px;
+     }
+ }

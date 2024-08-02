@@ -1,0 +1,1337 @@
+#white_label_crypto_main {
+    background: #090909;
+}
+
+#white_label_crypto_main .testiSc {
+    padding: 60px 0px;
+}
+
+#white_label_crypto_main .testiSc .rwJsut {
+    display: flex;
+    justify-content: center;
+}
+
+#white_label_crypto_main .testiSc .testiScTlt {
+    font-size: 35px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 1.7;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+}
+
+#white_label_crypto_main .testiSc .testiScCnt {
+    font-size: 16px;
+    text-align: center;
+    font-weight: 300;
+}
+
+#white_label_crypto_main .testiSc .testMoLst {
+    background: #131214;
+    padding: 30px;
+    text-align: center;
+    margin-top: 40px;
+    min-height: 490px;
+}
+
+#white_label_crypto_main .testiSc .testMoLst .testMoLstTlt {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+
+#white_label_crypto_main .testiSc .testMoLst .testMoLstCnt {
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 0px;
+    margin-top: 5px;
+    font-weight: 300;
+}
+
+#white_label_crypto_main .testiSc .testMoLstGard {
+    font-size: 15px;
+    font-weight: 600;
+    color: #8b8b8b;
+}
+
+#white_label_crypto_main .testiSc .testMoLstRev {
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #be47ff;
+}
+
+#white_label_crypto_main .testiSc .testMoImgBg {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    padding: 10px;
+    background: #fff;
+    margin: 0 auto;
+    box-shadow: 0px 0px 5px #ccc;
+    margin-top: -65px;
+}
+
+#white_label_crypto_main .testiSc .owl-nav {
+    display: none;
+}
+
+#white_label_crypto_main .testiSc .owl-dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#white_label_crypto_main .testiSc .owl-dot {
+    width: 10px;
+    height: 10px;
+    background: #481b93;
+    margin: 3px;
+    border-radius: 50px;
+}
+
+@media(max-width: 767px) {
+    .testiSc .rwJsut {
+        display: initial;
+    }
+}
+
+@media (min-width: 991px) {
+    #white_label_crypto_main .white_label_crypto_banner {
+        align-items: center !important;
+        height: 100vh;
+        display: flex;
+        background: linear-gradient(180deg, #B59BFD 0%, #F4C6F5 46.35%, #BBEAFC 100%);
+    }
+}
+
+#white_label_crypto_main .white_label_crypto_banner .title-10 {
+    color: #34203F;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 55px;
+}
+
+#white_label_crypto_main .white_label_crypto_banner .contents {
+    color: #4B3A54;
+    padding-top: 10px;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+#white_label_crypto_main .white_label_crypto_banner .contents {
+    font-size: 16px;
+    line-height: 27px;
+}
+
+#white_label_crypto_main .white_label_crypto_banner .banner_site {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+#white_label_crypto_main .white_label_crypto_banner .wl_btn {
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 50px;
+    margin-top: 7px;
+}
+
+#white_label_crypto_main .white_label_crypto_banner .wl_btn.dark_btn {
+    background: linear-gradient(96.56deg, #FE069E 23.02%, #D13C80 77.32%);
+}
+
+#white_label_crypto_main .white_label_crypto_banner .wl_btn.dark_btn:hover {
+    border: 1px solid #FE069E;
+    color: #FE069E;
+    background: none;
+}
+
+#white_label_crypto_main .white_label_crypto_banner .wl_btn.line_btn {
+    margin-left: 10px;
+    border: 1px solid #FE069E;
+    color: #FE069E;
+    padding: 9px 25px;
+}
+
+#white_label_crypto_main .white_label_crypto_banner .wl_btn.line_btn:hover {
+    border: none;
+    color: #fff;
+    background: linear-gradient(96.56deg, #FE069E 23.02%, #D13C80 77.32%);
+    box-shadow: 0px 0px 10px 0px #fe069e;
+}
+
+#white_label_crypto_main .white_label_crypto_sec {
+    padding: 50px 0px;
+}
+
+#white_label_crypto_main .white_label_crypto_sec .line_sec {
+    position: relative;
+}
+
+#white_label_crypto_main .white_label_crypto_sec .line {
+    background: #c846ff;
+    border-radius: 5px;
+    width: 110px;
+    height: 3px;
+    position: absolute;
+}
+
+#white_label_crypto_main .white_label_crypto_sec .dot {
+    border-radius: 50px;
+    width: 13px;
+    height: 13px;
+    position: absolute;
+    top: -5px;
+    left: 10px;
+    background: #c547ff;
+    z-index: 1;
+}
+
+#white_label_crypto_main .white_label_crypto_sec .title-10 {
+    font-size: 35px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 1.7;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+}
+
+#white_label_crypto_main .white_label_crypto_sec .contents {
+    margin-bottom: 0px;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.7;
+}
+
+#white_label_crypto_main .white_label_crypto_sec .white_label_crypto_btn_sec {
+    margin-top: 15px;
+}
+
+#white_label_crypto_main .white_label_crypto_sec .white_label_crypto_btn {
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 50px;
+    background: linear-gradient(96.56deg, #FE069E 23.02%, #D13C80 77.32%);
+}
+
+#white_label_crypto_main .white_label_crypto_sec .white_label_crypto_btn:hover {
+    border: 1px solid #FE069E;
+    color: #FE069E;
+    background: none;
+}
+
+#white_label_crypto_main .white_label_crypto_sec .overview_list {
+    position: relative;
+    background: #131214;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 75px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    color: #fff;
+}
+
+#white_label_crypto_main .white_label_crypto_sec .overview_list .sub_title-10 {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 0px;
+    padding-left: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 10px;
+}
+
+#white_label_crypto_main .white_label_crypto_comp {
+    padding: 70px 0px;
+}
+
+#white_label_crypto_main .white_label_crypto_comp .title-10 {
+    font-size: 35px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 1.7;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+    text-align: center;
+}
+
+#white_label_crypto_main .white_label_crypto_comp .contents {
+    line-height: 1.8;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#white_label_crypto_main .white_label_crypto_comp .whl_crypto_about_btn_sec {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#white_label_crypto_main .white_label_crypto_comp .whl_crypto_about_btn {
+    text-transform: uppercase;
+    padding: 10px 30px;
+    font-weight: 500;
+    font-size: 15px;
+    background: linear-gradient(96.56deg, #00BB61 23.02%, #09D55A 77.32%);
+    border-radius: 50px;
+    color: #fff !important;
+}
+
+#white_label_crypto_main .white_label_crypto_comp .whl_crypto_about_btn1 {
+    text-transform: uppercase;
+    padding: 10px 40px;
+    font-weight: 500;
+    font-size: 15px;
+    background: linear-gradient(96.56deg, #00A6DA 23.02%, #15C8EF 77.32%);
+    border-radius: 50px;
+    color: #fff !important;
+}
+
+#white_label_crypto_main .white_label_crypto_features {
+    padding: 50px 0px;
+}
+
+#white_label_crypto_main .white_label_crypto_features .features_list .sub_content {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 0px;
+    text-transform: capitalize;
+}
+
+#white_label_crypto_main .white_label_crypto_features .title-10 {
+    font-size: 35px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 1.7;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+    text-align: center;
+}
+
+#white_label_crypto_main .white_label_crypto_features .contents {
+    line-height: 1.8;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#white_label_crypto_main .white_label_crypto_features .wl_features_tab_content .panel {
+    background: transparent;
+}
+
+@media (min-width: 768px) {
+    #white_label_crypto_main .white_label_crypto_features .wl_features_nav_tabs {
+        border-bottom: 0;
+        text-align: center;
+        margin-top: 30px;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    #white_label_crypto_main .white_label_crypto_features .wl_features_nav_tabs>li {
+        float: none;
+        display: inline-block;
+    }
+
+    #white_label_crypto_main .white_label_crypto_features .wl_features_nav_tabs>li>a {
+        border: 1px solid #FE069E !important;
+        border-radius: 50px;
+        margin: 5px 3px;
+        font-size: 16px;
+        font-weight: 500;
+        text-transform: capitalize;
+        color: #fe069e;
+        padding: 9px 20px;
+    }
+
+    #white_label_crypto_main .white_label_crypto_features .wl_features_nav_tabs>li>a.active {
+        background: linear-gradient(96.56deg, #FE069E 23.02%, #D13C80 77.32%);
+        border-radius: 50px;
+        color: #fff !important;
+    }
+
+    #white_label_crypto_main .white_label_crypto_features .wl_features_tab_content .panel-heading {
+        display: none;
+    }
+
+    #white_label_crypto_main .white_label_crypto_features .wl_features_tab_content .panel {
+        border: none;
+        box-shadow: none;
+    }
+
+    #white_label_crypto_main .white_label_crypto_features .wl_features_tab_content .panel-collapse {
+        height: auto;
+    }
+
+    #white_label_crypto_main .white_label_crypto_features .wl_features_tab_content .panel-collapse.collapse {
+        display: block;
+    }
+}
+
+@media (max-width: 767px) {
+    #white_label_crypto_main .white_label_crypto_features .wl_features_tab_content.tab-content .tab-pane {
+        display: block;
+        margin: 10px auto;
+    }
+
+    #white_label_crypto_main .white_label_crypto_features .wl_features_tab_content.tab-content .tab-pane .panel-heading {
+        background: linear-gradient(96.56deg, #9f0062 23.02%, #b7135e 77.32%);
+        padding: 15px 10px;
+    }
+
+    #white_label_crypto_main .white_label_crypto_features .wl_features_tab_content .panel .panel-heading>a {
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #white_label_crypto_main .white_label_crypto_features .wl_features_tab_content.tab-content .tab-pane .panel-body {
+        height: 300px;
+        overflow-y: scroll;
+    }
+
+    #white_label_crypto_main .white_label_crypto_features .wl_features_nav_tabs.nav-tabs {
+        display: none;
+    }
+
+    #white_label_crypto_main .white_label_crypto_features .wl_features_tab_content .panel-title-10 a {
+        display: block;
+    }
+
+    #white_label_crypto_main .white_label_crypto_features .wl_features_tab_content .panel {
+        margin: 0;
+        box-shadow: none;
+        border-radius: 0;
+        margin-top: -2px;
+    }
+
+    #white_label_crypto_main .white_label_crypto_features .wl_features_tab_content .tab-pane:first-child .panel {
+        border-radius: 5px 5px 0 0;
+    }
+
+    #white_label_crypto_main .white_label_crypto_features .wl_features_tab_content .tab-pane:last-child .panel {
+        border-radius: 0 0 5px 5px;
+    }
+
+    #white_label_crypto_main .white_label_crypto_features .wl_features_tab_content .panel a[data-toggle="collapse"] i:before {
+        content: "\f078";
+    }
+
+    #white_label_crypto_main .white_label_crypto_features .wl_features_tab_content .panel a .panel-title-10 {
+        font-weight: 500;
+        text-transform: uppercase;
+        font-size: 16px;
+        margin-bottom: 0px;
+    }
+
+    #white_label_crypto_main .white_label_crypto_features .wl_features_tab_content.tab-content .tab-pane .features_list .feature-img {
+        display: none;
+    }
+}
+
+#white_label_crypto_main .white_label_crypto_features .features_list {
+    padding: 15px;
+    margin: 15px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 85px;
+    background: linear-gradient(317.7deg, rgba(0, 0, 0, 0.4) 0%, rgb(255 255 255) 105.18%), #090909;
+    background-blend-mode: soft-light, normal;
+    border: 1px solid rgb(9 9 9);
+    box-shadow: inset -2.5px -2.5px 5px #393535, inset 2.5px 2.5px 5px #000000;
+    border-radius: 10px;
+}
+
+#white_label_crypto_main .white_label_crypto_types {
+    padding: 50px 0px;
+}
+
+#white_label_crypto_main .white_label_crypto_types .title-10 {
+    font-size: 35px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 1.7;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+    text-align: center;
+}
+
+#white_label_crypto_main .white_label_crypto_types .contents {
+    line-height: 1.8;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#white_label_crypto_main .white_label_crypto_types .types_box {
+    background: #000000;
+    padding: 10px;
+    border: 2px solid #d13c80;
+    border-radius: 15px;
+    margin-top: 25px;
+    text-align: center;
+    min-height: 438px;
+}
+
+#white_label_crypto_main .white_label_crypto_types .types_box:hover {
+    box-shadow: inset 0px 0px 15px 0px #e3288c6b;
+    border: none;
+}
+
+#white_label_crypto_main .white_label_crypto_types .types_box:hover .sprite_icons {
+    transform: rotateY(180deg);
+    transition: all .4s ease-in;
+}
+
+#white_label_crypto_main .white_label_crypto_types .sub_title-10 {
+    font-size: 20px;
+    margin-top: 0px;
+    padding-top: 10px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+#white_label_crypto_main .white_label_crypto_types .sub_content {
+    margin-bottom: 0px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #ffffff94;
+}
+
+#white_label_crypto_main .white_label_crypto_types .sprite_icons {
+    width: 50px;
+    height: 50px;
+    object-fit: none;
+}
+
+#white_label_crypto_main .white_label_crypto_benefits {
+    padding: 50px 0px;
+}
+
+#white_label_crypto_main .white_label_crypto_benefits .title-10 {
+    font-size: 35px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 1.7;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+    text-align: center;
+}
+
+#white_label_crypto_main .white_label_crypto_benefits .benefits_list {
+    display: flex;
+    align-items: center;
+    padding: 8px 0px;
+}
+
+#white_label_crypto_main .white_label_crypto_benefits .benefits_list img {
+    width: 35px;
+}
+
+#white_label_crypto_main .white_label_crypto_benefits .benefits_list .sub_title-10 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 0px;
+    text-transform: capitalize;
+    padding-left: 10px;
+}
+
+#white_label_crypto_main .exchange_software_work {
+    padding: 0px 0px 70px 0px;
+}
+
+#white_label_crypto_main .exchange_software_work .title-10 {
+    font-size: 35px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 1.7;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+    text-align: center;
+}
+
+#white_label_crypto_main .exchange_software_work .contents {
+    line-height: 1.8;
+    font-size: 16px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    font-weight: 300;
+    text-align: center;
+}
+
+#white_label_crypto_main .exchange_software_work .timeline {
+    line-height: 1.4em;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#white_label_crypto_main .exchange_software_work .timeline-marker {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 15px;
+}
+
+#white_label_crypto_main .exchange_software_work .timeline-marker:before {
+    background: #0050ff;
+    border: 3px solid transparent;
+    border-radius: 100%;
+    content: "";
+    display: block;
+    height: 15px;
+    position: absolute;
+    top: 4px;
+    left: 0;
+    width: 15px;
+    transition: background 0.3s ease-in-out, border 0.3s ease-in-out;
+}
+
+#white_label_crypto_main .exchange_software_work .timeline-marker:after {
+    content: "";
+    width: 3px;
+    background: #ccd5db;
+    display: block;
+    position: absolute;
+    top: 24px;
+    bottom: 0;
+    left: 6px;
+}
+
+#white_label_crypto_main .exchange_software_work .timeline-content {
+    padding-bottom: 40px;
+}
+
+#white_label_crypto_main .exchange_software_work .container_line {
+    width: 100%;
+    padding: 50px 0 0 0;
+    position: relative;
+    overflow: hidden;
+}
+
+#white_label_crypto_main .exchange_software_work .container_line:before {
+    content: '';
+    position: absolute;
+    top: 71px;
+    left: 50%;
+    margin-left: -1px;
+    width: 2px;
+    height: 73%;
+    background: #CCD1D9;
+    z-index: 1;
+}
+
+#white_label_crypto_main .exchange_software_work .timeline-block {
+    width: -webkit-calc(50% + 8px);
+    width: -moz-calc(50% + 8px);
+    width: calc(50% + 8px);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -moz-box-pack: justify;
+    justify-content: space-between;
+    clear: both;
+}
+
+#white_label_crypto_main .exchange_software_work .timeline-block-right {
+    float: right;
+}
+
+#white_label_crypto_main .exchange_software_work .timeline-block-left {
+    float: left;
+    direction: rtl
+}
+
+#white_label_crypto_main .exchange_software_work .marker {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 2px solid #F5F7FA;
+    background: linear-gradient(96.56deg, #FE069E 23.02%, #D13C80 77.32%);
+    margin-top: 10px;
+    z-index: 9999
+}
+
+#white_label_crypto_main .exchange_software_work .timeline-block-right:hover .marker {
+    border: 3px solid #D13C80;
+    background: #fff;
+}
+
+#white_label_crypto_main .exchange_software_work .timeline-block-left:hover .marker {
+    border: 3px solid #D13C80;
+    background: #fff;
+}
+
+#white_label_crypto_main .exchange_software_work .timeline-content {
+    width: 100%;
+    padding: 0 0px;
+    color: #666;
+}
+
+#white_label_crypto_main .exchange_software_work .timeline-content h3 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 25px;
+    font-weight: 500
+}
+
+#white_label_crypto_main .exchange_software_work .timeline-content span {
+    font-size: 15px;
+    color: #a4a4a4;
+}
+
+#white_label_crypto_main .exchange_software_work .timeline-content p {
+    line-height: 1.8;
+    font-size: 14px;
+    margin-bottom: 0px;
+    margin-top: 15px;
+    color: #fff;
+    background: #131214;
+    padding: 15px;
+    margin: 10px 20px;
+}
+
+@media screen and (max-width: 768px) {
+    #white_label_crypto_main .exchange_software_work .container_line:before {
+        left: 8px;
+        width: 2px;
+    }
+
+    #white_label_crypto_main .exchange_software_work .timeline-block {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    #white_label_crypto_main .exchange_software_work .timeline-block-right {
+        float: none;
+    }
+
+    #white_label_crypto_main .exchange_software_work .timeline-block-left {
+        float: none;
+        direction: ltr;
+    }
+}
+
+@media(min-width: 991px) {
+    #white_label_crypto_main .white_label_crypto_platform {
+        padding: 50px;
+        background-repeat: no-repeat !important;
+        background-position: top right;
+        align-items: center !important;
+        display: flex;
+        background: url('/public/images/banner_platform.webp');
+    }
+}
+
+#white_label_crypto_main .white_label_crypto_platform .title-10 {
+    font-size: 35px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 1.7;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+}
+
+#white_label_crypto_main .white_label_crypto_platform .white_label_crypto_btn_sec {
+    margin-top: 15px;
+}
+
+#white_label_crypto_main .white_label_crypto_platform .white_label_crypto_btn {
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 50px;
+    background: linear-gradient(96.56deg, #FE069E 23.02%, #D13C80 77.32%);
+}
+
+#white_label_crypto_main .white_label_crypto_platform .white_label_crypto_btn:hover {
+    border: 1px solid #FE069E;
+    color: #fff;
+    background: none;
+}
+
+#white_label_crypto_main .white_label_crypto_modules {
+    padding: 70px 0px;
+}
+
+#white_label_crypto_main .white_label_crypto_modules .title-10 {
+    font-size: 35px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 1.7;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+}
+
+#white_label_crypto_main .white_label_crypto_modules .contents {
+    line-height: 1.8;
+    font-size: 16px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    font-weight: 300;
+}
+
+#white_label_crypto_main .white_label_crypto_modules .white_label_crypto_btn_sec {
+    margin-top: 20px;
+}
+
+#white_label_crypto_main .white_label_crypto_modules .wl_btn {
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 50px;
+    margin-top: 7px;
+}
+
+#white_label_crypto_main .white_label_crypto_modules .wl_btn.dark_btn {
+    background: linear-gradient(96.56deg, #FE069E 23.02%, #D13C80 77.32%);
+}
+
+#white_label_crypto_main .white_label_crypto_modules .wl_btn.dark_btn:hover {
+    border: 1px solid #FE069E;
+    color: #FE069E;
+    background: none;
+}
+
+#white_label_crypto_main .white_label_crypto_modules .wl_btn.line_btn:hover {
+    border: none;
+    color: #fff;
+    background: linear-gradient(96.56deg, #FE069E 23.02%, #D13C80 77.32%);
+    box-shadow: 0px 0px 10px 0px #fe069e;
+}
+
+#white_label_crypto_main .white_label_crypto_modules .wl_btn.line_btn {
+    margin-left: 10px;
+    border: 1px solid #FE069E;
+    color: #FE069E;
+    padding: 9px 25px;
+}
+
+#white_label_crypto_main .white_label_crypto_modules .modules_list {
+    background: #131214;
+    border: 2px solid #ffffff14;
+    border-radius: 35px;
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    margin-top: 20px;
+}
+
+#white_label_crypto_main .white_label_crypto_modules .modules_list .num_sec {
+    color: #FE069E;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+#white_label_crypto_main .white_label_crypto_modules .modules_list .sub_title-10 {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 0px;
+    padding-left: 10px;
+}
+
+#white_label_crypto_main .white_label_crypto_process {
+    padding: 50px 0px;
+}
+
+#white_label_crypto_main .white_label_crypto_process .title-10 {
+    font-size: 35px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 1.7;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+    text-align: center;
+}
+
+#white_label_crypto_main .white_label_crypto_process .process_list {
+    margin-top: 20px;
+    text-align: center;
+    padding: 5px;
+}
+
+#white_label_crypto_main .white_label_crypto_process .process_list .sub_title-10 {
+    margin-bottom: 0px;
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 10px;
+}
+
+#white_label_crypto_main .white_label_crypto_process .process_list .sub_content {
+    padding-top: 6px;
+    margin-bottom: 0px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.7;
+}
+
+#white_label_crypto_main .white_label_crypto_process .process_round {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    background: linear-gradient(96.56deg, #FE069E 23.02%, #D13C80 77.32%);
+    display: block;
+    margin: 5px auto;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#white_label_crypto_main .white_label_crypto_process .row_justify {
+    display: flex;
+    justify-content: center;
+}
+
+#white_label_crypto_main .white_label_crypto_process .process_line {
+    position: relative;
+}
+
+#white_label_crypto_main .white_label_crypto_process .process_line:before {
+    content: '';
+    position: absolute;
+    top: 50px;
+    left: 85px;
+    width: 85%;
+    height: 1px;
+    background: #d75994;
+    background-size: 3px 20px, 100% 20px;
+    border: none;
+}
+
+#white_label_crypto_main .white_label_crypto_whychoose {
+    padding: 70px 0px;
+}
+
+#white_label_crypto_main .white_label_crypto_whychoose .title-10 {
+    font-size: 35px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 1.7;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+    text-align: center;
+}
+
+#white_label_crypto_main .white_label_crypto_whychoose .contents {
+    line-height: 1.8;
+    font-size: 16px;
+    margin-bottom: 0px;
+    margin-top: 15px;
+    text-align: justify;
+    font-weight: 300;
+}
+
+#white_label_crypto_main .white_label_crypto_whychoose .why_choose_sec {
+    background: linear-gradient(96.56deg, #9f0062 23.02%, #b7135e 77.32%);
+    padding: 30px;
+    border-radius: 0px 20px;
+    margin-top: 20px;
+}
+
+#white_label_crypto_main .white_label_crypto_whychoose .why_choose_list {
+    display: flex;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+#white_label_crypto_main .white_label_crypto_whychoose .why_choose_list i {
+    color: #fff;
+    font-size: 22px;
+    animation: 2s ease-in-out infinite arrow1;
+}
+
+@keyframes arrow1 {
+
+    0%,
+    100% {
+        transform: translate(0, 0)
+    }
+
+    50% {
+        transform: translate(10px, 0)
+    }
+}
+
+#white_label_crypto_main .white_label_crypto_whychoose .sub_title-10 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 0px;
+    padding-left: 20px;
+    text-transform: capitalize;
+}
+
+#white_label_crypto_main .white_label_crypto_hire {
+    padding: 70px 0px;
+}
+
+#white_label_crypto_main .white_label_crypto_hire .title-10 {
+    font-size: 35px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 1.5;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+}
+
+#white_label_crypto_main .white_label_crypto_hire .contents {
+    line-height: 1.8;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    color: #fff;
+    text-align: justify;
+}
+
+#white_label_crypto_main .white_label_crypto_hire #wl_crypto_hire_card {
+    padding: 30px 50px;
+    background: linear-gradient(45deg, #850052, #a20064);
+    border-radius: 25px;
+}
+
+#white_label_crypto_main .white_label_crypto_hire #wl_crypto_hire_card .white_label_crypto_btn_sec {
+    margin-top: 15px;
+}
+
+#white_label_crypto_main .white_label_crypto_hire #wl_crypto_hire_card .white_label_crypto_btn {
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 50px;
+    background: linear-gradient(96.56deg, #FE069E 23.02%, #D13C80 77.32%);
+}
+
+#white_label_crypto_main .white_label_crypto_hire #wl_crypto_hire_card .white_label_crypto_btn:hover {
+    border: 1px solid #FE069E;
+    color: #fff;
+    background: none;
+}
+
+#white_label_crypto_main .solution_security {
+    padding: 70px 0px;
+}
+
+#white_label_crypto_main .solution_security .title-10 {
+    font-size: 35px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 1.7;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+    text-align: center;
+}
+
+#white_label_crypto_main .solution_security .contents {
+    line-height: 1.8;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#white_label_crypto_main .solution_security .types_box {
+    background: #131214;
+    padding: 20px;
+    border: 1px solid #FE069E !important;
+    border-radius: 15px;
+    margin-top: 25px;
+    text-align: center;
+    min-height: 202px;
+}
+
+#white_label_crypto_main .solution_security .sprite_icons {
+    width: 50px;
+    height: 50px;
+    object-fit: none;
+}
+
+#white_label_crypto_main .solution_security .sub_title-10 {
+    font-size: 20px;
+    margin-top: 0px;
+    font-weight: 500;
+    line-height: 1.3;
+}
+
+#white_label_crypto_main .solution_security .sub_content {
+    margin-bottom: 0px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#white_label_crypto_main .solution_security .types_box:hover {
+    transition: all 0.2s ease-out;
+    box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+    top: -4px;
+    border: none !important;
+}
+
+#white_label_crypto_main .solution_security .sprite_icons {
+    width: 50px;
+    height: 50px;
+    object-fit: none;
+}
+
+#white_label_crypto_main .top_crypto_exchange_clone_script {
+    padding: 0px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#white_label_crypto_main .top_crypto_exchange_clone_script .title-10 {
+    font-size: 35px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 1.7;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+    text-align: center;
+}
+
+#white_label_crypto_main .top_crypto_exchange_clone_script ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    position: relative;
+}
+
+#white_label_crypto_main .top_crypto_exchange_clone_script ul li {
+    display: inline-block;
+    width: 19%;
+    padding: 22px;
+    text-align: center;
+    border-radius: 7px;
+    margin: 0px 10px;
+    position: relative;
+    z-index: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#white_label_crypto_main .top_crypto_exchange_clone_script ul li:after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: '';
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 6px;
+    border: 1px solid #FE069E;
+    background-color: #131214;
+    /*transition:1s;*/
+}
+
+#white_label_crypto_main .top_crypto_exchange_clone_script ul li:hover {
+    transform: scale(1.08);
+    border-radius: 10px;
+}
+
+#white_label_crypto_main .top_crypto_exchange_clone_script .nftgp_box .nftgp_desc {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 600px) {
+    #white_label_crypto_main .top_crypto_exchange_clone_script ul {
+        display: grid;
+    }
+
+    #white_label_crypto_main .top_crypto_exchange_clone_script ul li {
+        width: 100%;
+        margin: 10px 0px;
+    }
+}
+
+@media (max-width: 991px) {
+    #white_label_crypto_main .white_label_crypto_banner {
+        background: linear-gradient(45deg, #64b7e1, #b1c9e9, #a688df);
+        padding: 70px 0px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        min-height: 550px;
+    }
+
+    #white_label_crypto_main .white_label_crypto_platform {
+        padding: 20px;
+        background: linear-gradient(96.56deg, #9f0062 23.02%, #b7135e 77.32%);
+    }
+
+    #white_label_crypto_main .white_label_crypto_modules .title-10,
+    #white_label_crypto_main .white_label_crypto_modules .contents,
+    #white_label_crypto_main .white_label_crypto_modules .white_label_crypto_btn_sec {
+        text-align: center;
+    }
+
+    #white_label_crypto_main .white_label_crypto_process .process_line:before {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    #white_label_crypto_main .white_label_crypto_banner {
+        background: linear-gradient(45deg, #64b7e1, #b1c9e9, #a688df);
+        padding: 70px 0px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        min-height: 550px;
+    }
+
+    #white_label_crypto_main .white_label_crypto_banner .title-10 {
+        font-size: 28px;
+        text-align: center;
+        line-height: 40px;
+    }
+
+    #white_label_crypto_main .white_label_crypto_comp,
+    #white_label_crypto_main .solution_security {
+        padding: 50px 0px;
+    }
+
+    #white_label_crypto_main .white_label_crypto_comp,
+    #white_label_crypto_main .solution_security,
+    #white_label_crypto_main .exchange_software_work {
+        padding: 0px 0px 30px 0px;
+    }
+
+    #white_label_crypto_main .white_label_crypto_sec .title-10,
+    #white_label_crypto_main .white_label_crypto_sec .contents,
+    #white_label_crypto_main .white_label_crypto_sec .white_label_crypto_btn_sec,
+    #white_label_crypto_main .white_label_crypto_modules .contents,
+    #white_label_crypto_main .white_label_crypto_modules .white_label_crypto_btn_sec,
+    #white_label_crypto_main .white_label_crypto_hire #wl_crypto_hire_card .white_label_crypto_btn_sec,
+    #white_label_crypto_main .white_label_crypto_platform .white_label_crypto_btn_sec {
+        text-align: center;
+    }
+
+    #white_label_crypto_main .white_label_crypto_sec .line_sec {
+        margin: 0 auto;
+        justify-content: center;
+        display: flex;
+    }
+
+    #white_label_crypto_main .white_label_crypto_sec .dot {
+        left: 45%;
+    }
+
+    #white_label_crypto_main .white_label_crypto_sec .title-10,
+    #white_label_crypto_main .white_label_crypto_comp .title-10,
+    #white_label_crypto_main .white_label_crypto_features .title-10,
+    #white_label_crypto_main .white_label_crypto_types .title-10,
+    #white_label_crypto_main .white_label_crypto_benefits .title-10,
+    #white_label_crypto_main .white_label_crypto_modules .title-10,
+    #white_label_crypto_main .white_label_crypto_process .title-10,
+    #white_label_crypto_main .white_label_crypto_whychoose .title-10,
+    #white_label_crypto_main .white_label_crypto_hire .title-10,
+    #white_label_crypto_main .white_label_crypto_platform .title-10,
+    #white_label_crypto_main .solution_security .title-10,
+    #white_label_crypto_main .exchange_software_work .title-10,
+    #white_label_crypto_main .top_crypto_exchange_clone_script .title-10,
+    #white_label_crypto_main .testiSc .testiScTlt {
+        font-size: 25px !important;
+        line-height: 1.4;
+        text-align: center;
+    }
+
+    #white_label_crypto_main .white_label_crypto_types .types_box,
+    #white_label_crypto_main .solution_security .types_box {
+        min-height: 0px;
+    }
+
+    #white_label_crypto_main .white_label_crypto_hire #wl_crypto_hire_card {
+        padding: 30px;
+    }
+
+    #white_label_crypto_main .white_label_crypto_platform {
+        padding: 20px;
+        background: linear-gradient(96.56deg, #9f0062 23.02%, #b7135e 77.32%);
+    }
+
+    #white_label_crypto_main .white_label_crypto_process .row_justify {
+        display: unset;
+    }
+
+    #white_label_crypto_main .white_label_crypto_banner .wl_btn,
+    #white_label_crypto_main .white_label_crypto_modules .wl_btn {
+        font-size: 12px;
+        padding: 10px 10px;
+    }
+
+    #white_label_crypto_main .white_label_crypto_banner .wl_btn.line_btn {
+        margin-left: 0px;
+        padding: 9px 20px;
+    }
+
+    #white_label_crypto_main .white_label_crypto_sec .white_label_crypto_btn,
+    #white_label_crypto_main .white_label_crypto_hire #wl_crypto_hire_card .white_label_crypto_btn,
+    #white_label_crypto_main .white_label_crypto_platform .white_label_crypto_btn {
+        font-size: 12px;
+    }
+
+    #white_label_crypto_main .white_label_crypto_comp .whl_crypto_about_btn {
+        font-size: 12px;
+        padding: 9px 10px;
+    }
+
+    #white_label_crypto_main .white_label_crypto_comp .whl_crypto_about_btn1 {
+        padding: 8px 20px;
+        font-size: 12px;
+    }
+
+    #white_label_crypto_main .white_label_crypto_modules .wl_btn {
+        font-size: 12px;
+        padding: 9px 14px;
+    }
+
+    #white_label_crypto_main .white_label_crypto_modules .wl_btn.line_btn {
+        margin-left: 0px;
+        padding: 8px 15px;
+    }
+
+    #white_label_crypto_main .exchange_software_work .timeline-content p {
+        margin-left: 10px !important;
+        margin: 0px;
+    }
+}

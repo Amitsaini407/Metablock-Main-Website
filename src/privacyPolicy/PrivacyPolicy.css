@@ -1,0 +1,23 @@
+
+
+.container-div-1{
+    padding-top: 120px;
+    display: flex;
+    justify-content: center;
+    /* width: 80%; */
+    margin: auto;
+    background-color: black;
+    text-align:justify;
+
+}
+
+.container-box-1{
+
+    text-align: start;
+    align-items: flex-start;
+
+}
+
+.container-box-1 h1,h2,h3,h4, ul,li{
+    text-align: start;
+}

@@ -1,0 +1,21 @@
+.brands-work-box {
+    /* width: 300px;
+    height: 200px;
+    border: 1px solid white; */
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    flex-direction: column !important;
+}
+
+@media (max-width:768px) {
+    .brands-we-have-worked {
+        display: flex;
+        gap: 5px;
+    }
+}
+
+.brands-we-have-worked {
+    display: flex !important;
+    flex-direction: row;
+}

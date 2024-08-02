@@ -1,0 +1,42 @@
+.gallery-buttons-div-button {
+    background-color: #9E4DFF;
+    width: 120px;
+    height: 6vh;
+    border-radius: 5px;
+    font-size: 18px;
+    border: none;
+}
+
+.gallery-buttons-div {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+  
+
+.gallery-responsive-select {
+    background-color: black;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid white;
+    padding: 5px;
+}
+
+.gallery-buttons-responsive {
+    display: none !important;
+}
+
+
+
+
+@media(max-width:768px) {
+    .gallery-buttons-responsive {
+        display: block !important;
+    }
+
+    .gallery-buttons-div {
+        display: none;
+    }
+}

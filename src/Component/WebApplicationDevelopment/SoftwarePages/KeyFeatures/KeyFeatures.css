@@ -1,0 +1,99 @@
+.dashboard-main-box {
+    margin-top: 40px !important;
+}
+
+.dashboard-container-box {
+    padding: 20px 20px;
+    cursor: pointer;
+    width: 290px !important;
+    height: auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    /* box-shadow: 0px 0px 20px -6px gray; */
+    border-radius: 15px;
+    /* padding: 35px ; */
+    /* background: #000000; */
+    border: 1px solid white;
+    /* box-shadow: 1px 1px 20px 0px #0f0e2e; */
+}
+
+.dashboard-container-box {
+    transition: 0.6s;
+}
+
+.dashboard-container-box:hover {
+    transition: 0.6s;
+    /* transform: translate(-10px, 10px); */
+    transform: scale(1.06);
+}
+
+.dashboard-main-box .Key-feature-heading {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    font-size: 28px;
+    font-weight: 600;
+    margin: 10px 0px 20px 0px;
+}
+
+.Key-feature-heading {
+    background: linear-gradient(to right, #7d8dff, #ff4f81) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    display: inline-block !important;
+}
+
+.dashboard-container {
+    margin: 0px;
+}
+
+
+.dashboard-container {
+    flex-wrap: wrap !important;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    gap: 44px !important;
+}
+
+
+
+.dashboard-container-box span {
+    font-size: 20px;
+    color: white;
+    font-size: 500;
+}
+
+
+
+.dashboard-boxes {
+    /* background: rgb(119, 55, 255);
+    background: linear-gradient(317deg, rgba(119, 55, 255, 1) 0%, rgba(75, 15, 201, 1) 0%, rgba(65, 65, 65, 1) 67%) !important; */
+}
+
+
+@media (max-width:768px) {
+
+
+
+    .dashboard-container {
+        width: 100%;
+        gap: 20px !important;
+        /* flex-wrap: nowrap !important; */
+    }
+}
+
+
+.key-feature-heading h4 {
+    text-align: center;
+}
+
+.key-feature-heading img {
+    width: 80px;
+}
+
+.key-feature-box:hover {
+    border: 1px solid rgb(184, 32, 211);
+}

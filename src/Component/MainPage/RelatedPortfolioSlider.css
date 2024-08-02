@@ -1,0 +1,45 @@
+.elatedPortfolioSlider-main-div {
+    padding: 60px 0px;
+    width: 70vw;
+}
+
+.RelatedPortfolioSlider-div {
+    margin: auto;
+    width: 65vw;
+}
+
+.RelatedPortfolioSlider-div .PrjctExmplsImg .img-fluid {
+    border-radius: 7px;
+    width: 200px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.RelatedPortfolioSlider-div .PrjctExmplsImg .img-fluid:hover{
+    transform: scale(1.1);
+
+}
+
+@media(max-width:768px){
+    .RelatedPortfolioSlider-main-div {
+        padding: 10px 0px;
+        width: 80vw !important;
+    }
+    
+    .RelatedPortfolioSlider-div {
+        margin: auto;
+        width: 75vw;
+    }
+    
+    .RelatedPortfolioSlider-div .PrjctExmplsImg .img-fluid {
+        border-radius: 7px;
+        width: 300px;
+        cursor: pointer;
+        transition: transform 0.3s ease-in-out;
+    }
+    
+    .RelatedPortfolioSlider-div .PrjctExmplsImg .img-fluid:hover{
+        transform: scale(1.1);
+    
+    }
+}

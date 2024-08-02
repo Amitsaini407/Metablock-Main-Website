@@ -1,0 +1,142 @@
+.main-aboutus-div {
+    width: 100%;
+    height: auto;
+    padding-top: 60px;
+    background: url(../../../public/images/who-we-are-bg.webp) no-repeat;
+    /* background-position: cover; */
+    background-position: cover;
+    background-size: cover;
+    padding-bottom: 40px;
+}
+
+.container-div {
+    /* gap: 20px; */
+    margin: auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+.heading-about-us {
+    height: auto;
+    border-radius: 11px;
+    background: linear-gradient(134deg, #C846FF 0%, #445AFF 100%);
+    box-shadow: 15px 13px 24px 0px rgba(0, 0, 0, 0.56);
+    text-align: center;
+    width: 17%;
+    /* Adjusted width for responsiveness */
+}
+
+.heading-about-us h1 {
+    font-size: 4vw;
+    display: flex;
+    margin-top: 50px;
+    /* Responsive font size using viewport width */
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+.about-us-p {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* align-items: top; */
+    border-radius: 12px;
+    /* background: rgba(0, 0, 0, 0.51);
+     */
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5));
+
+    backdrop-filter: blur(4.5px);
+    padding: 10px 20px 0px 20px;
+    /* Adjusted padding for responsiveness */
+    width: 70%;
+    /* Adjusted width for responsiveness */
+}
+
+.about-us-p p {
+    line-height: 1.5;
+    font-weight: 300;
+    font-size: 1.3vw;
+    /* Responsive font size using viewport width */
+}
+
+.Who-we-are-buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.button-who {
+    /* border: 1px solid gold; */
+    background: linear-gradient(93.79deg, #E442FF -13.43%, #3C5BFF 100.49%) !important;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px -6px lightpink;
+    color: white;
+    font-size: 13px;
+    width: 140px;
+}
+
+.Who-we-are-buttons .button-who {
+    /* border: 1px solid gold; */
+    background: linear-gradient(93.79deg, #E442FF -13.43%, #3C5BFF 100.49%) !important;
+    border-radius: 10px;
+    box-shadow: 0px 0px 0px 0px black !important;
+    color: white;
+    font-size: 11px;
+    width: 140px;
+}
+
+.button-who {
+    /* border: 1px solid gold; */
+    background-image: linear-gradient(-45deg, rgb(252, 86, 202), rgb(10, 199, 247));
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px -6px lightpink;
+    color: white !important;
+    font-size: 13px;
+    width: 140px;
+}
+
+.Our-service-button {
+    /* border: 1px solid gold; */
+    background-image: linear-gradient(-45deg, rgb(252, 86, 202), rgb(10, 199, 247));
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px -6px lightpink;
+    color: white !important;
+    font-size: 13px;
+    width: 160px;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+
+    .container-div {
+        flex-direction: column;
+
+    }
+
+    .heading-about-us {
+        border-radius: 15px 15px 0px 0px;
+        width: 300px;
+        margin: auto;
+
+    }
+
+    .heading-about-us h1 {
+        margin: 10px 0px 0px 30px;
+        font-size: 30px;
+        padding-top: 10px;
+        /* Adjusted font size for smaller screens */
+    }
+
+    .about-us-p {
+        width: auto;
+        padding: 20px;
+        /* Adjusted padding for smaller screens */
+    }
+
+    .about-us-p p {
+        font-size: 16px;
+        /* Adjusted font size for smaller screens */
+    }
+}

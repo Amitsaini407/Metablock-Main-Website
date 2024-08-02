@@ -1,0 +1,157 @@
+.faq_main .breadcrumb_padd {
+    padding-top: 50px;
+    background-color: #101010;
+    color: #fff;
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.fadeInUp {
+    width: 100%;
+}
+
+.faq_main .nomargin {
+    margin: 0 !important;
+    margin-top: 10px !important;
+}
+
+.faq_main .list-inline>li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.faq_main .breadcrumb_section a {
+    font-size: 14px;
+    color: #fff;
+    position: relative;
+}
+
+.faq_main .faq_section {
+    padding: 50px 0px;
+}
+
+.faq_main .faq_section .title {
+    font-weight: 700;
+    font-size: 35px !important;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    line-height: 1.1;
+    font-family: "Urbanist", sans-serif;
+}
+
+.faq_main .faq_section #accordion {
+    margin-top: 50px;
+}
+
+.faq_main .faq_section #accordion .card-header {
+    margin-bottom: 20px;
+}
+
+.faq_main .faq_section .card {
+    background-color: transparent;
+}
+
+.faq_main .faq_section #accordion .accordion-title {
+    position: relative;
+    display: block;
+    padding: 8px 0 8px 18px;
+    background: #131214;
+    border-radius: 8px;
+    overflow: hidden;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    width: 100%;
+    text-align: left;
+    transition: all .4s ease-in-out;
+    white-space: normal;
+    letter-spacing: 0.7px;
+    /* letter-spacing: 1px; */
+}
+
+.faq_main .faq_section #accordion .accordion-title:focus {
+    box-shadow: unset;
+}
+
+.faq_main .faq_section #accordion .accordion-title i {
+    position: absolute;
+    width: 40px;
+    height: 100%;
+    right: 0;
+    top: 0px;
+    color: #fff;
+    background: linear-gradient(93.79deg, #E442FF -13.43%, #3C5BFF 100.49%);
+    text-align: center;
+    border-right: 1px solid transparent;
+    border: none;
+}
+
+.faq_main .faq_section [data-toggle="collapse"].collapsed i:before {
+    content: "\f067";
+}
+
+.faq_main .faq_section #accordion .accordion-body {
+    padding: 40px 55px;
+}
+
+.accordion-body p {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    width: 100%;
+    text-align: left;
+    letter-spacing: 0.6px;
+}
+
+.faq_main .faq_section #accordion #submission {
+    margin-top: 30px;
+}
+
+.faq_main .faq_section #accordion #loadMore,
+.faq_main .faq_section #accordion #loadless {
+    background: linear-gradient(93.79deg, #E442FF -13.43%, #3C5BFF 100.49%);
+    padding: 8px 20px !important;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 3px;
+    margin-top: 50px;
+    width: max-content;
+    margin: 0 auto;
+    text-transform: uppercase;
+    border: none;
+}
+
+@media (max-width: 767px) {
+    .faq_main .faq_section .title {
+        font-size: 25px !important;
+        line-height: 1.6;
+    }
+
+    .faq_main .faq_section #accordion .card-header {
+        margin-bottom: 6px;
+    }
+
+    .faq_main .faq_section #accordion .accordion-title {
+        padding-right: 30px;
+    }
+
+    .faq_main .breadcrumb_padd {
+        height: 150px;
+        padding-top: 80px;
+    }
+
+    .faq_main .faq_section #accordion .accordion-body {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 420px) {
+    .faq_main .faq_section #accordion .accordion-title {
+        padding-right: 50px;
+    }
+}
